@@ -1,0 +1,36 @@
+use uo;
+
+program textcmd_retrieveitem( who, text )
+    If(!text)
+       sendsysmessage(who, "Correct use .getitem <serial>");
+       sendsysmessage(who, "Canceled.");
+       return;
+    endif
+    var f := SystemFindObjectBySerial( CInt(text) );
+    if (f)
+    If(MoveItemToContainer( f, who.backpack))
+    sendsysmessage(who, "Success, item moved to backpack.");
+    return;
+    endif
+    endif
+
+    f:=  SystemFindObjectBySerial(CInt(text), SYSFIND_SEARCH_STORAGE_AREAS);
+    if(f)
+        If(MoveItemToContainer( f, who.backpack))
+    sendsysmessage(who, "Success, item moved to backpack, from a storage of some sort.");
+    return;
+    endif
+    endif
+
+    f:= SystemFindObjectBySerial(CInt(text), SYSFIND_SEARCH_OFFLINE_MOBILES);
+    if(f)
+        If(MoveItemToContainer( f, who.backpack))
+    sendsysmessage(who, "Success, item moved to backpack, from someone that was offline.");
+    return;
+    endif
+    endif
+
+    sendsysmessage(who, "Failure, cant move item to backpack.");
+return;
+endprogram
+

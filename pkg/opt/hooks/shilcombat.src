@@ -1,0 +1,78 @@
+use uo;
+use os;
+
+include "include/skillpoints";
+include "include/classes";
+
+program shilcombat()
+
+	print( "Using ShilcombatAdvancement..." );
+	return 1;
+
+endprogram
+
+
+exported function ShilCombatAdvancement( attacker, weapon, defender )
+
+var skillid := FindSkillidByIdentifier(skillid);
+var skills_state_array   := GetObjProperty( attacker, "SkillsState" );
+	if( !skills_state_array )
+		skills_state_array := array;
+	endif
+	
+	if( GetObjProperty(attacker, CLASSEID_MAGE))
+		AwardStatPoints(attacker, SKILLID_WRESTLING);
+		return;
+	endif
+	
+	if( GetObjProperty(defender, CLASSEID_MAGE))
+		AwardStatPoints(defender, SKILLID_TACTICS);
+		return;
+	endif
+
+	var skill_state := skills_state_array[skillid+1];
+	
+	if( skill_state = "d" )
+		var rawskill := GetEffectiveSkill( attacker, skillid );
+		var amount   := 1;
+		
+		var points := (rawskill - amount);
+		SetBaseSkillBaseValue(attacker, skillid, points);
+		SendSysMessage(attacker, "You're forgetting what you have learnt.");
+		return;
+		
+	elseif( skill_state = "l" )
+		return;
+	endif
+
+	if( weapon )
+		AwardStatPoints( attacker, 43 );
+		AwardRawSkillPoints( attacker, FindSkillidByIdentifier(weapon.attribute), 75 );
+		//FindSkillidByIdentifier(weapon.Attribute)
+		//print("weapon skill for " + weapon.desc + " is " + Cstr(weapon.Attribute));
+	else
+		AwardStatPoints( attacker, 43 );
+		AwardSkillPoints( attacker, 43, 75 );
+	endif
+                    if( GetObjProperty( attacker, CLASSEID_RANGER))
+                     AwardStatPoints( attacker, SKILLID_ARCHERY );
+		return;
+                     endif
+	AwardStatPoints( attacker, 27 );
+	AwardSkillPoints( attacker, 27, 50 );
+
+endfunction
+
+function FindSkillidByIdentifier(skid)
+  var retval;
+  case(skid)
+    "Wrestling": retval := SKILLID_WRESTLING;
+    "Fencing":   retval := SKILLID_FENCING;
+    "Swords":    retval := SKILLID_SWORDSMANSHIP;
+    "Swordsmanship":    retval := SKILLID_SWORDSMANSHIP;
+    "Mace":      retval := SKILLID_MACEFIGHTING;
+    "Macefighting":      retval := SKILLID_MACEFIGHTING;
+    "Archery":    retval := SKILLID_ARCHERY;
+  endcase 
+  return retval;
+endfunction

@@ -1,0 +1,14 @@
+use uo;
+use os;
+
+include "include/client";
+
+program resistlock( who )
+if (GetObjProperty(who, "resistlock"))
+SendSysMessage(who, "Resist now gaining.");
+EraseObjProperty(who, "resistlock");
+else
+SendSysMessage(who, "Resist will no longer gain");
+SetObjProperty(who, "resistlock", 1);
+endif
+endprogram

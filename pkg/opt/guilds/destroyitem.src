@@ -1,0 +1,21 @@
+											/*
+								       destroyitem.src  //
+								        Package guilds	//
+						   Make sure guild clothes get deleted	//
+									Created : Benngrim//
+
+*/
+
+
+
+
+use uo;
+use os;
+
+program zdestroyitem(item)
+
+  while(!DestroyItem(item))
+    Sleep(300);
+  endwhile
+
+endprogram

@@ -1,0 +1,173 @@
+use uo;
+use os;
+
+//include ":include:unicode";
+
+const COLOR_ADMIN   := "#F0E91E";
+const COLOR_DEV     := "#3074F0";
+const COLOR_GM      := "#F06628";
+//const COLOR_COUN    := "";
+//const COLOR_SEER    := "";
+const COLOR_PLAYER  := "#ffffff";
+const COLOR_PRIVATE := "#a0a0a0";
+const COLOR_SELF    := "#ffe020";
+const COLOR_IP      := "#ffffff";
+
+var layout := {
+	"nodispose",
+	"page 0",
+	"resizepic 50 50 5054 310 466",
+  "gumppictiled 56 56 298 27 2624",
+  "gumppictiled 56 86 298 394 2624",
+  "gumppictiled 56 483 298 27 2624",
+  "checkertrans 56 56 298 454",  
+  "gumppic 43 43 10460",
+  "gumppic 336 43 10460",
+  "gumppic 43 493 10460",
+  "gumppic 336 493 10460",
+	"htmlgump 56 60 298 18 0 0 0",
+	"button 300 485 4020 4022 1 0 0"
+};
+
+var data := {
+	"" // reserved for the topic
+};
+
+program textcmd_online (character)
+	if (CInt(GetObjProperty(character, "#checkonline")) > 
+ReadGameClock())
+		return 0;
+	endif
+	SetObjProperty(character, "#checkonline", Cint(ReadGameClock() + 
+120));
+	
+	FillInArrays(character);
+	var gump_return := SendDialogGump (character, layout, data);
+	if (!gump_return && gump_return[0] != 0)
+		SendSysMessage(character, "You must close other gumps 
+before you can do this.");
+	endif
+	EraseObjProperty(character, "#checkonline");
+endprogram
+
+
+function FillInArrays(character)
+
+	var playercount := 0;
+	var pagecount := 1;
+	var ypos := 95;
+	var line_height := 17;
+	var xpos := 65;
+	var xpos_ip := 248;
+	var string_counter := data.size();
+	var pagemaxcount := CInt((398 - 16) / line_height);
+  var pageindexes := array {};	
+	layout.append ("page " + pagecount);
+	
+/*
+  // debugging
+	var players := array {};
+	for I := 1 to 60
+	   players := players + EnumerateOnlineCharacters();
+	endfor
+*/
+	
+	var players := EnumerateOnlineCharacters();
+	foreach player in (players)
+		if (player.cmdlevel <= character.cmdlevel)
+		  playercount := playercount + 1;
+      var is_private := GetObjProperty(player, "private");
+
+      var name_color := COLOR_PLAYER;
+      var ip_color := COLOR_IP;
+      if (player == character)
+        name_color := COLOR_SELF;
+        ip_color := COLOR_SELF;
+      else
+        if (is_private)
+          name_color := COLOR_PRIVATE;
+        endif
+      endif
+      var line := "<basefont color=\"" + name_color + "\">" + 
+playercount + ". ";
+      
+		  if (!is_private || (player != character))
+        line := line + "<basefont color=\"" + name_color + "\">" + 
+player.name;
+			elseif (character.cmdlevel > 2)
+				line := line + "<basefont color=\"" + 
+name_color + "\">" + player.name + " <basefont color=\"" + COLOR_PRIVATE 
++ "\">" + " [P]";
+			else
+				line := line + "<basefont color=\"" + 
+name_color + "\">[Private]";
+			endif
+
+		  if (character.cmdlevel > 2)
+    		if (player.cmdlevel == 3)
+  			  line := line + " <basefont color=\"" + 
+COLOR_GM + "\">[GM]";
+  			elseif (player.cmdlevel == 4)
+  			  line := line + " <basefont color=\"" + 
+COLOR_ADMIN + "\">[Admin]";
+  			elseif (player.cmdlevel == 5)
+  			  line := line + " <basefont color=\"" + 
+COLOR_DEV + "\">[Dev]";
+  			endif
+  		endif  		
+
+			layout.append ("htmlgump " + xpos + " " + ypos + 
+" 175 17 " + string_counter + " 0 0");
+			string_counter := string_counter + 1;
+			data.append(line);			
+			
+			if (character.cmdlevel > 3)
+		  	layout.append ("htmlgump " + xpos_ip + " " + 
+ypos + " 100 17 " + string_counter + " 0 0");
+	  		string_counter := string_counter + 1;
+	  		line := "<basefont color=\"" + ip_color + "\">" 
++ CStr(player.ip);
+  			data.append(line);
+		  endif
+
+			ypos := ypos + line_height;			
+			
+      if (((playercount % pagemaxcount) == 0) && (_player_iter < 
+players.size()))
+	      layout.append("htmlgump 85 487 50 18 " + string_counter + 
+" 0 0");
+	      data.append("");
+	      string_counter := string_counter + 1;
+	      pageindexes.append(string_counter);
+
+      	layout.append("button 210 485 4005 4007 0 " + (pagecount + 1));
+  			pagecount := pagecount + 1;
+  			layout.append("page " + pagecount);
+  			ypos := 95;
+  			layout.append("button 170 485 4014 4016 0 " + 
+(pagecount - 1));
+  			sleepms(1);
+  		endif
+		endif
+	endforeach
+  layout.append("htmlgump 85 487 50 18 " + string_counter + " 0 0");
+	data.append("");
+  string_counter := string_counter + 1;
+  pageindexes.append(string_counter);
+  
+  // update page data strings
+  var totalpagecount := pageindexes.size();
+	foreach index in (pageindexes)
+	  data[index] := "<basefont color=\"#ffffff\">" + _index_iter + 
+" of " + totalpagecount;
+  endforeach
+	
+	if (playercount == 1)
+	  data[1] := "<basefont color=\"#ffe020\"><div 
+align=\"center\">" + playercount + " Online Character</div>";
+	else
+	  data[1] := "<basefont color=\"#ffe020\"><div 
+align=\"center\">" + playercount + " Online Characters</div>";
+	endif
+endfunction
+

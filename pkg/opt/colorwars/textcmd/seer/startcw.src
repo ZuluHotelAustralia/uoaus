@@ -1,0 +1,7 @@
+use os;
+
+program start_cw( who )
+
+start_script( ":colorwars:cwars", who);
+
+endprogram

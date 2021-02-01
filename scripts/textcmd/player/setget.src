@@ -1,0 +1,24 @@
+use uo;
+
+
+program setget(who, text)
+if(!text)
+   sendsysmessage(who, "Proper usage: .setget <type>", 3, 38);
+   sendsysmessage(who, "The types are: ammo, gems, gold, pagans, reags", 3, 54);
+   return;
+else
+   var types := SplitWords( text );
+   var props := {0,0,0,0,0};
+   foreach type in types
+      case(type)
+         "ammo": props[3] := 1;
+         "gems": props[5] := 1;
+         "gold": props[4] := 1;
+         "pagans": props[2] := 1;
+         "reags": props[1] := 1;
+       endcase
+   endforeach
+   sendsysmessage(who, "Get type has been set to "+text+".", 3, 64);
+   setobjproperty(who, "GetType", props);
+endif
+endprogram

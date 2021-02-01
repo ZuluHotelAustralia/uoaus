@@ -1,0 +1,37 @@
+use uo;
+use os;
+
+include "include/attributes";
+
+program newcombat()
+
+	Print( "Using NewParryAdvancement..." );
+	return 1;
+
+endprogram
+
+
+exported function NewParryAdvancement( attacker, weapon, defender, shield )
+
+var skills_state_array   := GetObjProperty( defender, "SkillsState" );
+	if( !skills_state_array )
+		skills_state_array := array;
+	endif
+	
+	var skill_state := skills_state_array[SKILLID_PARRY+1];
+	
+	if( skill_state = "d" )
+		var rawskill := GetEffectiveSkill( defender, SKILLID_PARRY );
+		var amount   := 1;
+		var points := (rawskill - amount);
+		SetBaseSkillBaseValue(defender, SKILLID_PARRY, points);
+		SendSysMessage(defender, "You're forgetting what you have learnt.");
+		return;
+		
+	elseif( skill_state = "l" )
+		return;
+	else
+
+	AwardPoints( defender, SKILLID_PARRY, 40 );
+	endif
+endfunction

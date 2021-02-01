@@ -1,0 +1,32 @@
+use uo;
+use os;
+
+include "include/areas";
+include "include/constants/propids";
+
+program antilooting( who, corpse, item )
+
+		if( IsInAntiLootingArea(who) )
+			SendSysMessage( who, "You can't loot here." );
+			return 0;
+		elseif( GetObjProperty( corpse, PROPID_CORPSE_IS_BLUE ) )
+			return AddLooter( who, corpse );
+		endif
+	return 1;
+
+endprogram
+
+
+function AddLooter( looter, object )
+	var looters := GetObjProperty(object, PROPID_CORPSE_LOOTED_BY);
+	if( !looters )
+		looters := dictionary;
+	endif
+
+	if( !looters.exists(looter.serial) )
+		looters[looter.serial] := looter.name;
+		return SetObjProperty(object, PROPID_CORPSE_LOOTED_BY, looters);
+	else
+		return 1;
+	endif
+endfunction

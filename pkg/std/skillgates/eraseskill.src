@@ -1,0 +1,70 @@
+///////////////////////////////////////////////////////////////////////////
+//  ERASESKILL.SRC - walkonscript for erasing skills.
+//
+//  Author: Benngrim 19/12/2005
+//
+////////////////////////////////////////////////////////////////////////////
+
+use os;
+use uo;
+use basic;
+use util;
+
+include "include/classes";
+
+program eraseskill( mobile, text )
+	var params := SplitWords( text );
+    	var skill := CInt( params[1] );
+
+    SendSysMessage( mobile, "Erasing all skills" );
+		SetBaseSkillBaseValue( mobile, 1, 0 );
+		SetBaseSkillBaseValue( mobile, 42, 0 );
+		SetBaseSkillBaseValue( mobile, 17, 0 );
+		SetBaseSkillBaseValue( mobile, 41, 0 );
+		SetBaseSkillBaseValue( mobile, 5, 0 );
+		SetBaseSkillBaseValue( mobile, 40, 0 );
+		SetBaseSkillBaseValue( mobile, 27, 0 );
+		SetBaseSkillBaseValue( mobile, 43, 0 );
+		SetBaseSkillBaseValue( mobile, 14, 0 );
+		SetBaseSkillBaseValue( mobile, 21, 0 );
+		SetBaseSkillBaseValue( mobile, 28, 0 );
+		SetBaseSkillBaseValue( mobile, 30, 0 );
+		SetBaseSkillBaseValue( mobile, 33, 0 );
+		SetBaseSkillBaseValue( mobile, 42, 0 );
+		SetBaseSkillBaseValue( mobile, 47, 0 );
+		SetBaseSkillBaseValue( mobile, 48, 0 );
+		SetBaseSkillBaseValue( mobile, 2, 0 );
+		SetBaseSkillBaseValue( mobile, 10, 0 );
+		SetBaseSkillBaseValue( mobile, 18, 0 );
+		SetBaseSkillBaseValue( mobile, 31, 0 );
+		SetBaseSkillBaseValue( mobile, 35, 0 );
+		SetBaseSkillBaseValue( mobile, 38, 0 );
+		SetBaseSkillBaseValue( mobile, 39, 0 );
+		SetBaseSkillBaseValue( mobile, 13, 0 );
+		SetBaseSkillBaseValue( mobile, 0, 0 );
+		SetBaseSkillBaseValue( mobile, 3, 0 );
+		SetBaseSkillBaseValue( mobile, 16, 0 );
+		SetBaseSkillBaseValue( mobile, 23, 0 );
+		SetBaseSkillBaseValue( mobile, 25, 0 );
+		SetBaseSkillBaseValue( mobile, 26, 0 );
+		SetBaseSkillBaseValue( mobile, 32, 0 );
+		SetBaseSkillBaseValue( mobile, 46, 0 );
+		SetBaseSkillBaseValue( mobile, 4, 0 );
+		SetBaseSkillBaseValue( mobile, 7, 0 );
+		SetBaseSkillBaseValue( mobile, 8, 0 );
+		SetBaseSkillBaseValue( mobile, 11, 0 );
+		SetBaseSkillBaseValue( mobile, 34, 0 );
+		SetBaseSkillBaseValue( mobile, 37, 0 );
+		SetBaseSkillBaseValue( mobile, 44, 0 );
+		SetBaseSkillBaseValue( mobile, 45, 0 );
+		SetBaseSkillBaseValue( mobile, 6, 0 );
+		SetBaseSkillBaseValue( mobile, 9, 0 );
+		SetBaseSkillBaseValue( mobile, 12, 0 );
+		SetBaseSkillBaseValue( mobile, 15, 0 );
+		SetBaseSkillBaseValue( mobile, 20, 0 );
+		SetBaseSkillBaseValue( mobile, 22, 0 );
+		SetBaseSkillBaseValue( mobile, 29, 0 );
+		SetBaseSkillBaseValue( mobile, 36, 0 );
+		SetBaseSkillBaseValue( mobile, 19, 0 );
+		SetBaseSkillBaseValue( mobile, 24, 0 );
+endprogram

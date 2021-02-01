@@ -1,0 +1,26 @@
+Props found on play based on prop name CW<classname>, each prop found in the array eg CWWarrior := {0,0,0,0,0,0,0};
+Warrior-
+[1] Mount - Aka Horse or Ostard {value of 0 (none) , 1(horse), 2 (ostard) } 
+[2] Weapon Upgrade {value of 0 (power) , 1 (Vanq) , 2 (Dev)}
+[3] Swift Upgrade {value of 0,1}
+[4] Armor Upgrade {value of 0,1}
+[5] Free Action Upgrade {value of 0,1}
+[6] 
+[7]
+[8]
+[9]
+Mage-
+[1] Mount - Aka Horse or Ostard
+
+Ranger-
+[1] Mount - Aka Horse or Ostard {value of 0 (none) , 1(horse), 2 (ostard) } 
+[2] Weapon Upgrade {value of 0 (power) , 1 (Vanq) , 2 (Dev)}
+
+Assassin-
+[1] Mount - Aka Horse or Ostard
+
+Bard-
+[1] Mount - Aka Horse or Ostard
+
+Crafter-
+[1] Mount - Aka Horse or Ostard

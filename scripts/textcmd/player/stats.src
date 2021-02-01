@@ -1,0 +1,217 @@
+use uo;
+include "include/gumps";
+
+program rungump( who )
+
+if(!getobjproperty(who, "showstats") || len(getobjproperty(who, "showstats")) < 8)
+var props := { 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 };
+setobjproperty(who, "showstats", props);
+elseif(!getobjproperty(who, "warstats") || len(getobjproperty(who, "warstats")) < 6)
+var props := { 0 , 0 , 0 , 0 , 0 , 0 };
+setobjproperty(who, "warstats", props);
+endif
+
+var endloop := 0;
+
+while (endloop != 1)
+var warstats := getobjproperty(who, "warstats");
+var props := getobjproperty(who, "showstats");
+var color := array;
+var i :=1;
+
+
+while (i <=len(props))
+if(props[i] ==1)
+color[i]:= 68;
+elseif(props[i] ==0)
+color[i]:= 38;
+endif
+//sendsysmessage(who, "i: "+i+" color[i]: "+color[i]);
+i := cint(i)+1;
+endwhile
+var layout := {
+	"nodispose",
+	"page 0",
+	"resizepic 50 50 5054 310 466",
+  "gumppictiled 56 56 298 27 2624",
+  "gumppictiled 56 86 298 185 2624",
+  "gumppictiled 56 274 298 206 2624",
+  "gumppictiled 56 483 298 27 2624",
+  "checkertrans 56 56 298 454",
+  "gumppic 43 43 10460",
+  "gumppic 336 43 10460",
+  "gumppic 43 493 10460",
+  "gumppic 336 493 10460",
+	"button 300 485 4019 4018 1 0 10",
+	"button 100 490 2361 2360 0 1",
+	"button 120 490 2361 2360 0 2",
+	"button 140 490 2361 2360 0 3",
+	"button 160 490 2361 2360 0 4",
+	"button 180 490 2361 2360 0 5",
+	"button 200 490 2361 2360 0 6",
+	"button 200 490 2361 2360 0 7",
+ "Text 150 63 53 0",
+ "text 60 85 53 1",
+ "text 200 85 53 2",
+ "Text 60 110 "+color[1]+" 3",
+ "Text 60 130 "+color[2]+" 4",
+ "Text 60 150 "+color[3]+" 5",
+ "Text 60 170 "+color[4]+" 6",
+ "Text 60 190 "+color[5]+" 7",
+ "Text 60 210 "+color[6]+" 8",
+ "Text 60 230 "+color[7]+" 9",
+ "Text 60 250 "+color[8]+" 10",
+"Button 220 110 1209 1210 1 0 100",
+"Button 220 130 1209 1210 1 0 200",
+"Button 220 150 1209 1210 1 0 300",
+"Button 220 170 1209 1210 1 0 400",
+"Button 220 190 1209 1210 1 0 500",
+"Button 220 210 1209 1210 1 0 600",
+"Button 220 230 1209 1210 1 0 700",
+"Button 220 250 1209 1210 1 0 800",
+"page 1",
+"Text 60 273 53 11",
+"Text 75 365 53 12",
+"Text 187 365 53 13",
+"Text 280 365 53 14",
+"Text 80 390 53 15",
+"Text 180 390 53 16",
+"Text 287 390 53 17",
+"Button 70 300 5577 5578 0 2",
+"Button 170 300 5569 5570 0 3",
+"Button 270 300 5555 5556 0 4",
+"Button 70 410 5575 5576 0 5",
+"Button 170 410 5585 5586 0 6",
+"Button 270 410 5553 5554 0 7",
+"page 2",
+"Text 60 273 53 18",
+"Text 200 273 53 19",
+"Text 60 300 63 20",
+"Text 60 320 63 21",
+"Text 60 340 63 22"
+};
+
+var data := {
+//page 0
+	"Stats Menu",
+"Stat To Display:",
+"Toggle:",
+"Buff's By Self",
+"Curses By Self",
+"Misc Spells By Self",
+"Buff's By Others",
+"Curses By Others",
+"Summons By Self",
+"Fields By Self",
+"Melee Damage",
+//page 1
+"Class Stats",
+"Warrior",
+"Mage",
+"Crafter",
+"Ranger",
+"Assassin",
+"Bard",
+//page 2
+"Warrior Stats:",
+"(Total/Attempts/Average)",
+"Damages: "+warstats[1]+"/"+warstats[2]+"/"+cint(warstats[1]/warstats[2]),
+"Heals: "+warstats[3]+"/"+warstats[4]+"/"+cint(warstats[3]/warstats[4]),
+"Res: "+warstats[5]+"/"+warstats[6]+"/"+cint(warstats[5]/warstats[6])
+};
+
+var keys := SendDialogGump (who, layout, data);
+var choice;
+foreach key in (keys.keys)
+if(key != 0)
+choice := key;
+endif
+endforeach
+
+case(choice)
+100:
+if (cint(props[1]) == 0)
+props[1] := 1;
+elseif (cint(props[1]) == 1)
+props[1] := 0;
+endif
+
+
+200:
+if (props[2] == 0)
+props[2] := 1;
+elseif (props[2] == 1)
+props[2] := 0;
+endif
+
+
+300:
+if (props[3] == 0)
+props[3] := 1;
+elseif (props[3] == 1)
+props[3] := 0;
+endif
+
+
+400:
+if (props[4] == 0)
+props[4] := 1;
+elseif (props[4] == 1)
+props[4] := 0;
+endif
+
+
+
+500:
+if (props[5] == 0)
+props[5] := 1;
+elseif (props[5] == 1)
+props[5] := 0;
+endif
+
+
+600:
+if (props[6] == 0)
+props[6] := 1;
+elseif (props[6] == 1)
+props[6] := 0;
+endif
+
+
+700:
+if (props[7] == 0)
+props[7] := 1;
+elseif (props[7] == 1)
+props[7] := 0;
+endif
+
+
+800:
+if (props[8] == 0)
+props[8] := 1;
+elseif (props[8] == 1)
+props[8] := 0;
+endif
+default: endloop :=1;
+endcase
+setobjproperty(who, "showstats", props);
+endwhile
+endprogram
+//program stats(who)
+//props will be like follows
+//[1] Buff stats by self
+//[2] Curse stats by self
+//[3] misc stats by self
+//[4] buff stats from someone else
+//[5] curse stats from someone else
+//[6] stats on summon
+//[7] stats on field
+//[8] stats on melee
+
+
+
+
+//rungump(who, props, color);
+//endprogram
+
+

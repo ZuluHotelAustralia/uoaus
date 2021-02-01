@@ -1,0 +1,11 @@
+*.dep
+*.lst
+*.ecl
+*.dbg
+*.log
+*.old
+data/accounts.txt
+config/sell-logger.cfg
+data/items.txt
+data/storage.txt
+pol.core

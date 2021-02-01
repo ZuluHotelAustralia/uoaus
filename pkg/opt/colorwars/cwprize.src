@@ -1,0 +1,74 @@
+use os;
+use uo;
+include "include/client";
+include "include/math";
+include "include/objtype";
+
+program cwprize (who)
+	Detach ();
+	var cwitem := {};
+	var checkcw := 0;
+	var found := 0;
+	var loop := 0;
+	var lfame;
+	var lkarma;
+	var cwcrim;
+	var cwmurd;
+	var giveprize := GetObjProperty(who,"cwprize");
+	var loops := CInt(giveprize/60000);
+	var diff;
+	if (loops > 0)
+		diff := (giveprize-(loops*60000));
+		loop := 1;
+	else
+		diff := giveprize;
+	endif
+	if (giveprize)
+		SendSysmessage( who, "Congratulations! You won a color wars token." ); 
+		CreateItemInBackpack( who, 0xa395, 1);
+		if (loop == 1)
+			while (loops > 0)
+				loops := loops - 1;
+				CreateItemInBackpack( who, 0xeed, 60000);
+			endwhile
+		endif
+		CreateItemInBackpack( who, 0xeed, diff);
+		EraseObjProperty(who,"cwprize");
+	else
+		SendSysmessage( who, "Sorry, you can't claim a prize." ); 
+	endif
+	loop := 0;
+	foreach worn in ListEquippedItems (who )
+  if(worn.objtype < UOBJ_HAIRS_START && worn.layer > UOBJ_HAIRS_END)
+			MoveItemToContainer(worn, who.backpack);
+   endif
+	endforeach
+	foreach item in EnumerateItemsInContainer( who.backpack )
+  if(item.objtype < UOBJ_HAIRS_START && item.layer > UOBJ_HAIRS_END)
+        DestroyItem(item);
+  endif
+	endforeach
+	sleep (2);
+	EraseObjProperty(who,"cwarring");
+	EraseObjProperty(who,"cwcolor");
+	lfame := GetObjProperty(who,"cwfame");
+	lkarma:= GetObjProperty(who,"cwkarma");
+	if (lfame)
+		SetObjProperty(who,"Fame",lfame);
+	endif
+	if (lkarma)
+		SetObjProperty(who,"Karma",lkarma);
+	endif
+	cwcrim := GetObjProperty(who,"cwcrim");
+	if (!cwcrim)
+		cwcrim := 0;
+	endif
+	cwmurd := GetObjProperty(who,"cwmurd");
+	if (!cwmurd)
+		cwmurd := 0;
+	endif
+	who.setmurderer(cwmurd);
+	who.setcriminal(cwcrim);
+	MoveCharacterToLocation( who, 5384, 1178, 0, 0);
+endprogram
+	

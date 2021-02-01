@@ -1,0 +1,158 @@
+#
+#  GUILDS.TXT: Guild Data
+#
+
+General
+{
+	NextGuildId	19
+}
+
+Guild
+{
+	GuildId	13
+	Member	0xc78
+	Member	0xc87
+	Member	0xc8a
+	Member	0xca1
+	Member	0xcdf
+	Member	0xfcf
+	CProp	abrvtime i27515124
+	CProp	faction sPeace
+	CProp	gc a9:S1: S1: S1: S1: S1: S1: S1: S1: S1:
+	CProp	gm i3192
+	CProp	guildabv sds
+	CProp	guildcolour i1157
+	CProp	guildicon i5557
+	CProp	guildname sdie Schwarzung
+	CProp	movetime i27515124
+	CProp	nametime i27515124
+	CProp	recruits a0:
+	CProp	stone i1793897807
+	CProp	type sWarrior
+	CProp	typetime i27515285
+}
+
+Guild
+{
+	GuildId	14
+	Member	0x193
+	Member	0xa3b
+	Member	0xa3d
+	Member	0xa48
+	Member	0xba8
+	Member	0xbb9
+	Member	0xbbe
+	Member	0x4313
+	CProp	abrvtime i27791090
+	CProp	faction sStandard
+	CProp	gc a9:S1: S1: S1: S1: S1: S1: S1: S1: S1:
+	CProp	gm i2621
+	CProp	guildabv sWoZ
+	CProp	guildcolour i1186
+	CProp	guildicon i5571
+	CProp	guildname sWoZ
+	CProp	movetime i28535941
+	CProp	nametime i27791090
+	CProp	recruits a0:
+	CProp	stone i1794188492
+	CProp	type sWarrior
+	CProp	typetime i28822244
+}
+
+Guild
+{
+	GuildId	15
+	Member	0x12
+	Member	0x23
+	Member	0x43f2
+	CProp	abrvtime i28550154
+	CProp	faction sStandard
+	CProp	gc a10:S0:S0:S0:S0:S0:S0:S0:S0:S0:S41:error{ errortext = "Property not found" }
+	CProp	gm i35
+	CProp	guildabv skWp
+	CProp	guildcolour i1176
+	CProp	guildicon i5563
+	CProp	guildname sKunts Wif Potential
+	CProp	movetime i27850184
+	CProp	nametime i28550149
+	CProp	recruits a0:
+	CProp	stance16 i6
+	CProp	stone i1794286889
+	CProp	type sWarrior
+	CProp	typetime i27850497
+	CProp	website serror{ errortext = "Property not found" }
+}
+
+Guild
+{
+	GuildId	16
+	Member	0x7b5
+	Member	0x7b8
+	Member	0xcb3
+	Member	0x11743
+	AllyGuild	0x11
+	AllyGuild	0x12
+	CProp	abrvtime i28452590
+	CProp	faction sStandard
+	CProp	gc a9:S1: S1: S1: S1: S1: S1: S1: S1: S1:
+	CProp	gm i1973
+	CProp	guildabv sSiN
+	CProp	guildcolour i1194
+	CProp	guildicon i5545
+	CProp	guildname sSiNNiSTER
+	CProp	movetime i28452590
+	CProp	nametime i28452590
+	CProp	recruits a0:
+	CProp	stance15 i2
+	CProp	stone i1795444292
+	CProp	type sWarrior
+	CProp	typetime i28719251
+}
+
+Guild
+{
+	GuildId	17
+	Member	0xa
+	Member	0x9a9
+	Member	0x9ab
+	Member	0x9d1
+	AllyGuild	0x10
+	CProp	abrvtime i28719525
+	CProp	faction sChaos
+	CProp	gc a9:S1: S1: S1: S1: S1: S1: S1: S1: S1:
+	CProp	gm i2513
+	CProp	guildabv sRoI
+	CProp	guildcolour i1200
+	CProp	guildicon i5545
+	CProp	guildname sRiders Of Isengard
+	CProp	movetime i28719525
+	CProp	nametime i28719525
+	CProp	recruits a0:
+	CProp	stone i1796021548
+	CProp	type sWarrior
+	CProp	typetime i28719532
+}
+
+Guild
+{
+	GuildId	18
+	Member	0xc05
+	Member	0xc06
+	Member	0xc08
+	AllyGuild	0x10
+	CProp	abrvtime i28746317
+	CProp	faction sStandard
+	CProp	gc a9:S1: S1: S1: S1: S1: S1: S1: S1: S1:
+	CProp	gm i3077
+	CProp	guildabv s!
+	CProp	guildcolour i1191
+	CProp	guildicon i5585
+	CProp	guildname sxClaMaTiOn MaRk
+	CProp	movetime i28746317
+	CProp	nametime i28746317
+	CProp	recruits a0:
+	CProp	stone i1796058485
+	CProp	type sWarrior
+	CProp	typetime i28746384
+}
+

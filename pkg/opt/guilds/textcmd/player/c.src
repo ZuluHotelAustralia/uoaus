@@ -1,0 +1,77 @@
+use uo;
+use os;
+
+program textcmd_c(who,text)
+
+  var guild_pl:= GetObjProperty(who,"guild_id");
+
+  if(!guild_pl)
+    SendSysMessage(who,"Cancelled. You are not in a guild.");
+    return;
+  elseif(!text)
+    text:= RequestInput(who,who.backpack,"Input your text:");
+    if(!text)
+      exit;
+    endif
+    SendMessage(who,text);
+    exit;
+  endif
+
+  SendMessage(who,text);
+
+endprogram
+
+
+function SendMessage(who,text)
+
+  var guild_pl:= GetObjProperty(who,"guild_id");
+  var guild:= FindGuild(guild_pl);
+  var talkchat:= GetObjProperty(who,"guild_talk");
+  var hearchatter, i, guilder;
+
+  if(talkchat == 1)
+    foreach person in EnumerateOnlineCharacters()
+      guilder:= GetObjProperty(person,"guild_id");
+      guilder:= FindGuild(guilder);
+      hearchatter:= GetObjProperty(person,"guild_hear");
+      if((hearchatter == 1) or (hearchatter == 2) or (hearchatter == 3))
+        if(guilder.guildid == guild.guildid)
+          SendSysMessage(person,"["+ guild.getprop("guildabv") +"] "+ who.name +": "+ text,3,73);
+        endif
+      endif
+    endforeach
+  elseif(talkchat == 2)
+    foreach person in EnumerateOnlineCharacters()
+      guilder:= GetObjProperty(person,"guild_id");
+      guilder:= FindGuild(guilder);
+      hearchatter:= GetObjProperty(person,"guild_hear");
+      if((hearchatter == 1) or (hearchatter == 2) or (hearchatter == 3))
+        if(guilder.guildid == guild.guildid)
+          SendSysMessage(person,"["+ guild.getprop("guildabv") +"] "+ who.name +": "+ text,3,73);
+        elseif(guilder.isallyguild(guild))
+          if((hearchatter == 2) or (hearchatter == 3))
+            SendSysMessage(person,"["+ guild.getprop("guildabv") +"] "+ who.name +": "+ text,3,93);
+      endif
+      endif
+      endif
+    endforeach
+    elseif(talkchat == 3)
+    foreach person in EnumerateOnlineCharacters()
+      guilder:= GetObjProperty(person,"guild_id");
+      guilder:= FindGuild(guilder);
+      hearchatter:= GetObjProperty(person,"guild_hear");
+      if((hearchatter == 1) or (hearchatter == 2) or (hearchatter == 3))
+        if(guilder.guildid == guild.guildid)
+          SendSysMessage(person,"["+ guild.getprop("guildabv") +"] "+ who.name +": "+ text,3,73);
+        elseif(guilder.isallyguild(guild))
+          if((hearchatter == 2) or (hearchatter == 3))
+            SendSysMessage(person,"["+ guild.getprop("guildabv") +"] "+ who.name +": "+ text,3,93);
+            endif
+        else
+            SendSysMessage(person,"["+ guild.getprop("guildabv") +"] "+ who.name +": "+ text,3,83);
+      
+      endif
+      endif
+    endforeach
+endif
+endfunction

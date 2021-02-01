@@ -1,0 +1,78 @@
+use uo;
+use cfgfile;
+use os;
+
+include "include/attributes";
+
+Const VET_RES_INCREASE := 5; //Increase of skill needed from level of taming
+const POINTS_MULTIPLIER	  := 20; //Multiply diff by this for the point value
+Const USE_BANDAGE_AMOUNT := 5; // amount of bandages used to res animal
+
+Program start_res( parms )
+
+	var who := parms[1];
+	var patient := parms[2];
+	var bandages := parms[3];
+ 
+        var npctemp := getobjproperty(patient, "npctemplate");
+        If(!npctemp)
+           Sendsysmessage(who, "This does'nt seems to be a creature.");
+           Sendsysmessage(who, "Canceled.");
+           return;
+        endif
+        
+       	var cfg  := ReadConfigFile( "::npcdesc" );
+	var elem := FindConfigElem( cfg, npctemp );
+        var resskill := cint(getconfigint( elem , "tameskill"));
+        
+        If(!resskill)
+           sendsysmessage(who, "This is'nt a tameable animal.");
+           return;
+        else
+           resskill := resskill + VET_RES_INCREASE;
+        endif
+
+        IF(!SubtractAmount( bandages, USE_BANDAGE_AMOUNT ))
+           sendsysmessage(who, "You don't have enough bandages to ressurect this animal.");
+           Sendsysmessage(who, "Canceled.");
+           return;
+        endif
+        
+        If( resskill > GetEffectiveSkill(who, SKILLID_VETERINARY))
+           Sendsysmessage(who, "You don't have the required skill to res this animal.");
+           Sendsysmessage(who, "Canceled.");
+           return;
+        endif
+	var diff 	:= CInt(resskill);
+	var points 	:= diff * POINTS_MULTIPLIER;
+
+        Sendsysmessage(who, "You begin to ressurect the creature.");
+        sleepms(6000);
+              
+        if( CheckSkill( who , SKILLID_VETERINARY, diff, points ) )
+           Var NPC:= CreateNpcFromTemplate( npctemp, patient.x, patient.y, patient.z);
+           
+           If(getobjproperty(patient, "cut"))
+              SetObjProperty( npc, "cut", 1);
+           endif
+           
+           SetObjProperty( npc, "master", who.serial );
+           SetObjProperty( npc, "script", npc.script );
+           // hmm, 'script' could be read from npcdesc to restore..
+
+           npc.setmaster( who );
+
+           npc.script := "tamed";
+           RestartScript(npc);
+           
+           Foreach item in EnumerateItemsInContainer( patient );
+              MoveItemToContainer( item, npc.backpack );
+           endforeach
+           
+           Destroyitem( patient );
+           Sendsysmessage(who, "You successfully res the creature.");
+        else
+           Sendsysmessage(who, "You failed to res the creature.");
+        endif
+        
+endprogram

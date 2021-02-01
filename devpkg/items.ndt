@@ -1,0 +1,9627 @@
+#
+#  ITEMS.TXT: Item data
+#
+#  This file also contains ship and house components (doors, planks etc)
+#
+
+Item
+{
+	Serial	0x6b16f535
+	ObjType	0xa391
+	Graphic	0x14ef
+	X	0
+	Y	0
+	Z	0
+	Movable	0
+	DecayAt	28481956
+}
+
+Item
+{
+	Serial	0x6b45a77f
+	ObjType	0xa39b
+	Graphic	0xed4
+	X	0
+	Y	0
+	Z	0
+	CProp	guild_id i0
+	DecayAt	29857045
+}
+
+Item
+{
+	Serial	0x6b492219
+	ObjType	0xda6
+	Graphic	0xda6
+	X	0
+	Y	0
+	Z	0
+	Movable	0
+	DecayAt	29935738
+}
+
+Item
+{
+	Serial	0x6b49221a
+	ObjType	0xda4
+	Graphic	0xda4
+	X	0
+	Y	0
+	Z	0
+	CProp	amt u
+	CProp	death i0
+	DecayAt	29935738
+}
+
+Item
+{
+	Serial	0x6b77d86a
+	ObjType	0x5
+	Graphic	0x5
+	X	0
+	Y	0
+	Z	0
+	DecayAt	30908915
+}
+
+Item
+{
+	Serial	0x6b77d88d
+	ObjType	0x5
+	Graphic	0x5
+	X	0
+	Y	0
+	Z	0
+	DecayAt	30908927
+}
+
+Item
+{
+	Serial	0x6b77d8b0
+	ObjType	0x5
+	Graphic	0x5
+	X	0
+	Y	0
+	Z	0
+	DecayAt	30908937
+}
+
+Item
+{
+	Serial	0x6b77d957
+	ObjType	0x5
+	Graphic	0x5
+	X	0
+	Y	0
+	Z	0
+	DecayAt	30908988
+}
+
+Item
+{
+	Serial	0x6b77d95c
+	ObjType	0x3
+	Graphic	0x3
+	X	0
+	Y	0
+	Z	0
+	DecayAt	30908992
+}
+
+Item
+{
+	Serial	0x6b77d9a4
+	ObjType	0x5
+	Graphic	0x5
+	X	0
+	Y	0
+	Z	0
+	DecayAt	30909018
+}
+
+Item
+{
+	Serial	0x6b8fe470
+	ObjType	0x7007
+	Graphic	0xe77
+	Color	0x542
+	X	45
+	Y	83
+	Z	0
+	DecayAt	31493664
+}
+
+Item
+{
+	Serial	0x6b92c791
+	ObjType	0xd9a
+	Graphic	0xd9a
+	X	44
+	Y	73
+	Z	0
+	Movable	0
+	DecayAt	31565171
+}
+
+Item
+{
+	Serial	0x6b92c792
+	ObjType	0xd98
+	Graphic	0xd98
+	X	44
+	Y	73
+	Z	0
+	CProp	amt u
+	CProp	death i0
+	DecayAt	31565171
+}
+
+Item
+{
+	Serial	0x6b92c79c
+	ObjType	0xd9a
+	Graphic	0xd9a
+	X	44
+	Y	78
+	Z	0
+	Movable	0
+	DecayAt	31565176
+}
+
+Item
+{
+	Serial	0x6b92c79d
+	ObjType	0xd98
+	Graphic	0xd98
+	X	44
+	Y	78
+	Z	0
+	CProp	amt u
+	CProp	death i0
+	DecayAt	31565176
+}
+
+Item
+{
+	Serial	0x6b92c7a4
+	ObjType	0xd9a
+	Graphic	0xd9a
+	X	44
+	Y	70
+	Z	0
+	Movable	0
+	DecayAt	31565179
+}
+
+Item
+{
+	Serial	0x6b92c7a5
+	ObjType	0xd98
+	Graphic	0xd98
+	X	44
+	Y	70
+	Z	0
+	CProp	amt u
+	CProp	death i0
+	DecayAt	31565179
+}
+
+Item
+{
+	Serial	0x6b92c7ab
+	ObjType	0xd9a
+	Graphic	0xd9a
+	X	44
+	Y	82
+	Z	0
+	Movable	0
+	DecayAt	31565184
+}
+
+Item
+{
+	Serial	0x6b92c7ac
+	ObjType	0xd98
+	Graphic	0xd98
+	X	44
+	Y	82
+	Z	0
+	CProp	amt u
+	CProp	death i0
+	DecayAt	31565184
+}
+
+Item
+{
+	Serial	0x6b92c7c7
+	ObjType	0xd9a
+	Graphic	0xd9a
+	X	44
+	Y	79
+	Z	0
+	Movable	0
+	DecayAt	31565194
+}
+
+Item
+{
+	Serial	0x6b92c7c8
+	ObjType	0xd98
+	Graphic	0xd98
+	X	44
+	Y	79
+	Z	0
+	CProp	amt u
+	CProp	death i0
+	DecayAt	31565194
+}
+
+Item
+{
+	Serial	0x6b492238
+	ObjType	0xd9a
+	Graphic	0xd9a
+	X	83
+	Y	76
+	Z	0
+	Movable	0
+	DecayAt	29935745
+}
+
+Item
+{
+	Serial	0x6b492239
+	ObjType	0xd98
+	Graphic	0xd98
+	X	83
+	Y	76
+	Z	0
+	CProp	amt u
+	CProp	death i0
+	DecayAt	29935745
+}
+
+Item
+{
+	Serial	0x6b86528f
+	ObjType	0x7007
+	Graphic	0xe77
+	Color	0x542
+	X	65
+	Y	66
+	Z	0
+	DecayAt	31240161
+}
+
+Item
+{
+	Serial	0x6b92c7b4
+	ObjType	0xd9a
+	Graphic	0xd9a
+	X	123
+	Y	130
+	Z	0
+	Movable	0
+	DecayAt	31565189
+}
+
+Item
+{
+	Serial	0x6b92c7b5
+	ObjType	0xd98
+	Graphic	0xd98
+	X	123
+	Y	130
+	Z	0
+	CProp	amt u
+	CProp	death i0
+	DecayAt	31565189
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e1fc
+	ObjType	0xb40
+	Graphic	0xb40
+	X	122
+	Y	1481
+	Z	-2
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771260
+	DecayAt	32012450
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e1ff
+	ObjType	0xb3f
+	Graphic	0xb3f
+	X	122
+	Y	1482
+	Z	-2
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771263
+	DecayAt	32012454
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e21c
+	ObjType	0xb3f
+	Graphic	0xb3f
+	X	122
+	Y	1483
+	Z	-2
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771292
+	DecayAt	32012459
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e222
+	ObjType	0xb40
+	Graphic	0xb40
+	X	122
+	Y	1484
+	Z	-2
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771298
+	DecayAt	32012465
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e23a
+	ObjType	0xb40
+	Graphic	0xb40
+	X	123
+	Y	1481
+	Z	-2
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771322
+	DecayAt	32012476
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e241
+	ObjType	0xb40
+	Graphic	0xb40
+	X	124
+	Y	1481
+	Z	-2
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771329
+	DecayAt	32012481
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e30c
+	ObjType	0xb3f
+	Graphic	0xb3f
+	X	122
+	Y	1485
+	Z	-1
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771532
+	DecayAt	32012583
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e310
+	ObjType	0xb40
+	Graphic	0xb40
+	X	122
+	Y	1486
+	Z	0
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771536
+	DecayAt	32012589
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e325
+	ObjType	0xb40
+	Graphic	0xb40
+	X	123
+	Y	1486
+	Z	0
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771557
+	DecayAt	32012595
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e328
+	ObjType	0xb40
+	Graphic	0xb40
+	X	124
+	Y	1486
+	Z	0
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771560
+	DecayAt	32012600
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e32d
+	ObjType	0xb40
+	Graphic	0xb40
+	X	125
+	Y	1486
+	Z	0
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771565
+	DecayAt	32012605
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e331
+	ObjType	0xb40
+	Graphic	0xb40
+	X	126
+	Y	1486
+	Z	0
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771569
+	DecayAt	32012611
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e33d
+	ObjType	0xb40
+	Graphic	0xb40
+	X	127
+	Y	1486
+	Z	0
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771581
+	DecayAt	32012625
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e347
+	ObjType	0xb40
+	Graphic	0xb40
+	X	127
+	Y	1485
+	Z	0
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771591
+	DecayAt	32012630
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e351
+	ObjType	0xb40
+	Graphic	0xb40
+	X	127
+	Y	1484
+	Z	0
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771601
+	DecayAt	32012636
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e355
+	ObjType	0xb40
+	Graphic	0xb40
+	X	127
+	Y	1483
+	Z	0
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771605
+	DecayAt	32012641
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6ba1e366
+	ObjType	0xb40
+	Graphic	0xb40
+	X	125
+	Y	1481
+	Z	-1
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i301746
+	CProp	FromDeed i48159
+	CProp	ItemsCreatedSerials a1:i1805771622
+	DecayAt	32012658
+}
+
+Item
+{
+	Serial	0x6ba1e4c6
+	ObjType	0xe41
+	Graphic	0xe41
+	X	127
+	Y	1481
+	Z	2
+	CProp	boxserial i1805771975
+	CProp	houseserial i1805770022
+	Movable	0
+	OnUseScript	:housing:securecont
+	DecayAt	32013560
+}
+
+Item
+{
+	Serial	0x6ba1e4c7
+	ObjType	0xe41
+	Graphic	0xe41
+	X	128
+	Y	1482
+	Z	0
+	Container	0x6ba1e4c6
+	DecayAt	32013560
+}
+
+Item
+{
+	Name	Pickaxe
+	Serial	0x6b594bc5
+	ObjType	0xe85
+	Graphic	0xe85
+	X	118
+	Y	140
+	Z	0
+	CProp	AvailSkills a1:i45
+	CProp	BaseName sPickaxe
+	CProp	SpecMult i3
+	Layer	1
+	Container	0x6ba1e4c7
+	DecayAt	31962822
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6ba1dd23
+	ObjType	0x100f
+	Graphic	0x100f
+	X	32
+	Y	133
+	Z	0
+	CProp	lockid i2059
+	Container	0x6ba1e4c7
+	DecayAt	32012244
+}
+
+Item
+{
+	Name	Crate
+	Serial	0x6ba12e2e
+	ObjType	0xe3d
+	Graphic	0xe3d
+	X	52
+	Y	118
+	Z	0
+	CProp	BaseName sCrate
+	CProp	DeedOwnerSerial i206394
+	CProp	FromDeed i48156
+	CProp	ItemsCreatedSerials a1:i1805725230
+	Movable	1
+	Container	0x6ba1e4c7
+	DecayAt	32012860
+}
+
+Item
+{
+	Serial	0x6ba0ebe1
+	ObjType	0xf25
+	Graphic	0xf25
+	X	113
+	Y	115
+	Z	0
+	Amount	37
+	Container	0x6ba1e4c7
+	DecayAt	31965212
+}
+
+Item
+{
+	Serial	0x6ba1bb63
+	ObjType	0xf30
+	Graphic	0xf30
+	X	99
+	Y	122
+	Z	0
+	Amount	28
+	Container	0x6ba1e4c7
+	DecayAt	32004795
+}
+
+Item
+{
+	Name	deed for : Table
+	Serial	0x6ba1e157
+	ObjType	0xbc1f
+	Graphic	0x14f0
+	X	103
+	Y	137
+	Z	0
+	CProp	ItemBaseName sTable
+	CProp	ItemQuality u
+	Container	0x6ba1e4c7
+	DecayAt	32012963
+}
+
+Item
+{
+	Serial	0x6ba1e569
+	ObjType	0xee18
+	Graphic	0xeed
+	Color	0x83b
+	X	87
+	Y	145
+	Z	0
+	Amount	8866
+	Container	0x6ba1e4c7
+	DecayAt	32013683
+}
+
+Item
+{
+	Serial	0x6ba1e907
+	ObjType	0xc503
+	Graphic	0x19b9
+	Color	0x488
+	X	83
+	Y	105
+	Z	0
+	Amount	43
+	Container	0x6ba1e4c7
+	DecayAt	32014418
+}
+
+Item
+{
+	Serial	0x6b97d446
+	ObjType	0xd9e
+	Graphic	0xd9e
+	X	137
+	Y	65
+	Z	0
+	Movable	0
+	DecayAt	31705453
+}
+
+Item
+{
+	Serial	0x6b97d447
+	ObjType	0xda0
+	Graphic	0xda0
+	X	137
+	Y	65
+	Z	0
+	CProp	amt u
+	CProp	death i0
+	DecayAt	31705453
+}
+
+Item
+{
+	Serial	0x6b20e486
+	ObjType	0x677
+	Graphic	0x677
+	X	144
+	Y	1468
+	Z	2
+	CProp	house_serial i1797317765
+	CProp	lockid i1089
+	Locked	1
+}
+
+Item
+{
+	Serial	0x6b20e487
+	ObjType	0x675
+	Graphic	0x675
+	X	143
+	Y	1468
+	Z	2
+	CProp	house_serial i1797317765
+	CProp	lockid i1089
+	Locked	1
+}
+
+Item
+{
+	Serial	0x6b20e489
+	ObjType	0x8a3
+	Graphic	0x8a3
+	X	142
+	Y	1469
+	Z	33
+	CProp	house_serial i1797317765
+	Movable	0
+	DecayAt	28901283
+}
+
+Item
+{
+	Serial	0x6b20e48a
+	ObjType	0x8a4
+	Graphic	0x8a4
+	X	142
+	Y	1470
+	Z	22
+	CProp	house_serial i1797317765
+	Movable	0
+	DecayAt	28901283
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6b20f33f
+	ObjType	0xb7e
+	Graphic	0xb7e
+	X	150
+	Y	1463
+	Z	2
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i87365
+	CProp	FromDeed i48160
+	CProp	ItemsCreatedSerials a3:i1797321535i1797321536i1797321537
+	DecayAt	28903894
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6b20f340
+	ObjType	0xb7f
+	Graphic	0xb7f
+	X	148
+	Y	1463
+	Z	2
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i87365
+	CProp	FromDeed i48160
+	CProp	ItemsCreatedSerials a3:i1797321535i1797321536i1797321537
+	DecayAt	28903894
+}
+
+Item
+{
+	Name	Table
+	Serial	0x6b20f341
+	ObjType	0xb80
+	Graphic	0xb80
+	X	149
+	Y	1463
+	Z	2
+	CProp	BaseName sTable
+	CProp	DeedOwnerSerial i87365
+	CProp	FromDeed i48160
+	CProp	ItemsCreatedSerials a3:i1797321535i1797321536i1797321537
+	DecayAt	28903894
+}
+
+Item
+{
+	Serial	0x6b2731e5
+	ObjType	0xe41
+	Graphic	0xe41
+	X	142
+	Y	1461
+	Z	2
+	CProp	boxserial i1797730790
+	CProp	houseserial i1797317765
+	Movable	0
+	OnUseScript	:housing:securecont
+	DecayAt	29092786
+}
+
+Item
+{
+	Serial	0x6b2731e6
+	ObjType	0xe41
+	Graphic	0xe41
+	X	142
+	Y	1462
+	Z	2
+	Container	0x6b2731e5
+	DecayAt	29092786
+}
+
+Item
+{
+	Name	Journeyman Carpenter's Necklace
+	Serial	0x6b2820c2
+	ObjType	0x1085
+	Graphic	0x1085
+	X	21
+	Y	134
+	Z	0
+	CProp	IDed i1
+	CProp	skilladv i11
+	CProp	skilladvamount i2
+	Container	0x6b2731e6
+	DecayAt	29111299
+}
+
+Item
+{
+	Serial	0x6b248725
+	ObjType	0xe75
+	Graphic	0xe75
+	X	18
+	Y	146
+	Z	0
+	Container	0x6b2731e6
+	DecayAt	29083031
+}
+
+Item
+{
+	Name	A recall rune for covebank
+	Serial	0x6b244544
+	ObjType	0x1f14
+	Graphic	0x1f14
+	X	68
+	Y	74
+	Z	0
+	CProp	x i2395
+	CProp	y i905
+	CProp	z i0
+	Container	0x6b248725
+	DecayAt	29014966
+}
+
+Item
+{
+	Name	Bronze Shield of Hardening
+	Serial	0x6b26a489
+	ObjType	0x1b72
+	Graphic	0x1b72
+	X	50
+	Y	121
+	Z	0
+	CProp	DefaultDex i-2
+	CProp	IDed i1
+	CProp	MagicPenalty i10
+	Layer	2
+	Container	0x6b248725
+	DecayAt	29081756
+	Quality	1
+	HP	69
+	AR_mod	15
+}
+
+Item
+{
+	Name	Studded Sleeves of Guarding
+	Serial	0x6b1de648
+	ObjType	0x13d4
+	Graphic	0x13d4
+	X	100
+	Y	119
+	Z	0
+	CProp	DefaultDex i-1
+	CProp	IDed i1
+	CProp	MagicPenalty i3
+	Layer	19
+	Container	0x6b248725
+	DecayAt	29074617
+	Quality	1
+	HP	70
+	AR_mod	10
+}
+
+Item
+{
+	Name	Massive Studded Leggings of Guarding
+	Serial	0x6b1de0be
+	ObjType	0x13da
+	Graphic	0x13da
+	X	90
+	Y	73
+	Z	0
+	CProp	DefaultDex i-1
+	CProp	IDed i1
+	CProp	MagicPenalty i3
+	Layer	4
+	Container	0x6b248725
+	DecayAt	29074385
+	Quality	1
+	HP	110
+	maxhp_mod	30
+	AR_mod	10
+}
+
+Item
+{
+	Name	Leather Gloves of Hardening
+	Serial	0x6b13893a
+	ObjType	0x13c6
+	Graphic	0x13c6
+	X	81
+	Y	110
+	Z	0
+	CProp	IDed i1
+	CProp	MagicPenalty i1
+	Layer	7
+	Container	0x6b248725
+	DecayAt	29074385
+	Quality	1
+	HP	64
+	AR_mod	15
+}
+
+Item
+{
+	Name	a Cloak
+	Serial	0x6b20125b
+	ObjType	0x1515
+	Graphic	0x1515
+	Color	0x66d
+	X	128
+	Y	98
+	Z	0
+	Layer	20
+	Container	0x6b248725
+	DecayAt	29074385
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	a War Axe
+	Serial	0x6b60cec5
+	ObjType	0x13af
+	Graphic	0x13af
+	X	44
+	Y	67
+	Z	0
+	Layer	1
+	Container	0x6b248725
+	DecayAt	30461401
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Serial	0x6b60cc65
+	ObjType	0x13af
+	Graphic	0x13af
+	X	44
+	Y	65
+	Z	0
+	Container	0x6b248725
+	DecayAt	30461191
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Serial	0x6b60cec3
+	ObjType	0x13af
+	Graphic	0x13af
+	X	45
+	Y	65
+	Z	0
+	Container	0x6b248725
+	DecayAt	30461401
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Name	a Robe
+	Serial	0x6b60c8bb
+	ObjType	0x1f03
+	Graphic	0x1f03
+	X	130
+	Y	65
+	Z	0
+	Layer	22
+	Container	0x6b248725
+	DecayAt	30460911
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b60cc64
+	ObjType	0x13af
+	Graphic	0x13af
+	X	44
+	Y	65
+	Z	0
+	Container	0x6b248725
+	DecayAt	30461191
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Serial	0x6b60cec4
+	ObjType	0x13af
+	Graphic	0x13af
+	X	44
+	Y	65
+	Z	0
+	Container	0x6b248725
+	DecayAt	30461401
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Serial	0x6b60cec6
+	ObjType	0x13af
+	Graphic	0x13af
+	X	44
+	Y	65
+	Z	0
+	Container	0x6b248725
+	DecayAt	30461401
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Serial	0x6ae527b6
+	ObjType	0x13af
+	Graphic	0x13af
+	X	44
+	Y	65
+	Z	0
+	Container	0x6b248725
+	DecayAt	26028980
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Serial	0x6b60ccbe
+	ObjType	0x13af
+	Graphic	0x13af
+	X	44
+	Y	65
+	Z	0
+	Container	0x6b248725
+	DecayAt	30461222
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Serial	0x6b60ccbf
+	ObjType	0x13af
+	Graphic	0x13af
+	X	44
+	Y	65
+	Z	0
+	Container	0x6b248725
+	DecayAt	30461222
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Serial	0x6b4e4229
+	ObjType	0x13af
+	Graphic	0x13af
+	X	44
+	Y	65
+	Z	0
+	Container	0x6b248725
+	DecayAt	30087533
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Serial	0x6b60ccc1
+	ObjType	0x13af
+	Graphic	0x13af
+	X	44
+	Y	65
+	Z	0
+	Container	0x6b248725
+	DecayAt	30461222
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Serial	0x6b60ccc0
+	ObjType	0x13af
+	Graphic	0x13af
+	X	44
+	Y	65
+	Z	0
+	Container	0x6b248725
+	DecayAt	30461222
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Serial	0x6b60cc63
+	ObjType	0x13af
+	Graphic	0x13af
+	X	44
+	Y	65
+	Z	0
+	Container	0x6b248725
+	DecayAt	30461191
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Serial	0x6b4e4293
+	ObjType	0x13af
+	Graphic	0x13af
+	X	44
+	Y	65
+	Z	0
+	Container	0x6b248725
+	DecayAt	30087567
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Serial	0x6b60cc66
+	ObjType	0x13af
+	Graphic	0x13af
+	X	44
+	Y	65
+	Z	0
+	Container	0x6b248725
+	DecayAt	30461191
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Serial	0x6b70b75b
+	ObjType	0xf90
+	Graphic	0xf90
+	X	44
+	Y	91
+	Z	0
+	Amount	3748
+	Container	0x6b248725
+	DecayAt	30798042
+}
+
+Item
+{
+	Name	Adept Alchemist's Necklace
+	Serial	0x6afe9ea1
+	ObjType	0x1085
+	Graphic	0x1085
+	X	18
+	Y	112
+	Z	0
+	CProp	IDed i1
+	CProp	skilladv i0
+	CProp	skilladvamount i4
+	Layer	10
+	Container	0x6b2731e6
+	DecayAt	29068190
+}
+
+Item
+{
+	Serial	0x6b249784
+	ObjType	0xe79
+	Graphic	0xe79
+	X	118
+	Y	152
+	Z	0
+	CProp	old_us s:loot:noview
+	Container	0x6b2731e6
+	OnUseScript	:loot:noview
+	DecayAt	30042733
+}
+
+Item
+{
+	Name	Durable Paladin Sword
+	Serial	0x6b4a2180
+	ObjType	0x26ce
+	Graphic	0x26ce
+	X	87
+	Y	71
+	Z	0
+	CProp	IDed i1
+	Container	0x6b249784
+	DecayAt	29960904
+	Quality	1
+	HP	65
+	maxhp_mod	10
+}
+
+Item
+{
+	Serial	0x6b45e20d
+	ObjType	0x1415
+	Graphic	0x1415
+	X	69
+	Y	79
+	Z	0
+	CProp	DefaultDex i-9
+	CProp	IDed i1
+	CProp	MagicPenalty i22
+	Layer	13
+	Container	0x6b249784
+	DecayAt	29863065
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b45da2b
+	ObjType	0x1410
+	Graphic	0x1410
+	X	60
+	Y	76
+	Z	0
+	CProp	DefaultDex i-3
+	CProp	IDed i1
+	CProp	MagicPenalty i7
+	Layer	19
+	Container	0x6b249784
+	DecayAt	29862145
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b4b09a3
+	ObjType	0x13fd
+	Graphic	0x13fd
+	X	97
+	Y	75
+	Z	0
+	CProp	NormalRange i5
+	Container	0x6b249784
+	DecayAt	29981194
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b45e208
+	ObjType	0x143e
+	Graphic	0x143e
+	X	44
+	Y	71
+	Z	0
+	Layer	2
+	Container	0x6b249784
+	DecayAt	29863065
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Name	Close Helm of Fortification
+	Serial	0x6b4b17d4
+	ObjType	0x1408
+	Graphic	0x1408
+	X	44
+	Y	73
+	Z	0
+	CProp	DefaultDex i-3
+	CProp	IDed i1
+	CProp	MagicPenalty i7
+	Container	0x6b249784
+	DecayAt	29982610
+	Quality	1
+	HP	100
+	AR_mod	20
+}
+
+Item
+{
+	Serial	0x6b45da28
+	ObjType	0x1414
+	Graphic	0x1414
+	X	75
+	Y	69
+	Z	0
+	CProp	DefaultDex i-1
+	CProp	MagicPenalty i4
+	Layer	7
+	Container	0x6b249784
+	DecayAt	29862145
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Camouflaged Platemail Legs
+	Serial	0x6b4b17d2
+	ObjType	0x1411
+	Graphic	0x1411
+	X	60
+	Y	79
+	Z	0
+	CProp	DefaultDex i-3
+	CProp	IDed i1
+	CProp	MagicPenalty i7
+	CProp	skilladv i21
+	CProp	skilladvamount i2
+	Container	0x6b249784
+	DecayAt	29982610
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b4a1cc8
+	ObjType	0x26ba
+	Graphic	0x26ba
+	X	50
+	Y	65
+	Z	0
+	Container	0x6b249784
+	DecayAt	29980373
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b45da2a
+	ObjType	0x1415
+	Graphic	0x1415
+	X	76
+	Y	65
+	Z	0
+	CProp	DefaultDex i-9
+	CProp	IDed i1
+	CProp	MagicPenalty i22
+	Layer	13
+	Container	0x6b249784
+	DecayAt	29862145
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b45da26
+	ObjType	0x1539
+	Graphic	0x1539
+	Color	0x455
+	X	102
+	Y	76
+	Z	0
+	Layer	4
+	Container	0x6b249784
+	DecayAt	29862145
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Magnificent Substantial Executioner's Axe
+	Serial	0x6b4b17d1
+	ObjType	0xf45
+	Graphic	0xf45
+	X	44
+	Y	82
+	Z	0
+	CProp	IDed i1
+	CProp	skilladv i27
+	CProp	skilladvamount i4
+	Container	0x6b249784
+	DecayAt	29982610
+	Quality	1
+	HP	110
+	maxhp_mod	20
+}
+
+Item
+{
+	Serial	0x6b45e20e
+	ObjType	0x1410
+	Graphic	0x1410
+	X	85
+	Y	74
+	Z	0
+	CProp	DefaultDex i-3
+	CProp	MagicPenalty i7
+	Layer	19
+	Container	0x6b249784
+	DecayAt	29863065
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Massive Studded Leggings of Hardening
+	Serial	0x6b4b17d3
+	ObjType	0x13da
+	Graphic	0x13da
+	X	55
+	Y	76
+	Z	0
+	CProp	DefaultDex i-1
+	CProp	IDed i1
+	CProp	MagicPenalty i3
+	Container	0x6b249784
+	DecayAt	29982610
+	Quality	1
+	HP	110
+	maxhp_mod	30
+	AR_mod	15
+}
+
+Item
+{
+	Serial	0x6b45e20b
+	ObjType	0x1414
+	Graphic	0x1414
+	X	93
+	Y	79
+	Z	0
+	CProp	DefaultDex i-1
+	CProp	MagicPenalty i4
+	Layer	7
+	Container	0x6b249784
+	DecayAt	29863065
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b45e20a
+	ObjType	0x1408
+	Graphic	0x1408
+	X	85
+	Y	80
+	Z	0
+	CProp	DefaultDex i-3
+	CProp	MagicPenalty i7
+	Layer	6
+	Container	0x6b249784
+	DecayAt	29863065
+	Quality	1
+	HP	100
+}
+
+Item
+{
+	Serial	0x6b45da2c
+	ObjType	0x1411
+	Graphic	0x1411
+	X	102
+	Y	65
+	Z	0
+	CProp	DefaultDex i-3
+	CProp	MagicPenalty i7
+	Layer	24
+	Container	0x6b249784
+	DecayAt	29862145
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b45e20f
+	ObjType	0x1411
+	Graphic	0x1411
+	X	97
+	Y	65
+	Z	0
+	CProp	DefaultDex i-3
+	CProp	MagicPenalty i7
+	Layer	24
+	Container	0x6b249784
+	DecayAt	29863065
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b4a4c13
+	ObjType	0x6130
+	Graphic	0xdf2
+	X	72
+	Y	65
+	Z	0
+	CProp	charges i7
+	CProp	tname smagic wand of Blade Spirit
+	Container	0x6b249784
+	DecayAt	29965683
+}
+
+Item
+{
+	Name	a lance
+	Serial	0x6b4b24ef
+	ObjType	0x26c0
+	Graphic	0x26c0
+	X	44
+	Y	75
+	Z	0
+	Layer	1
+	Container	0x6b249784
+	DecayAt	29983886
+	Quality	1
+	HP	35
+}
+
+Item
+{
+	Serial	0x6b45e20c
+	ObjType	0x1413
+	Graphic	0x1413
+	X	98
+	Y	70
+	Z	0
+	CProp	DefaultDex i-1
+	CProp	MagicPenalty i3
+	Layer	10
+	Container	0x6b249784
+	DecayAt	29863065
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Heavy Crossbow of Might
+	Serial	0x6b4b2053
+	ObjType	0x13fd
+	Graphic	0x13fd
+	X	99
+	Y	69
+	Z	0
+	CProp	IDed i1
+	CProp	NormalRange i5
+	Container	0x6b249784
+	DecayAt	29983481
+	Quality	1
+	HP	70
+	dmg_mod	10
+}
+
+Item
+{
+	Serial	0x6b45e209
+	ObjType	0x1539
+	Graphic	0x1539
+	Color	0x455
+	X	91
+	Y	65
+	Z	0
+	Layer	4
+	Container	0x6b249784
+	DecayAt	29863065
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b45da29
+	ObjType	0x1413
+	Graphic	0x1413
+	X	110
+	Y	78
+	Z	0
+	CProp	DefaultDex i-1
+	CProp	IDed i1
+	CProp	MagicPenalty i3
+	Layer	10
+	Container	0x6b249784
+	DecayAt	29862145
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b4a1daa
+	ObjType	0x1401
+	Graphic	0x1401
+	X	91
+	Y	78
+	Z	0
+	Container	0x6b249784
+	DecayAt	29960416
+	Quality	1
+	HP	90
+}
+
+Item
+{
+	Name	magic wand of Summon Creature
+	Serial	0x6b4b0be1
+	ObjType	0x6137
+	Graphic	0xdf5
+	X	44
+	Y	87
+	Z	0
+	CProp	IDed i1
+	CProp	charges i2
+	CProp	tname smagic wand of Summon Creature
+	Layer	1
+	Container	0x6b249784
+	DecayAt	29981442
+}
+
+Item
+{
+	Serial	0x6b4a1da9
+	ObjType	0xf30
+	Graphic	0xf30
+	X	44
+	Y	81
+	Z	0
+	Amount	23
+	Container	0x6b249784
+	DecayAt	29960416
+}
+
+Item
+{
+	Name	magic wand of Energy Bolt
+	Serial	0x6b4b1c91
+	ObjType	0x6139
+	Graphic	0xdf3
+	X	44
+	Y	81
+	Z	0
+	CProp	IDed i1
+	CProp	charges i16
+	CProp	tname smagic wand of Energy Bolt
+	Container	0x6b249784
+	DecayAt	29983099
+}
+
+Item
+{
+	Name	magic wand of Invisibility
+	Serial	0x6b4a2eb7
+	ObjType	0x613b
+	Graphic	0xdf5
+	X	44
+	Y	76
+	Z	0
+	CProp	IDed i1
+	CProp	charges i10
+	CProp	tname smagic wand of Invisibility
+	Container	0x6b249784
+	DecayAt	29962448
+}
+
+Item
+{
+	Name	Shielded Massive Chainmail Leggings
+	Serial	0x6b4a2181
+	ObjType	0x13be
+	Graphic	0x13be
+	X	67
+	Y	71
+	Z	0
+	CProp	DefaultDex i-3
+	CProp	IDed i1
+	CProp	MagicPenalty i8
+	CProp	skilladv i26
+	CProp	skilladvamount i1
+	Container	0x6b249784
+	DecayAt	29960904
+	Quality	1
+	HP	120
+	maxhp_mod	30
+}
+
+Item
+{
+	Serial	0x6b45da27
+	ObjType	0x1408
+	Graphic	0x1408
+	X	100
+	Y	77
+	Z	0
+	CProp	DefaultDex i-3
+	CProp	MagicPenalty i7
+	Layer	6
+	Container	0x6b249784
+	DecayAt	29862145
+	Quality	1
+	HP	100
+}
+
+Item
+{
+	Serial	0x6b45da25
+	ObjType	0x143e
+	Graphic	0x143e
+	X	44
+	Y	65
+	Z	0
+	CProp	IDed i1
+	Layer	2
+	Container	0x6b249784
+	DecayAt	29862145
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Name	Substantial Axe of Might
+	Serial	0x6b4a2bd0
+	ObjType	0xf49
+	Graphic	0xf49
+	X	55
+	Y	66
+	Z	0
+	CProp	IDed i1
+	Container	0x6b249784
+	DecayAt	29962071
+	Quality	1
+	HP	100
+	maxhp_mod	20
+	dmg_mod	10
+}
+
+Item
+{
+	Name	magic wand of Dispel Field
+	Serial	0x6b4a5484
+	ObjType	0x6131
+	Graphic	0xdf3
+	X	61
+	Y	72
+	Z	0
+	CProp	IDed i1
+	CProp	charges i3
+	CProp	tname smagic wand of Dispel Field
+	Container	0x6b249784
+	DecayAt	29966461
+}
+
+Item
+{
+	Name	magic wand of Paralyze
+	Serial	0x6b4b0547
+	ObjType	0x6135
+	Graphic	0xdf3
+	X	44
+	Y	76
+	Z	0
+	CProp	IDed i1
+	CProp	charges i7
+	CProp	tname smagic wand of Paralyze
+	Container	0x6b249784
+	DecayAt	29980729
+}
+
+Item
+{
+	Name	Durable War Hammer
+	Serial	0x6b4a2bcf
+	ObjType	0x1438
+	Graphic	0x1438
+	X	69
+	Y	71
+	Z	0
+	CProp	IDed i1
+	Container	0x6b249784
+	DecayAt	29962071
+	Quality	1
+	HP	120
+	maxhp_mod	10
+}
+
+Item
+{
+	Name	Short Spear of Might
+	Serial	0x6b4a2ec3
+	ObjType	0x1402
+	Graphic	0x1402
+	X	103
+	Y	72
+	Z	0
+	CProp	IDed i1
+	Container	0x6b249784
+	DecayAt	29962448
+	Quality	1
+	HP	70
+	dmg_mod	10
+}
+
+Item
+{
+	Name	Studded Gloves of Guarding
+	Serial	0x6b4a2ec5
+	ObjType	0x13d5
+	Graphic	0x13d5
+	X	70
+	Y	77
+	Z	0
+	CProp	IDed i1
+	CProp	MagicPenalty i1
+	Container	0x6b249784
+	DecayAt	29962448
+	Quality	1
+	HP	70
+	AR_mod	10
+}
+
+Item
+{
+	Name	Substantial Battle Axe
+	Serial	0x6b4a217f
+	ObjType	0xf47
+	Graphic	0xf47
+	X	73
+	Y	98
+	Z	0
+	CProp	IDed i1
+	Container	0x6b249784
+	DecayAt	29960904
+	Quality	1
+	HP	100
+	maxhp_mod	20
+}
+
+Item
+{
+	Name	Undetectable Tempered Leather Gorget of Guarding
+	Serial	0x6b4a51c2
+	ObjType	0x13c7
+	Graphic	0x13c7
+	X	108
+	Y	65
+	Z	0
+	CProp	IDed i1
+	CProp	skilladv i21
+	CProp	skilladvamount i4
+	Layer	10
+	Container	0x6b249784
+	DecayAt	29966233
+	Quality	1
+	HP	120
+	maxhp_mod	50
+	AR_mod	10
+}
+
+Item
+{
+	Name	War Hammer of Might
+	Serial	0x6b4b1dbb
+	ObjType	0x1438
+	Graphic	0x1438
+	X	98
+	Y	86
+	Z	0
+	CProp	IDed i1
+	Container	0x6b249784
+	DecayAt	29983213
+	Quality	1
+	HP	110
+	dmg_mod	10
+}
+
+Item
+{
+	Name	magic wand of Summon Creature
+	Serial	0x6b4a5483
+	ObjType	0x6137
+	Graphic	0xdf5
+	X	59
+	Y	73
+	Z	0
+	CProp	IDed i1
+	CProp	charges i5
+	CProp	tname smagic wand of Summon Creature
+	Container	0x6b249784
+	DecayAt	29966461
+}
+
+Item
+{
+	Name	Concealing Helmet
+	Serial	0x6b4a2bd1
+	ObjType	0x140a
+	Graphic	0x140a
+	X	45
+	Y	76
+	Z	0
+	CProp	DefaultDex i-3
+	CProp	IDed i1
+	CProp	MagicPenalty i7
+	CProp	skilladv i21
+	CProp	skilladvamount i1
+	Container	0x6b249784
+	DecayAt	29962071
+	Quality	1
+	HP	90
+}
+
+Item
+{
+	Name	magic wand of Mark
+	Serial	0x6b4b2048
+	ObjType	0x613c
+	Graphic	0xdf2
+	X	44
+	Y	90
+	Z	0
+	CProp	IDed i1
+	CProp	charges i3
+	CProp	tname smagic wand of Mark
+	Container	0x6b249784
+	DecayAt	29983481
+}
+
+Item
+{
+	Name	Warded Female Studded
+	Serial	0x6b4b2054
+	ObjType	0x1c02
+	Graphic	0x1c02
+	X	44
+	Y	81
+	Z	0
+	CProp	DefaultDex i-2
+	CProp	IDed i1
+	CProp	MagicPenalty i8
+	CProp	skilladv i26
+	CProp	skilladvamount i2
+	Container	0x6b249784
+	DecayAt	29983481
+	Quality	1
+	HP	80
+}
+
+Item
+{
+	Name	magic wand of Poison Field
+	Serial	0x6b4b0422
+	ObjType	0x6136
+	Graphic	0xdf4
+	X	44
+	Y	92
+	Z	0
+	CProp	IDed i1
+	CProp	charges i16
+	CProp	tname smagic wand of Poison Field
+	Container	0x6b249784
+	DecayAt	29980624
+}
+
+Item
+{
+	Name	Massive Swift scepter
+	Serial	0x6b4a51c3
+	ObjType	0x76ee
+	Graphic	0x26bc
+	Color	0x26d
+	X	44
+	Y	89
+	Z	0
+	CProp	EnchantColor i621
+	CProp	Enchanted sSwift
+	CProp	IDed i1
+	Container	0x6b249784
+	DecayAt	29966233
+	Quality	1
+	HP	100
+	maxhp_mod	30
+}
+
+Item
+{
+	Name	Studded Bustier of Guarding
+	Serial	0x6b4a2ec4
+	ObjType	0x1c0c
+	Graphic	0x1c0c
+	X	44
+	Y	89
+	Z	0
+	CProp	DefaultDex i-2
+	CProp	IDed i1
+	CProp	MagicPenalty i4
+	Container	0x6b249784
+	DecayAt	29962448
+	Quality	1
+	HP	70
+	AR_mod	10
+}
+
+Item
+{
+	Serial	0x6b20bf1a
+	ObjType	0xe75
+	Graphic	0xe75
+	X	118
+	Y	122
+	Z	0
+	Container	0x6b2731e6
+	DecayAt	30150771
+}
+
+Item
+{
+	Serial	0x6b4d2be0
+	ObjType	0x7021
+	Graphic	0x1078
+	Color	0x494
+	X	141
+	Y	68
+	Z	0
+	Amount	5
+	Container	0x6b20bf1a
+	DecayAt	30053154
+}
+
+Item
+{
+	Name	Mystical Icebow of Might
+	Serial	0x6b248e07
+	ObjType	0x762a
+	Graphic	0x13b2
+	Color	0x6
+	X	100
+	Y	91
+	Z	0
+	CProp	EnchantColor i6
+	CProp	Enchanted sMystical
+	CProp	IDed i1
+	CProp	NormalRange i7
+	CProp	skilladv u
+	CProp	skilladvamount i2
+	Container	0x6b20bf1a
+	DecayAt	30150771
+	Quality	1
+	HP	64
+	dmg_mod	10
+}
+
+Item
+{
+	Serial	0x6b4a29a8
+	ObjType	0xb200
+	Graphic	0xf3f
+	Color	0x492
+	X	141
+	Y	107
+	Z	0
+	Amount	77
+	Container	0x6b20bf1a
+	DecayAt	30150771
+}
+
+Item
+{
+	Serial	0x6b4d50c1
+	ObjType	0x1f49
+	Graphic	0x1f49
+	X	94
+	Y	134
+	Z	0
+	Amount	4
+	Container	0x6b2731e6
+	DecayAt	30150771
+}
+
+Item
+{
+	Serial	0x6b21044e
+	ObjType	0xe75
+	Graphic	0xe75
+	X	103
+	Y	105
+	Z	0
+	Container	0x6b2731e6
+	DecayAt	28907426
+}
+
+Item
+{
+	Serial	0x6b4a2ebd
+	ObjType	0xf15
+	Graphic	0xf15
+	X	60
+	Y	81
+	Z	0
+	Amount	25
+	Container	0x6b21044e
+	DecayAt	29962448
+}
+
+Item
+{
+	Serial	0x6b4a2ebe
+	ObjType	0xf13
+	Graphic	0xf13
+	X	98
+	Y	87
+	Z	0
+	Amount	13
+	Container	0x6b21044e
+	DecayAt	29962448
+}
+
+Item
+{
+	Serial	0x6b4a2ec8
+	ObjType	0xf89
+	Graphic	0xf89
+	X	141
+	Y	72
+	Z	0
+	Amount	12
+	Container	0x6b21044e
+	DecayAt	29962448
+}
+
+Item
+{
+	Serial	0x6b4a2a81
+	ObjType	0x613f
+	Graphic	0xdf5
+	X	46
+	Y	116
+	Z	0
+	CProp	charges i11
+	CProp	tname smagic wand of Reveal
+	Container	0x6b21044e
+	DecayAt	29961870
+}
+
+Item
+{
+	Serial	0x6b4a29a5
+	ObjType	0x6051
+	Graphic	0xf3f
+	Color	0x494
+	X	61
+	Y	72
+	Z	0
+	Amount	358
+	Container	0x6b21044e
+	DecayAt	29961772
+}
+
+Item
+{
+	Serial	0x6b4a1d08
+	ObjType	0xf18
+	Graphic	0xf18
+	X	101
+	Y	121
+	Z	0
+	Amount	33
+	Container	0x6b21044e
+	DecayAt	29960278
+}
+
+Item
+{
+	Serial	0x6b4a1be4
+	ObjType	0xf16
+	Graphic	0xf16
+	X	117
+	Y	138
+	Z	0
+	Amount	31
+	Container	0x6b21044e
+	DecayAt	29960157
+}
+
+Item
+{
+	Serial	0x6b4a1cc7
+	ObjType	0xf0f
+	Graphic	0xf0f
+	X	79
+	Y	93
+	Z	0
+	Amount	17
+	Container	0x6b21044e
+	DecayAt	29960236
+}
+
+Item
+{
+	Serial	0x6b4a1ce1
+	ObjType	0xf10
+	Graphic	0xf10
+	X	112
+	Y	91
+	Z	0
+	Amount	26
+	Container	0x6b21044e
+	DecayAt	29960245
+}
+
+Item
+{
+	Serial	0x6b4a51c4
+	ObjType	0xf87
+	Graphic	0xf87
+	X	124
+	Y	101
+	Z	0
+	Amount	5
+	Container	0x6b21044e
+	DecayAt	29966233
+}
+
+Item
+{
+	Serial	0x6b4a469c
+	ObjType	0xf7a
+	Graphic	0xf7a
+	X	79
+	Y	93
+	Z	0
+	Amount	48
+	Container	0x6b21044e
+	DecayAt	29965228
+}
+
+Item
+{
+	Serial	0x6b4a47b2
+	ObjType	0xf7f
+	Graphic	0xf7f
+	X	141
+	Y	136
+	Z	0
+	Container	0x6b21044e
+	DecayAt	29965331
+}
+
+Item
+{
+	Serial	0x6b4a1ec8
+	ObjType	0xf25
+	Graphic	0xf25
+	X	54
+	Y	117
+	Z	0
+	Amount	32
+	Container	0x6b21044e
+	DecayAt	29960633
+}
+
+Item
+{
+	Serial	0x6b4b1dbf
+	ObjType	0xf81
+	Graphic	0xf81
+	X	136
+	Y	66
+	Z	0
+	Amount	4
+	Container	0x6b21044e
+	DecayAt	29983213
+}
+
+Item
+{
+	Serial	0x6b4a51c6
+	ObjType	0xf8a
+	Graphic	0xf8a
+	X	44
+	Y	91
+	Z	0
+	Amount	8
+	Container	0x6b21044e
+	DecayAt	29966233
+}
+
+Item
+{
+	Serial	0x6b4a47dc
+	ObjType	0x9f1
+	Graphic	0x9f1
+	X	137
+	Y	67
+	Z	0
+	Amount	2
+	Container	0x6b21044e
+	DecayAt	29965356
+}
+
+Item
+{
+	Serial	0x6b4a2bd3
+	ObjType	0xf7c
+	Graphic	0xf7c
+	X	137
+	Y	71
+	Z	0
+	Amount	4
+	Container	0x6b21044e
+	DecayAt	29962071
+}
+
+Item
+{
+	Serial	0x6b4b17d8
+	ObjType	0xf79
+	Graphic	0xf79
+	X	137
+	Y	75
+	Z	0
+	Amount	2
+	Container	0x6b21044e
+	DecayAt	29982610
+}
+
+Item
+{
+	Serial	0x6b4a2ec7
+	ObjType	0xf83
+	Graphic	0xf83
+	X	137
+	Y	68
+	Z	0
+	Amount	8
+	Container	0x6b21044e
+	DecayAt	29962448
+}
+
+Item
+{
+	Serial	0x6b4a2ec9
+	ObjType	0xf80
+	Graphic	0xf80
+	X	137
+	Y	68
+	Z	0
+	Amount	12
+	Container	0x6b21044e
+	DecayAt	29962448
+}
+
+Item
+{
+	Serial	0x6b4a1fd2
+	ObjType	0xf11
+	Graphic	0xf11
+	X	137
+	Y	65
+	Z	0
+	Amount	27
+	Container	0x6b21044e
+	DecayAt	29960779
+}
+
+Item
+{
+	Serial	0x6b4b1dbc
+	ObjType	0xf8b
+	Graphic	0xf8b
+	X	137
+	Y	74
+	Z	0
+	Amount	4
+	Container	0x6b21044e
+	DecayAt	29983213
+}
+
+Item
+{
+	Serial	0x6b4a2ef1
+	ObjType	0xf82
+	Graphic	0xf82
+	X	134
+	Y	75
+	Z	0
+	Amount	25
+	Container	0x6b21044e
+	DecayAt	29962472
+}
+
+Item
+{
+	Serial	0x6b4a1a60
+	ObjType	0xf8e
+	Graphic	0xf8e
+	X	122
+	Y	105
+	Z	0
+	Amount	105
+	Container	0x6b21044e
+	DecayAt	29959978
+}
+
+Item
+{
+	Serial	0x6b4a2cca
+	ObjType	0x824e
+	Graphic	0x1bfb
+	Color	0x502
+	X	63
+	Y	117
+	Z	0
+	Amount	78
+	Container	0x6b21044e
+	DecayAt	29962209
+}
+
+Item
+{
+	Serial	0x6b4a492e
+	ObjType	0x1f5a
+	Graphic	0x1f5a
+	X	124
+	Y	115
+	Z	0
+	Amount	3
+	Container	0x6b21044e
+	DecayAt	29965461
+}
+
+Item
+{
+	Serial	0x6b4b0421
+	ObjType	0x1f57
+	Graphic	0x1f57
+	X	110
+	Y	127
+	Z	0
+	Container	0x6b21044e
+	DecayAt	29980624
+}
+
+Item
+{
+	Serial	0x6b4b17d5
+	ObjType	0xf91
+	Graphic	0xf91
+	X	132
+	Y	122
+	Z	0
+	Amount	3
+	Container	0x6b21044e
+	DecayAt	29982610
+}
+
+Item
+{
+	Serial	0x6b4b17c7
+	ObjType	0x1f5d
+	Graphic	0x1f5d
+	X	131
+	Y	115
+	Z	0
+	Amount	2
+	Container	0x6b21044e
+	DecayAt	29982610
+}
+
+Item
+{
+	Serial	0x6b4b0687
+	ObjType	0x1f5b
+	Graphic	0x1f5b
+	X	137
+	Y	122
+	Z	0
+	Amount	2
+	Container	0x6b21044e
+	DecayAt	29980879
+}
+
+Item
+{
+	Serial	0x6b4a1a08
+	ObjType	0x6137
+	Graphic	0xdf5
+	X	137
+	Y	121
+	Z	0
+	CProp	charges i5
+	CProp	tname smagic wand of Summon Creature
+	Layer	1
+	Container	0x6b21044e
+	DecayAt	29959912
+}
+
+Item
+{
+	Serial	0x6b4a2eb6
+	ObjType	0x1f60
+	Graphic	0x1f60
+	X	134
+	Y	117
+	Z	0
+	Amount	2
+	Container	0x6b21044e
+	DecayAt	29962448
+}
+
+Item
+{
+	Serial	0x6b4a469b
+	ObjType	0x1f59
+	Graphic	0x1f59
+	X	138
+	Y	119
+	Z	0
+	Container	0x6b21044e
+	DecayAt	29965228
+}
+
+Item
+{
+	Serial	0x6b4a2bd2
+	ObjType	0xf7d
+	Graphic	0xf7d
+	X	84
+	Y	121
+	Z	0
+	Amount	2
+	Container	0x6b21044e
+	DecayAt	29962071
+}
+
+Item
+{
+	Serial	0x6b4a2bc4
+	ObjType	0x1f5f
+	Graphic	0x1f5f
+	X	119
+	Y	119
+	Z	0
+	Container	0x6b21044e
+	DecayAt	29962071
+}
+
+Item
+{
+	Serial	0x6b4a51c5
+	ObjType	0xf8f
+	Graphic	0xf8f
+	X	48
+	Y	121
+	Z	0
+	Amount	9
+	Container	0x6b21044e
+	DecayAt	29966233
+}
+
+Item
+{
+	Serial	0x6b4a29a6
+	ObjType	0x1bfb
+	Graphic	0x1bfb
+	X	74
+	Y	99
+	Z	0
+	Amount	492
+	Container	0x6b21044e
+	DecayAt	29961772
+}
+
+Item
+{
+	Name	a Robe
+	Serial	0x6b2db18f
+	ObjType	0x1f03
+	Graphic	0x1f03
+	Color	0x66d
+	X	51
+	Y	110
+	Z	0
+	Layer	22
+	Container	0x6b2731e6
+	DecayAt	29464547
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b2731eb
+	ObjType	0xe41
+	Graphic	0xe41
+	X	143
+	Y	1461
+	Z	2
+	CProp	boxserial i1797730796
+	CProp	houseserial i1797317765
+	Movable	0
+	OnUseScript	:housing:securecont
+	DecayAt	29092789
+}
+
+Item
+{
+	Serial	0x6b2731ec
+	ObjType	0xe41
+	Graphic	0xe41
+	X	144
+	Y	1463
+	Z	2
+	Container	0x6b2731eb
+	DecayAt	29092789
+}
+
+Item
+{
+	Serial	0x6b757571
+	ObjType	0x7313
+	Graphic	0x1bdd
+	Color	0x504
+	X	18
+	Y	110
+	Z	0
+	Amount	626
+	Container	0x6b2731ec
+	DecayAt	30893238
+}
+
+Item
+{
+	Serial	0x6b7574b5
+	ObjType	0x730c
+	Graphic	0x1bdd
+	Color	0x542
+	X	48
+	Y	108
+	Z	0
+	Amount	2695
+	Container	0x6b2731ec
+	DecayAt	30893165
+}
+
+Item
+{
+	Serial	0x6b7574fd
+	ObjType	0x7305
+	Graphic	0x1bdd
+	Color	0x48a
+	X	75
+	Y	105
+	Z	0
+	Amount	2144
+	Container	0x6b2731ec
+	DecayAt	30893195
+}
+
+Item
+{
+	Serial	0x6b757ac9
+	ObjType	0x7301
+	Graphic	0x1bdd
+	Color	0x654
+	X	112
+	Y	109
+	Z	0
+	Amount	3240
+	Container	0x6b2731ec
+	DecayAt	30893725
+}
+
+Item
+{
+	Serial	0x6b7580b8
+	ObjType	0x7312
+	Graphic	0x1bdd
+	Color	0x505
+	X	94
+	Y	107
+	Z	0
+	Amount	284
+	Container	0x6b2731ec
+	DecayAt	30894086
+}
+
+Item
+{
+	Serial	0x6b7578fe
+	ObjType	0x730a
+	Graphic	0x1bdd
+	Color	0x489
+	X	18
+	Y	131
+	Z	0
+	Amount	2309
+	Container	0x6b2731ec
+	DecayAt	30893510
+}
+
+Item
+{
+	Serial	0x6b75b05d
+	ObjType	0x730f
+	Graphic	0x1bdd
+	Color	0x492
+	X	41
+	Y	135
+	Z	0
+	Amount	232
+	Container	0x6b2731ec
+	DecayAt	30895639
+}
+
+Item
+{
+	Serial	0x6b7574c9
+	ObjType	0x7304
+	Graphic	0x1bdd
+	Color	0x30
+	X	62
+	Y	135
+	Z	0
+	Amount	1977
+	Container	0x6b2731ec
+	DecayAt	30893173
+}
+
+Item
+{
+	Serial	0x6b757a94
+	ObjType	0x730e
+	Graphic	0x1bdd
+	Color	0x66d
+	X	83
+	Y	133
+	Z	0
+	Amount	1166
+	Container	0x6b2731ec
+	DecayAt	30893690
+}
+
+Item
+{
+	Serial	0x6b75b578
+	ObjType	0x7310
+	Graphic	0x1bdd
+	Color	0x49f
+	X	107
+	Y	135
+	Z	0
+	Amount	353
+	Container	0x6b2731ec
+	DecayAt	30896081
+}
+
+Item
+{
+	Serial	0x6b757589
+	ObjType	0x7314
+	Graphic	0x1bdd
+	Color	0x507
+	X	113
+	Y	130
+	Z	0
+	Amount	411
+	Container	0x6b2731ec
+	DecayAt	30893246
+}
+
+Item
+{
+	Serial	0x6b7576bb
+	ObjType	0x730d
+	Graphic	0x1bdd
+	Color	0x487
+	X	18
+	Y	135
+	Z	0
+	Amount	2135
+	Container	0x6b2731ec
+	DecayAt	30893340
+}
+
+Item
+{
+	Serial	0x6b75750f
+	ObjType	0x7308
+	Graphic	0x1bdd
+	Color	0x498
+	X	66
+	Y	106
+	Z	0
+	Amount	2664
+	Container	0x6b2731ec
+	DecayAt	30893203
+}
+
+Item
+{
+	Serial	0x6b787d06
+	ObjType	0x7316
+	Graphic	0x1bdd
+	Color	0x48d
+	X	35
+	Y	108
+	Z	0
+	Amount	12
+	Container	0x6b2731ec
+	DecayAt	30920968
+}
+
+Item
+{
+	Serial	0x6b7575b9
+	ObjType	0x7307
+	Graphic	0x1bdd
+	Color	0x482
+	X	77
+	Y	135
+	Z	0
+	Amount	2049
+	Container	0x6b2731ec
+	DecayAt	30893260
+}
+
+Item
+{
+	Serial	0x6b7574ef
+	ObjType	0x7303
+	Graphic	0x1bdd
+	Color	0x203
+	X	95
+	Y	134
+	Z	0
+	Amount	1655
+	Container	0x6b2731ec
+	DecayAt	30893186
+}
+
+Item
+{
+	Serial	0x6b71c554
+	ObjType	0x7315
+	Graphic	0x1bdd
+	Color	0x485
+	X	18
+	Y	135
+	Z	0
+	Amount	133
+	Container	0x6b2731ec
+	DecayAt	30816054
+}
+
+Item
+{
+	Serial	0x6b757890
+	ObjType	0x7309
+	Graphic	0x1bdd
+	Color	0x499
+	X	18
+	Y	108
+	Z	0
+	Amount	3069
+	Container	0x6b2731ec
+	DecayAt	30893483
+}
+
+Item
+{
+	Serial	0x6b757786
+	ObjType	0x7302
+	Graphic	0x1bdd
+	Color	0x415
+	X	18
+	Y	112
+	Z	0
+	Amount	957
+	Container	0x6b2731ec
+	DecayAt	30893405
+}
+
+Item
+{
+	Serial	0x6b75768e
+	ObjType	0x730b
+	Graphic	0x1bdd
+	Color	0x8fd
+	X	113
+	Y	105
+	Z	0
+	Amount	2404
+	Container	0x6b2731ec
+	DecayAt	30893326
+}
+
+Item
+{
+	Serial	0x6b70b7e3
+	ObjType	0x7300
+	Graphic	0x1bdd
+	Color	0x46c
+	X	18
+	Y	135
+	Z	0
+	Amount	3226
+	Container	0x6b2731ec
+	DecayAt	30798069
+}
+
+Item
+{
+	Serial	0x6b757517
+	ObjType	0x7306
+	Graphic	0x1bdd
+	Color	0x455
+	X	18
+	Y	135
+	Z	0
+	Amount	2158
+	Container	0x6b2731ec
+	DecayAt	30893208
+}
+
+Item
+{
+	Serial	0x6b70cc3b
+	ObjType	0x7311
+	Graphic	0x1bdd
+	Color	0x488
+	X	18
+	Y	135
+	Z	0
+	Amount	608
+	Container	0x6b2731ec
+	DecayAt	30799618
+}
+
+Item
+{
+	Serial	0x6b2731fa
+	ObjType	0xe41
+	Graphic	0xe41
+	X	144
+	Y	1461
+	Z	2
+	CProp	boxserial i1797730811
+	CProp	houseserial i1797317765
+	Movable	0
+	OnUseScript	:housing:securecont
+	DecayAt	29092791
+}
+
+Item
+{
+	Serial	0x6b2731fb
+	ObjType	0xe41
+	Graphic	0xe41
+	X	146
+	Y	1462
+	Z	2
+	Container	0x6b2731fa
+	DecayAt	29092791
+}
+
+Item
+{
+	Name	a Robe
+	Serial	0x6b2004c2
+	ObjType	0x1f03
+	Graphic	0x1f03
+	Color	0x66d
+	X	99
+	Y	122
+	Z	0
+	Layer	22
+	Container	0x6b2731fb
+	DecayAt	28856843
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	BookShelf
+	Serial	0x6b23eaa5
+	ObjType	0xa99
+	Graphic	0xa99
+	X	64
+	Y	105
+	Z	0
+	CProp	BaseName sBookShelf
+	CProp	DeedOwnerSerial i132433
+	CProp	FromDeed i48147
+	CProp	ItemsCreatedSerials a1:i1797515941
+	Movable	1
+	Container	0x6b2731fb
+	DecayAt	29003232
+}
+
+Item
+{
+	Name	BookShelf
+	Serial	0x6b23eab9
+	ObjType	0xa99
+	Graphic	0xa99
+	X	18
+	Y	105
+	Z	0
+	CProp	BaseName sBookShelf
+	CProp	DeedOwnerSerial i132433
+	CProp	FromDeed i48147
+	CProp	ItemsCreatedSerials a1:i1797515961
+	Movable	1
+	Container	0x6b2731fb
+	DecayAt	29003238
+}
+
+Item
+{
+	Name	BookShelf
+	Serial	0x6b23ead4
+	ObjType	0xa99
+	Graphic	0xa99
+	X	75
+	Y	105
+	Z	0
+	CProp	BaseName sBookShelf
+	CProp	DeedOwnerSerial i132433
+	CProp	FromDeed i48147
+	CProp	ItemsCreatedSerials a1:i1797515988
+	Movable	1
+	Container	0x6b2731fb
+	DecayAt	29003245
+}
+
+Item
+{
+	Name	a Robe
+	Serial	0x6b269a9d
+	ObjType	0x1f03
+	Graphic	0x1f03
+	X	87
+	Y	21
+	Z	0
+	Layer	22
+	Container	0x6b23ead4
+	DecayAt	29464522
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	a Robe
+	Serial	0x6b30b532
+	ObjType	0x1f03
+	Graphic	0x1f03
+	X	91
+	Y	24
+	Z	0
+	Layer	22
+	Container	0x6b23ead4
+	DecayAt	29354106
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf078
+	ObjType	0x1415
+	Graphic	0x1415
+	X	105
+	Y	57
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621088
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf08a
+	ObjType	0x1415
+	Graphic	0x1415
+	X	67
+	Y	52
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621096
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf0a3
+	ObjType	0x1415
+	Graphic	0x1415
+	X	63
+	Y	32
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621105
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf104
+	ObjType	0x1415
+	Graphic	0x1415
+	X	51
+	Y	28
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621145
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf135
+	ObjType	0x1415
+	Graphic	0x1415
+	X	44
+	Y	51
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621163
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf185
+	ObjType	0x1415
+	Graphic	0x1415
+	X	71
+	Y	32
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621190
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf1c0
+	ObjType	0x1415
+	Graphic	0x1415
+	X	82
+	Y	41
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621208
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf1e4
+	ObjType	0x1415
+	Graphic	0x1415
+	X	73
+	Y	50
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621217
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf250
+	ObjType	0x1415
+	Graphic	0x1415
+	X	68
+	Y	14
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621253
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf2a7
+	ObjType	0x1415
+	Graphic	0x1415
+	X	109
+	Y	29
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621271
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf2c6
+	ObjType	0x1415
+	Graphic	0x1415
+	X	69
+	Y	33
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621280
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf332
+	ObjType	0x1415
+	Graphic	0x1415
+	X	112
+	Y	54
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621316
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf34e
+	ObjType	0x1415
+	Graphic	0x1415
+	X	48
+	Y	16
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621325
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf417
+	ObjType	0x1415
+	Graphic	0x1415
+	X	111
+	Y	43
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621352
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf4b9
+	ObjType	0x1415
+	Graphic	0x1415
+	X	90
+	Y	57
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621397
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf53a
+	ObjType	0x1415
+	Graphic	0x1415
+	X	96
+	Y	40
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621433
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf676
+	ObjType	0x1415
+	Graphic	0x1415
+	X	75
+	Y	44
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621505
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate [Crafted by PeaceOfPeW]
+	Serial	0x6b3bf691
+	ObjType	0x1415
+	Graphic	0x1415
+	X	87
+	Y	11
+	Z	0
+	CProp	BaseName s Breastplate [Crafted by PeaceOfPeW]
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	IsExceptional i1
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621514
+	BuyPrice	272
+	Quality	1.24
+	HP	86
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf708
+	ObjType	0x1415
+	Graphic	0x1415
+	X	59
+	Y	54
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621541
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf734
+	ObjType	0x1415
+	Graphic	0x1415
+	X	116
+	Y	24
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621559
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf764
+	ObjType	0x1415
+	Graphic	0x1415
+	X	67
+	Y	57
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621577
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf787
+	ObjType	0x1415
+	Graphic	0x1415
+	X	82
+	Y	51
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621595
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate [Crafted by PeaceOfPeW]
+	Serial	0x6b3bf7b9
+	ObjType	0x1415
+	Graphic	0x1415
+	X	80
+	Y	25
+	Z	0
+	CProp	BaseName s Breastplate [Crafted by PeaceOfPeW]
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	IsExceptional i1
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621604
+	BuyPrice	272
+	Quality	1.24
+	HP	86
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf7e9
+	ObjType	0x1415
+	Graphic	0x1415
+	X	61
+	Y	29
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621622
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf820
+	ObjType	0x1415
+	Graphic	0x1415
+	X	72
+	Y	38
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621640
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf836
+	ObjType	0x1415
+	Graphic	0x1415
+	X	61
+	Y	58
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621649
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf876
+	ObjType	0x1415
+	Graphic	0x1415
+	X	74
+	Y	27
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621667
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf8bc
+	ObjType	0x1415
+	Graphic	0x1415
+	X	52
+	Y	22
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621694
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf902
+	ObjType	0x1415
+	Graphic	0x1415
+	X	40
+	Y	59
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621722
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf945
+	ObjType	0x1415
+	Graphic	0x1415
+	X	71
+	Y	18
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621740
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf96f
+	ObjType	0x1415
+	Graphic	0x1415
+	X	97
+	Y	19
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621758
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate [Crafted by PeaceOfPeW]
+	Serial	0x6b3bf9e1
+	ObjType	0x1415
+	Graphic	0x1415
+	X	89
+	Y	13
+	Z	0
+	CProp	BaseName s Breastplate [Crafted by PeaceOfPeW]
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	IsExceptional i1
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621776
+	BuyPrice	272
+	Quality	1.24
+	HP	86
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfa39
+	ObjType	0x1415
+	Graphic	0x1415
+	X	59
+	Y	22
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621794
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfa5b
+	ObjType	0x1415
+	Graphic	0x1415
+	X	51
+	Y	35
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621812
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfab1
+	ObjType	0x1415
+	Graphic	0x1415
+	X	68
+	Y	33
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621848
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfadf
+	ObjType	0x1415
+	Graphic	0x1415
+	X	101
+	Y	38
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621866
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfb1b
+	ObjType	0x1415
+	Graphic	0x1415
+	X	119
+	Y	43
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621884
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfb7a
+	ObjType	0x1415
+	Graphic	0x1415
+	X	106
+	Y	16
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621920
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfb91
+	ObjType	0x1415
+	Graphic	0x1415
+	X	101
+	Y	21
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621929
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfb9c
+	ObjType	0x1415
+	Graphic	0x1415
+	X	70
+	Y	25
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621938
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfb63
+	ObjType	0x1415
+	Graphic	0x1415
+	X	82
+	Y	52
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621911
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate [Crafted by PeaceOfPeW]
+	Serial	0x6b3bfb4b
+	ObjType	0x1415
+	Graphic	0x1415
+	X	113
+	Y	49
+	Z	0
+	CProp	BaseName s Breastplate [Crafted by PeaceOfPeW]
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	IsExceptional i1
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621902
+	BuyPrice	272
+	Quality	1.24
+	HP	86
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf955
+	ObjType	0x1415
+	Graphic	0x1415
+	X	50
+	Y	50
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621749
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf80a
+	ObjType	0x1415
+	Graphic	0x1415
+	X	61
+	Y	28
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621631
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf615
+	ObjType	0x1415
+	Graphic	0x1415
+	X	80
+	Y	19
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621478
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf7c6
+	ObjType	0x1415
+	Graphic	0x1415
+	X	59
+	Y	33
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621613
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate [Crafted by PeaceOfPeW]
+	Serial	0x6b3bf858
+	ObjType	0x1415
+	Graphic	0x1415
+	X	61
+	Y	42
+	Z	0
+	CProp	BaseName s Breastplate [Crafted by PeaceOfPeW]
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	IsExceptional i1
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621658
+	BuyPrice	272
+	Quality	1.24
+	HP	86
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf6a8
+	ObjType	0x1415
+	Graphic	0x1415
+	X	103
+	Y	50
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621523
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf654
+	ObjType	0x1415
+	Graphic	0x1415
+	X	49
+	Y	47
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621496
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf382
+	ObjType	0x1415
+	Graphic	0x1415
+	X	75
+	Y	40
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621334
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate [Crafted by PeaceOfPeW]
+	Serial	0x6b3bfbb5
+	ObjType	0x1415
+	Graphic	0x1415
+	X	85
+	Y	19
+	Z	0
+	CProp	BaseName s Breastplate [Crafted by PeaceOfPeW]
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	IsExceptional i1
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621947
+	BuyPrice	272
+	Quality	1.24
+	HP	86
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf604
+	ObjType	0x1415
+	Graphic	0x1415
+	X	109
+	Y	42
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621469
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf74c
+	ObjType	0x1415
+	Graphic	0x1415
+	X	77
+	Y	50
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621568
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf5b4
+	ObjType	0x1415
+	Graphic	0x1415
+	X	101
+	Y	18
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621451
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfa78
+	ObjType	0x1415
+	Graphic	0x1415
+	X	100
+	Y	35
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621821
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfa82
+	ObjType	0x1415
+	Graphic	0x1415
+	X	40
+	Y	50
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621830
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf631
+	ObjType	0x1415
+	Graphic	0x1415
+	X	63
+	Y	36
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621487
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate [Crafted by PeaceOfPeW]
+	Serial	0x6b3bf2d8
+	ObjType	0x1415
+	Graphic	0x1415
+	X	40
+	Y	25
+	Z	0
+	CProp	BaseName s Breastplate [Crafted by PeaceOfPeW]
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	IsExceptional i1
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621289
+	BuyPrice	272
+	Quality	1.24
+	HP	86
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf771
+	ObjType	0x1415
+	Graphic	0x1415
+	X	116
+	Y	27
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621586
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf723
+	ObjType	0x1415
+	Graphic	0x1415
+	X	65
+	Y	12
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621550
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf27b
+	ObjType	0x1415
+	Graphic	0x1415
+	X	57
+	Y	42
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621262
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf45c
+	ObjType	0x1415
+	Graphic	0x1415
+	X	100
+	Y	15
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621379
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf16e
+	ObjType	0x1415
+	Graphic	0x1415
+	X	75
+	Y	49
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621181
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf312
+	ObjType	0x1415
+	Graphic	0x1415
+	X	48
+	Y	41
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621307
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf8ac
+	ObjType	0x1415
+	Graphic	0x1415
+	X	50
+	Y	56
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621685
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate [Crafted by PeaceOfPeW]
+	Serial	0x6b3bc1a4
+	ObjType	0x1415
+	Graphic	0x1415
+	X	53
+	Y	14
+	Z	0
+	CProp	BaseName s Breastplate [Crafted by PeaceOfPeW]
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	IsExceptional i1
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29617194
+	BuyPrice	272
+	Quality	1.24
+	HP	86
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf5eb
+	ObjType	0x1415
+	Graphic	0x1415
+	X	70
+	Y	10
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621460
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf584
+	ObjType	0x1415
+	Graphic	0x1415
+	X	108
+	Y	59
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621442
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf2f9
+	ObjType	0x1415
+	Graphic	0x1415
+	X	91
+	Y	58
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621298
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfbd4
+	ObjType	0x1415
+	Graphic	0x1415
+	X	90
+	Y	28
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621956
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfa25
+	ObjType	0x1415
+	Graphic	0x1415
+	X	110
+	Y	10
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621785
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf4a3
+	ObjType	0x1415
+	Graphic	0x1415
+	X	59
+	Y	25
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621388
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf23c
+	ObjType	0x1415
+	Graphic	0x1415
+	X	52
+	Y	20
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621244
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate [Crafted by PeaceOfPeW]
+	Serial	0x6b3bf4ea
+	ObjType	0x1415
+	Graphic	0x1415
+	X	69
+	Y	39
+	Z	0
+	CProp	BaseName s Breastplate [Crafted by PeaceOfPeW]
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	IsExceptional i1
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621415
+	BuyPrice	272
+	Quality	1.24
+	HP	86
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf1a5
+	ObjType	0x1415
+	Graphic	0x1415
+	X	84
+	Y	44
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621199
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfbe0
+	ObjType	0x1415
+	Graphic	0x1415
+	X	97
+	Y	28
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621965
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf429
+	ObjType	0x1415
+	Graphic	0x1415
+	X	109
+	Y	31
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621361
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate [Crafted by PeaceOfPeW]
+	Serial	0x6b3bc15c
+	ObjType	0x1415
+	Graphic	0x1415
+	X	100
+	Y	17
+	Z	0
+	CProp	BaseName s Breastplate [Crafted by PeaceOfPeW]
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	IsExceptional i1
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29617177
+	BuyPrice	272
+	Quality	1.24
+	HP	86
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf91c
+	ObjType	0x1415
+	Graphic	0x1415
+	X	65
+	Y	37
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621731
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfb34
+	ObjType	0x1415
+	Graphic	0x1415
+	X	43
+	Y	33
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621893
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate [Crafted by PeaceOfPeW]
+	Serial	0x6b3bfa46
+	ObjType	0x1415
+	Graphic	0x1415
+	X	68
+	Y	49
+	Z	0
+	CProp	BaseName s Breastplate [Crafted by PeaceOfPeW]
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	IsExceptional i1
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621803
+	BuyPrice	272
+	Quality	1.24
+	HP	86
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf523
+	ObjType	0x1415
+	Graphic	0x1415
+	X	63
+	Y	39
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621424
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf8f7
+	ObjType	0x1415
+	Graphic	0x1415
+	X	106
+	Y	13
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621713
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf396
+	ObjType	0x1415
+	Graphic	0x1415
+	X	112
+	Y	33
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621343
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf217
+	ObjType	0x1415
+	Graphic	0x1415
+	X	90
+	Y	15
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621235
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf6d7
+	ObjType	0x1415
+	Graphic	0x1415
+	X	61
+	Y	42
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621532
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfa97
+	ObjType	0x1415
+	Graphic	0x1415
+	X	75
+	Y	57
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621839
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfc01
+	ObjType	0x1415
+	Graphic	0x1415
+	X	67
+	Y	33
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621974
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf161
+	ObjType	0x1415
+	Graphic	0x1415
+	X	116
+	Y	51
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621172
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf894
+	ObjType	0x1415
+	Graphic	0x1415
+	X	109
+	Y	11
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621676
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfac1
+	ObjType	0x1415
+	Graphic	0x1415
+	X	46
+	Y	50
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621857
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfb0a
+	ObjType	0x1415
+	Graphic	0x1415
+	X	68
+	Y	57
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621875
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf8cf
+	ObjType	0x1415
+	Graphic	0x1415
+	X	115
+	Y	32
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621704
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf438
+	ObjType	0x1415
+	Graphic	0x1415
+	X	107
+	Y	17
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621370
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf112
+	ObjType	0x1415
+	Graphic	0x1415
+	X	97
+	Y	53
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621154
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf4cf
+	ObjType	0x1415
+	Graphic	0x1415
+	X	118
+	Y	30
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621406
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf204
+	ObjType	0x1415
+	Graphic	0x1415
+	X	53
+	Y	36
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621226
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bf99e
+	ObjType	0x1415
+	Graphic	0x1415
+	X	112
+	Y	36
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621767
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfc1c
+	ObjType	0x1415
+	Graphic	0x1415
+	X	74
+	Y	26
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621983
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfc36
+	ObjType	0x1415
+	Graphic	0x1415
+	X	64
+	Y	59
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29621992
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfc59
+	ObjType	0x1415
+	Graphic	0x1415
+	X	75
+	Y	30
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622001
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfc7c
+	ObjType	0x1415
+	Graphic	0x1415
+	X	101
+	Y	49
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622010
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfc8a
+	ObjType	0x1415
+	Graphic	0x1415
+	X	81
+	Y	46
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622019
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfd43
+	ObjType	0x1415
+	Graphic	0x1415
+	X	101
+	Y	12
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622066
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfd74
+	ObjType	0x1415
+	Graphic	0x1415
+	X	73
+	Y	51
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622084
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfd8b
+	ObjType	0x1415
+	Graphic	0x1415
+	X	102
+	Y	56
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622093
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfd9e
+	ObjType	0x1415
+	Graphic	0x1415
+	X	114
+	Y	38
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622102
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfde0
+	ObjType	0x1415
+	Graphic	0x1415
+	X	116
+	Y	18
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622120
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfdee
+	ObjType	0x1415
+	Graphic	0x1415
+	X	64
+	Y	11
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622129
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfdfd
+	ObjType	0x1415
+	Graphic	0x1415
+	X	107
+	Y	20
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622138
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfe0c
+	ObjType	0x1415
+	Graphic	0x1415
+	X	51
+	Y	41
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622147
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfe19
+	ObjType	0x1415
+	Graphic	0x1415
+	X	88
+	Y	41
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622156
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfe27
+	ObjType	0x1415
+	Graphic	0x1415
+	X	66
+	Y	17
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622165
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate [Crafted by PeaceOfPeW]
+	Serial	0x6b3bfe39
+	ObjType	0x1415
+	Graphic	0x1415
+	X	118
+	Y	21
+	Z	0
+	CProp	BaseName s Breastplate [Crafted by PeaceOfPeW]
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	IsExceptional i1
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622174
+	BuyPrice	272
+	Quality	1.24
+	HP	86
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfe44
+	ObjType	0x1415
+	Graphic	0x1415
+	X	41
+	Y	22
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622183
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfe57
+	ObjType	0x1415
+	Graphic	0x1415
+	X	106
+	Y	14
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622192
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfe6a
+	ObjType	0x1415
+	Graphic	0x1415
+	X	71
+	Y	16
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622201
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfe7a
+	ObjType	0x1415
+	Graphic	0x1415
+	X	41
+	Y	41
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622210
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfe87
+	ObjType	0x1415
+	Graphic	0x1415
+	X	76
+	Y	25
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622219
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfe97
+	ObjType	0x1415
+	Graphic	0x1415
+	X	104
+	Y	49
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622229
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfeb8
+	ObjType	0x1415
+	Graphic	0x1415
+	X	83
+	Y	49
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622238
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfec4
+	ObjType	0x1415
+	Graphic	0x1415
+	X	89
+	Y	35
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622247
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfed6
+	ObjType	0x1415
+	Graphic	0x1415
+	X	109
+	Y	29
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622256
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfee3
+	ObjType	0x1415
+	Graphic	0x1415
+	X	52
+	Y	32
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622265
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfef2
+	ObjType	0x1415
+	Graphic	0x1415
+	X	63
+	Y	30
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622274
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bff05
+	ObjType	0x1415
+	Graphic	0x1415
+	X	49
+	Y	18
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622283
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bff10
+	ObjType	0x1415
+	Graphic	0x1415
+	X	103
+	Y	17
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622292
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bff33
+	ObjType	0x1415
+	Graphic	0x1415
+	X	77
+	Y	35
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622301
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bff5a
+	ObjType	0x1415
+	Graphic	0x1415
+	X	55
+	Y	11
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622310
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bff68
+	ObjType	0x1415
+	Graphic	0x1415
+	X	53
+	Y	59
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622319
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bffc0
+	ObjType	0x1415
+	Graphic	0x1415
+	X	100
+	Y	24
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622328
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bffeb
+	ObjType	0x1415
+	Graphic	0x1415
+	X	117
+	Y	43
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622337
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfffb
+	ObjType	0x1415
+	Graphic	0x1415
+	X	60
+	Y	13
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622346
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate [Crafted by PeaceOfPeW]
+	Serial	0x6b3c0012
+	ObjType	0x1415
+	Graphic	0x1415
+	X	92
+	Y	57
+	Z	0
+	CProp	BaseName s Breastplate [Crafted by PeaceOfPeW]
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	IsExceptional i1
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622355
+	BuyPrice	272
+	Quality	1.24
+	HP	86
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfdb0
+	ObjType	0x1415
+	Graphic	0x1415
+	X	115
+	Y	41
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622111
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Breastplate
+	Serial	0x6b3bfd64
+	ObjType	0x1415
+	Graphic	0x1415
+	X	98
+	Y	53
+	Z	0
+	CProp	BaseName s Breastplate
+	CProp	DefaultDex i-9
+	CProp	ForgedWith i24593
+	CProp	MagicPenalty i22
+	Container	0x6b23ead4
+	DecayAt	29622075
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b2957de
+	ObjType	0x100e
+	Graphic	0x100e
+	X	89
+	Y	28
+	Z	0
+	CProp	lockid i1126
+	Container	0x6b23ead4
+	DecayAt	29154717
+}
+
+Item
+{
+	Serial	0x6b29047d
+	ObjType	0xe40
+	Graphic	0xe40
+	X	141
+	Y	1470
+	Z	2
+	CProp	boxserial i1797850238
+	CProp	houseserial i1797317765
+	Movable	0
+	OnUseScript	:housing:securecont
+	DecayAt	29144429
+}
+
+Item
+{
+	Serial	0x6b29047e
+	ObjType	0xe40
+	Graphic	0xe40
+	X	142
+	Y	1470
+	Z	2
+	Container	0x6b29047d
+	DecayAt	29144429
+}
+
+Item
+{
+	Name	easfd
+	Serial	0x6b4d1844
+	ObjType	0x602c
+	Graphic	0x14f3
+	X	49
+	Y	118
+	Z	0
+	Container	0x6b29047e
+	DecayAt	30050512
+}
+
+Item
+{
+	Serial	0x6b249783
+	ObjType	0xe79
+	Graphic	0xe79
+	X	80
+	Y	127
+	Z	0
+	Container	0x6b29047e
+	DecayAt	29598387
+}
+
+Item
+{
+	Name	Dagger
+	Serial	0x6b215619
+	ObjType	0xf51
+	Graphic	0xf51
+	X	33
+	Y	35
+	Z	0
+	CProp	BaseName s Dagger
+	CProp	ForgedWith i24593
+	Container	0x6b249783
+	DecayAt	29577807
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Shovel
+	Serial	0x6b2b1667
+	ObjType	0xf39
+	Graphic	0xf39
+	X	54
+	Y	44
+	Z	0
+	CProp	BaseName sShovel
+	Container	0x6b249783
+	DecayAt	29194477
+}
+
+Item
+{
+	Name	Shovel
+	Serial	0x6b2b16bc
+	ObjType	0xf39
+	Graphic	0xf39
+	X	28
+	Y	44
+	Z	0
+	CProp	BaseName sShovel
+	Container	0x6b249783
+	DecayAt	29194513
+}
+
+Item
+{
+	Name	Shovel
+	Serial	0x6b2b165a
+	ObjType	0xf39
+	Graphic	0xf39
+	X	36
+	Y	42
+	Z	0
+	CProp	BaseName sShovel
+	Container	0x6b249783
+	DecayAt	29194468
+}
+
+Item
+{
+	Name	Shovel
+	Serial	0x6b2b1704
+	ObjType	0xf39
+	Graphic	0xf39
+	X	24
+	Y	50
+	Z	0
+	CProp	BaseName sShovel
+	Container	0x6b249783
+	DecayAt	29194549
+}
+
+Item
+{
+	Name	Shovel
+	Serial	0x6b2b16dd
+	ObjType	0xf39
+	Graphic	0xf39
+	X	33
+	Y	28
+	Z	0
+	CProp	BaseName sShovel
+	Container	0x6b249783
+	DecayAt	29194531
+}
+
+Item
+{
+	Name	Shovel
+	Serial	0x6b2b1692
+	ObjType	0xf39
+	Graphic	0xf39
+	X	56
+	Y	21
+	Z	0
+	CProp	BaseName sShovel
+	Container	0x6b249783
+	DecayAt	29194495
+}
+
+Item
+{
+	Name	Shovel
+	Serial	0x6b2b16d1
+	ObjType	0xf39
+	Graphic	0xf39
+	X	43
+	Y	26
+	Z	0
+	CProp	BaseName sShovel
+	Container	0x6b249783
+	DecayAt	29194522
+}
+
+Item
+{
+	Name	Shovel
+	Serial	0x6b2b167a
+	ObjType	0xf39
+	Graphic	0xf39
+	X	26
+	Y	34
+	Z	0
+	CProp	BaseName sShovel
+	Container	0x6b249783
+	DecayAt	29194486
+}
+
+Item
+{
+	Name	Shovel
+	Serial	0x6b2b16ef
+	ObjType	0xf39
+	Graphic	0xf39
+	X	45
+	Y	23
+	Z	0
+	CProp	BaseName sShovel
+	Container	0x6b249783
+	DecayAt	29194540
+}
+
+Item
+{
+	Name	Shovel
+	Serial	0x6b2b16a1
+	ObjType	0xf39
+	Graphic	0xf39
+	X	51
+	Y	65
+	Z	0
+	CProp	BaseName sShovel
+	Container	0x6b249783
+	DecayAt	29194504
+}
+
+Item
+{
+	Serial	0x6b1c8d95
+	ObjType	0xf10
+	Graphic	0xf10
+	X	50
+	Y	57
+	Z	0
+	Container	0x6b249783
+	DecayAt	28981132
+}
+
+Item
+{
+	Serial	0x6b24977e
+	ObjType	0xe79
+	Graphic	0xe79
+	X	50
+	Y	57
+	Z	0
+	Container	0x6b249783
+	DecayAt	29464651
+}
+
+Item
+{
+	Name	a Cloak
+	Serial	0x6b2db0d3
+	ObjType	0x1515
+	Graphic	0x1515
+	Color	0x66d
+	X	100
+	Y	99
+	Z	0
+	Layer	20
+	Container	0x6b24977e
+	DecayAt	29354634
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b2db196
+	ObjType	0x1f03
+	Graphic	0x1f03
+	Color	0x66d
+	X	44
+	Y	81
+	Z	0
+	Layer	22
+	Container	0x6b24977e
+	DecayAt	29354626
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b2db18d
+	ObjType	0x1515
+	Graphic	0x1515
+	Color	0x66d
+	X	69
+	Y	65
+	Z	0
+	Layer	20
+	Container	0x6b24977e
+	DecayAt	29354624
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	a Body Sash
+	Serial	0x6b2db190
+	ObjType	0x1541
+	Graphic	0x1541
+	Color	0x20
+	X	44
+	Y	65
+	Z	0
+	Layer	17
+	Container	0x6b24977e
+	DecayAt	29354565
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b20e608
+	ObjType	0xe76
+	Graphic	0xe76
+	X	20
+	Y	34
+	Z	0
+	Container	0x6b249783
+	DecayAt	29123374
+}
+
+Item
+{
+	Name	Leather Gorget of Guarding
+	Serial	0x6b1fa926
+	ObjType	0x13c7
+	Graphic	0x13c7
+	X	51
+	Y	56
+	Z	0
+	CProp	IDed i1
+	Layer	10
+	Container	0x6b20e608
+	DecayAt	28851852
+	Quality	1
+	HP	70
+	AR_mod	10
+}
+
+Item
+{
+	Name	Leather Gorget of Guarding
+	Serial	0x6b1de569
+	ObjType	0x13c7
+	Graphic	0x13c7
+	X	42
+	Y	72
+	Z	0
+	CProp	IDed i1
+	Container	0x6b20e608
+	DecayAt	29453797
+	Quality	1
+	HP	70
+	AR_mod	10
+}
+
+Item
+{
+	Name	Journeyman Channeler's Leather Boots
+	Serial	0x6b33d80a
+	ObjType	0x170b
+	Graphic	0x170b
+	Color	0x21a
+	X	78
+	Y	71
+	Z	0
+	CProp	EnchantColor i538
+	CProp	IDed i1
+	CProp	Undyeable i1
+	CProp	skilladv i32
+	CProp	skilladvamount i2
+	Layer	3
+	Container	0x6b20e608
+	DecayAt	29453747
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	Necklace of Magical Amplification
+	Serial	0x6b345bef
+	ObjType	0x1085
+	Graphic	0x1085
+	X	72
+	Y	64
+	Z	0
+	CProp	Cursed i3
+	CProp	IDed i1
+	CProp	MagicImmunity i15
+	Container	0x6b20e608
+	DecayAt	29453990
+}
+
+Item
+{
+	Serial	0x6b248720
+	ObjType	0xe75
+	Graphic	0xe75
+	X	65
+	Y	65
+	Z	0
+	Container	0x6b249783
+	DecayAt	29123376
+}
+
+Item
+{
+	Serial	0x6b24861b
+	ObjType	0x97f
+	Graphic	0x97f
+	X	63
+	Y	95
+	Z	0
+	Container	0x6b248720
+	DecayAt	29022075
+}
+
+Item
+{
+	Serial	0x6ae251a7
+	ObjType	0x97f
+	Graphic	0x97f
+	X	68
+	Y	117
+	Z	0
+	Container	0x6b248720
+	DecayAt	25410290
+}
+
+Item
+{
+	Serial	0x6b100c36
+	ObjType	0x1011
+	Graphic	0x1011
+	X	104
+	Y	85
+	Z	0
+	Container	0x6b248720
+	DecayAt	28219097
+}
+
+Item
+{
+	Serial	0x6b100c37
+	ObjType	0x1011
+	Graphic	0x1011
+	X	105
+	Y	106
+	Z	0
+	Container	0x6b248720
+	DecayAt	28219097
+}
+
+Item
+{
+	Serial	0x6b67002f
+	ObjType	0xda10
+	Graphic	0x91a
+	X	18
+	Y	135
+	Z	0
+	Container	0x6b29047e
+	DecayAt	30598380
+}
+
+Item
+{
+	Serial	0x6b670031
+	ObjType	0xda10
+	Graphic	0x91a
+	X	41
+	Y	135
+	Z	0
+	Container	0x6b29047e
+	DecayAt	30598296
+}
+
+Item
+{
+	Serial	0x6b67002d
+	ObjType	0xda10
+	Graphic	0x91a
+	X	28
+	Y	135
+	Z	0
+	Container	0x6b29047e
+	DecayAt	30598296
+}
+
+Item
+{
+	Serial	0x6b670030
+	ObjType	0xda10
+	Graphic	0x91a
+	X	32
+	Y	135
+	Z	0
+	Container	0x6b29047e
+	DecayAt	30598296
+}
+
+Item
+{
+	Serial	0x6b67002e
+	ObjType	0xda10
+	Graphic	0x91a
+	X	23
+	Y	135
+	Z	0
+	Container	0x6b29047e
+	DecayAt	30598376
+}
+
+Item
+{
+	Serial	0x6b67002c
+	ObjType	0xda10
+	Graphic	0x91a
+	X	30
+	Y	133
+	Z	0
+	Container	0x6b29047e
+	DecayAt	30598296
+}
+
+Item
+{
+	Serial	0x6b67002a
+	ObjType	0xda10
+	Graphic	0x91a
+	X	21
+	Y	135
+	Z	0
+	Container	0x6b29047e
+	DecayAt	30598296
+}
+
+Item
+{
+	Serial	0x6b67002b
+	ObjType	0xda10
+	Graphic	0x91a
+	X	26
+	Y	135
+	Z	0
+	Container	0x6b29047e
+	DecayAt	30598382
+}
+
+Item
+{
+	Serial	0x6b670032
+	ObjType	0xda10
+	Graphic	0x91a
+	X	24
+	Y	129
+	Z	0
+	Container	0x6b29047e
+	DecayAt	30598386
+}
+
+Item
+{
+	Name	deed for : Oak Table
+	Serial	0x6b8266dc
+	ObjType	0xbc20
+	Graphic	0x14f0
+	Color	0x415
+	X	55
+	Y	137
+	Z	0
+	CProp	ItemBaseName sOak Table
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153028
+}
+
+Item
+{
+	Name	deed for : Cherry Bench
+	Serial	0x6b82670c
+	ObjType	0xbc0a
+	Graphic	0x14f0
+	Color	0x654
+	X	112
+	Y	107
+	Z	0
+	CProp	ItemBaseName sCherry Bench
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153042
+}
+
+Item
+{
+	Name	deed for : Cherry Bench
+	Serial	0x6b826708
+	ObjType	0xbc0a
+	Graphic	0x14f0
+	Color	0x654
+	X	118
+	Y	105
+	Z	0
+	CProp	ItemBaseName sCherry Bench
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153041
+}
+
+Item
+{
+	Name	deed for : Cherry Bench
+	Serial	0x6b826704
+	ObjType	0xbc0a
+	Graphic	0x14f0
+	Color	0x654
+	X	115
+	Y	105
+	Z	0
+	CProp	ItemBaseName sCherry Bench
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153040
+}
+
+Item
+{
+	Name	deed for : Cherry Bench
+	Serial	0x6b826703
+	ObjType	0xbc0a
+	Graphic	0x14f0
+	Color	0x654
+	X	116
+	Y	105
+	Z	0
+	CProp	ItemBaseName sCherry Bench
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153039
+}
+
+Item
+{
+	Name	deed for : Cherry Bench
+	Serial	0x6b826700
+	ObjType	0xbc0a
+	Graphic	0x14f0
+	Color	0x654
+	X	111
+	Y	105
+	Z	0
+	CProp	ItemBaseName sCherry Bench
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153038
+}
+
+Item
+{
+	Name	deed for : Cherry Bench
+	Serial	0x6b826761
+	ObjType	0xbc0a
+	Graphic	0x14f0
+	Color	0x654
+	X	114
+	Y	105
+	Z	0
+	CProp	ItemBaseName sCherry Bench
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153066
+}
+
+Item
+{
+	Name	deed for : Cherry Bench
+	Serial	0x6b826776
+	ObjType	0xbc0a
+	Graphic	0x14f0
+	Color	0x654
+	X	106
+	Y	105
+	Z	0
+	CProp	ItemBaseName sCherry Bench
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153072
+}
+
+Item
+{
+	Name	deed for : Cherry Bench
+	Serial	0x6b82677c
+	ObjType	0xbc0a
+	Graphic	0x14f0
+	Color	0x654
+	X	115
+	Y	105
+	Z	0
+	CProp	ItemBaseName sCherry Bench
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153073
+}
+
+Item
+{
+	Name	deed for : Cherry Bench
+	Serial	0x6b82675d
+	ObjType	0xbc0a
+	Graphic	0x14f0
+	Color	0x654
+	X	113
+	Y	105
+	Z	0
+	CProp	ItemBaseName sCherry Bench
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153065
+}
+
+Item
+{
+	Name	deed for : Cherry Bench
+	Serial	0x6b826772
+	ObjType	0xbc0a
+	Graphic	0x14f0
+	Color	0x654
+	X	111
+	Y	105
+	Z	0
+	CProp	ItemBaseName sCherry Bench
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153071
+}
+
+Item
+{
+	Name	deed for : Cherry Bench
+	Serial	0x6b82676d
+	ObjType	0xbc0a
+	Graphic	0x14f0
+	Color	0x654
+	X	102
+	Y	105
+	Z	0
+	CProp	ItemBaseName sCherry Bench
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153070
+}
+
+Item
+{
+	Name	deed for : Cherry Bench
+	Serial	0x6b826755
+	ObjType	0xbc0a
+	Graphic	0x14f0
+	Color	0x654
+	X	112
+	Y	105
+	Z	0
+	CProp	ItemBaseName sCherry Bench
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153063
+}
+
+Item
+{
+	Name	deed for : Cherry Bench
+	Serial	0x6b82676f
+	ObjType	0xbc0a
+	Graphic	0x14f0
+	Color	0x654
+	X	106
+	Y	105
+	Z	0
+	CProp	ItemBaseName sCherry Bench
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153070
+}
+
+Item
+{
+	Name	deed for : Cherry Bench
+	Serial	0x6b826766
+	ObjType	0xbc0a
+	Graphic	0x14f0
+	Color	0x654
+	X	109
+	Y	105
+	Z	0
+	CProp	ItemBaseName sCherry Bench
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153067
+}
+
+Item
+{
+	Name	deed for : Cherry Bench
+	Serial	0x6b826758
+	ObjType	0xbc0a
+	Graphic	0x14f0
+	Color	0x654
+	X	110
+	Y	105
+	Z	0
+	CProp	ItemBaseName sCherry Bench
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31153064
+}
+
+Item
+{
+	Name	deed for : Oak Table
+	Serial	0x6b82730f
+	ObjType	0xbc20
+	Graphic	0x14f0
+	Color	0x415
+	X	59
+	Y	136
+	Z	0
+	CProp	ItemBaseName sOak Table
+	CProp	ItemQuality u
+	Container	0x6b29047e
+	DecayAt	31154187
+}
+
+Item
+{
+	Serial	0x6b20e60d
+	ObjType	0xe76
+	Graphic	0xe76
+	X	141
+	Y	1462
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	29144484
+}
+
+Item
+{
+	Serial	0x6b20e3f0
+	ObjType	0x100f
+	Graphic	0x100f
+	X	43
+	Y	20
+	Z	0
+	CProp	lockid i1087
+	Container	0x6b20e60d
+	DecayAt	28902406
+}
+
+Item
+{
+	Serial	0x6b20e43f
+	ObjType	0x100f
+	Graphic	0x100f
+	X	58
+	Y	28
+	Z	0
+	CProp	lockid i1088
+	Container	0x6b20e60d
+	DecayAt	28902299
+}
+
+Item
+{
+	Serial	0x6b20e0f1
+	ObjType	0x100f
+	Graphic	0x100f
+	X	48
+	Y	38
+	Z	0
+	CProp	lockid i1086
+	Container	0x6b20e60d
+	DecayAt	28902566
+}
+
+Item
+{
+	Serial	0x6b20c443
+	ObjType	0x1f03
+	Graphic	0x1f03
+	X	81
+	Y	72
+	Z	0
+	Layer	22
+	Container	0x6b20e60d
+	DecayAt	28893529
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b249297
+	ObjType	0x97e
+	Graphic	0x97e
+	X	145
+	Y	1461
+	Z	22
+	Amount	110
+	DecayAt	29787067
+}
+
+Item
+{
+	Serial	0x6b4a8791
+	ObjType	0xf13
+	Graphic	0xf13
+	X	141
+	Y	1467
+	Z	22
+	DecayAt	29970097
+}
+
+Item
+{
+	Serial	0x6b4a8794
+	ObjType	0xf11
+	Graphic	0xf11
+	X	141
+	Y	1467
+	Z	22
+	Amount	3
+	DecayAt	29970097
+}
+
+Item
+{
+	Serial	0x6b51ebd7
+	ObjType	0x80ce
+	Graphic	0xfc6
+	Color	0x606
+	X	141
+	Y	1464
+	Z	42
+	CProp	st i3
+	DecayAt	30169702
+}
+
+Item
+{
+	Serial	0x6b609892
+	ObjType	0xd38
+	Graphic	0xd38
+	X	142
+	Y	1465
+	Z	2
+	DecayAt	30458588
+}
+
+Item
+{
+	Serial	0x6b109d23
+	ObjType	0xd38
+	Graphic	0xd38
+	X	142
+	Y	1464
+	Z	2
+	DecayAt	30458599
+}
+
+Item
+{
+	Serial	0x6b609894
+	ObjType	0xd38
+	Graphic	0xd38
+	X	142
+	Y	1463
+	Z	2
+	DecayAt	30458602
+}
+
+Item
+{
+	Serial	0x6b11dae8
+	ObjType	0xd38
+	Graphic	0xd38
+	X	143
+	Y	1466
+	Z	2
+	DecayAt	30458839
+}
+
+Item
+{
+	Serial	0x6b11db17
+	ObjType	0xd38
+	Graphic	0xd38
+	X	142
+	Y	1466
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30459587
+}
+
+Item
+{
+	Serial	0x6b109d25
+	ObjType	0xd38
+	Graphic	0xd38
+	X	142
+	Y	1466
+	Z	42
+	DecayAt	30459630
+}
+
+Item
+{
+	Serial	0x6b11db18
+	ObjType	0xd38
+	Graphic	0xd38
+	X	142
+	Y	1465
+	Z	42
+	DecayAt	30459649
+}
+
+Item
+{
+	Serial	0x6b609015
+	ObjType	0xd38
+	Graphic	0xd38
+	X	142
+	Y	1464
+	Z	42
+	DecayAt	30459653
+}
+
+Item
+{
+	Serial	0x6b60b0ea
+	ObjType	0xd38
+	Graphic	0xd38
+	X	142
+	Y	1463
+	Z	42
+	DecayAt	30459658
+}
+
+Item
+{
+	Serial	0x6b609893
+	ObjType	0xd38
+	Graphic	0xd38
+	X	143
+	Y	1466
+	Z	42
+	DecayAt	30459695
+}
+
+Item
+{
+	Serial	0x6b60b0ec
+	ObjType	0xd38
+	Graphic	0xd38
+	X	143
+	Y	1465
+	Z	42
+	DecayAt	30459704
+}
+
+Item
+{
+	Serial	0x6b60b0eb
+	ObjType	0xd38
+	Graphic	0xd38
+	X	143
+	Y	1464
+	Z	42
+	DecayAt	30459711
+}
+
+Item
+{
+	Serial	0x6b60cf03
+	ObjType	0xd38
+	Graphic	0xd38
+	X	144
+	Y	1466
+	Z	42
+	DecayAt	30461478
+}
+
+Item
+{
+	Serial	0x6b62fbc8
+	ObjType	0xd38
+	Graphic	0xd38
+	X	142
+	Y	1465
+	Z	22
+	DecayAt	30526996
+}
+
+Item
+{
+	Serial	0x6b62f53a
+	ObjType	0xd38
+	Graphic	0xd38
+	X	142
+	Y	1464
+	Z	22
+	DecayAt	30527003
+}
+
+Item
+{
+	Serial	0x6b62fbc9
+	ObjType	0xd38
+	Graphic	0xd38
+	X	142
+	Y	1463
+	Z	22
+	DecayAt	30527013
+}
+
+Item
+{
+	Serial	0x6b60d4d8
+	ObjType	0x7302
+	Graphic	0x1bdd
+	Color	0x415
+	X	144
+	Y	1461
+	Z	22
+	Amount	510
+	DecayAt	30527407
+}
+
+Item
+{
+	Serial	0x6b63eb41
+	ObjType	0xd38
+	Graphic	0xd38
+	X	142
+	Y	1462
+	Z	22
+	DecayAt	30551650
+}
+
+Item
+{
+	Serial	0x6b4a878f
+	ObjType	0xf8c
+	Graphic	0xf8c
+	X	143
+	Y	1468
+	Z	22
+	Amount	4
+	DecayAt	30596866
+}
+
+Item
+{
+	Serial	0x6b4a878e
+	ObjType	0xf7b
+	Graphic	0xf7b
+	X	142
+	Y	1467
+	Z	22
+	Amount	6
+	DecayAt	30596870
+}
+
+Item
+{
+	Serial	0x6b20fcb5
+	ObjType	0x9d5
+	Graphic	0x9d5
+	X	141
+	Y	1459
+	Z	42
+	DecayAt	30596942
+}
+
+Item
+{
+	Serial	0x6b20fcd6
+	ObjType	0x9d4
+	Graphic	0x9d4
+	X	144
+	Y	1460
+	Z	42
+	DecayAt	30596945
+}
+
+Item
+{
+	Serial	0x6b20fc27
+	ObjType	0x6004
+	Graphic	0x14ed
+	X	144
+	Y	1460
+	Z	42
+	DecayAt	30597547
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Serial	0x6b62f537
+	ObjType	0xd38
+	Graphic	0xd38
+	X	142
+	Y	1462
+	Z	42
+	DecayAt	30597874
+}
+
+Item
+{
+	Serial	0x6b60cf5a
+	ObjType	0xd38
+	Graphic	0xd38
+	X	143
+	Y	1463
+	Z	42
+	DecayAt	30597879
+}
+
+Item
+{
+	Serial	0x6b60cf59
+	ObjType	0xd38
+	Graphic	0xd38
+	X	143
+	Y	1462
+	Z	42
+	DecayAt	30597882
+}
+
+Item
+{
+	Serial	0x6b60b0e9
+	ObjType	0xd38
+	Graphic	0xd38
+	X	144
+	Y	1465
+	Z	42
+	DecayAt	30597892
+}
+
+Item
+{
+	Serial	0x6b62f539
+	ObjType	0xd38
+	Graphic	0xd38
+	X	144
+	Y	1464
+	Z	42
+	DecayAt	30597896
+}
+
+Item
+{
+	Serial	0x6b64f0be
+	ObjType	0xd38
+	Graphic	0xd38
+	X	144
+	Y	1463
+	Z	42
+	DecayAt	30597903
+}
+
+Item
+{
+	Serial	0x6b60cf5c
+	ObjType	0xd38
+	Graphic	0xd38
+	X	144
+	Y	1462
+	Z	42
+	DecayAt	30597907
+}
+
+Item
+{
+	Serial	0x6b66f4b5
+	ObjType	0xd38
+	Graphic	0xd38
+	X	145
+	Y	1466
+	Z	42
+	DecayAt	30597919
+}
+
+Item
+{
+	Serial	0x6b61e31f
+	ObjType	0xd38
+	Graphic	0xd38
+	X	145
+	Y	1465
+	Z	42
+	DecayAt	30597925
+}
+
+Item
+{
+	Serial	0x6b60cf5b
+	ObjType	0xd38
+	Graphic	0xd38
+	X	145
+	Y	1464
+	Z	42
+	DecayAt	30597928
+}
+
+Item
+{
+	Serial	0x6b1033a2
+	ObjType	0xd38
+	Graphic	0xd38
+	X	145
+	Y	1463
+	Z	42
+	DecayAt	30597933
+}
+
+Item
+{
+	Serial	0x6b646a0d
+	ObjType	0xd38
+	Graphic	0xd38
+	X	145
+	Y	1462
+	Z	42
+	DecayAt	30597936
+}
+
+Item
+{
+	Serial	0x6b62f538
+	ObjType	0xd38
+	Graphic	0xd38
+	X	146
+	Y	1466
+	Z	42
+	DecayAt	30598027
+}
+
+Item
+{
+	Serial	0x6b66f4b2
+	ObjType	0xd38
+	Graphic	0xd38
+	X	146
+	Y	1465
+	Z	42
+	DecayAt	30598032
+}
+
+Item
+{
+	Serial	0x6b66f4b3
+	ObjType	0xd38
+	Graphic	0xd38
+	X	146
+	Y	1464
+	Z	42
+	DecayAt	30598035
+}
+
+Item
+{
+	Serial	0x6b66f4b4
+	ObjType	0xd38
+	Graphic	0xd38
+	X	146
+	Y	1463
+	Z	42
+	DecayAt	30598040
+}
+
+Item
+{
+	Serial	0x6ae39b1f
+	ObjType	0xc83
+	Graphic	0xc83
+	X	141
+	Y	1471
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30599885
+}
+
+Item
+{
+	Serial	0x6b671565
+	ObjType	0xc83
+	Graphic	0xc83
+	X	142
+	Y	1471
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30599888
+}
+
+Item
+{
+	Serial	0x6b671563
+	ObjType	0xc83
+	Graphic	0xc83
+	X	143
+	Y	1471
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30599890
+}
+
+Item
+{
+	Serial	0x6b671562
+	ObjType	0xc83
+	Graphic	0xc83
+	X	146
+	Y	1471
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30600561
+}
+
+Item
+{
+	Serial	0x6b671564
+	ObjType	0xc83
+	Graphic	0xc83
+	X	145
+	Y	1471
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30600563
+}
+
+Item
+{
+	Serial	0x6b670c47
+	ObjType	0xc83
+	Graphic	0xc83
+	X	144
+	Y	1471
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30600565
+}
+
+Item
+{
+	Serial	0x6b670c48
+	ObjType	0xc83
+	Graphic	0xc83
+	X	146
+	Y	1470
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30600613
+}
+
+Item
+{
+	Serial	0x6b670ce6
+	ObjType	0xd38
+	Graphic	0xd38
+	X	146
+	Y	1462
+	Z	42
+	DecayAt	30600656
+}
+
+Item
+{
+	Serial	0x6b63c6dd
+	ObjType	0xd38
+	Graphic	0xd38
+	X	143
+	Y	1463
+	Z	22
+	DecayAt	30601881
+}
+
+Item
+{
+	Serial	0x6b6731e7
+	ObjType	0xc83
+	Graphic	0xc83
+	X	145
+	Y	1470
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30602065
+}
+
+Item
+{
+	Serial	0x6b6731e5
+	ObjType	0xc83
+	Graphic	0xc83
+	X	144
+	Y	1470
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30602069
+}
+
+Item
+{
+	Serial	0x6b6731e8
+	ObjType	0xc83
+	Graphic	0xc83
+	X	143
+	Y	1470
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30602071
+}
+
+Item
+{
+	Serial	0x6b6731e6
+	ObjType	0xc83
+	Graphic	0xc83
+	X	142
+	Y	1470
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30602077
+}
+
+Item
+{
+	Serial	0x6b673194
+	ObjType	0xc83
+	Graphic	0xc83
+	X	142
+	Y	1469
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30602083
+}
+
+Item
+{
+	Serial	0x6b67504f
+	ObjType	0xc83
+	Graphic	0xc83
+	X	143
+	Y	1469
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30604345
+}
+
+Item
+{
+	Serial	0x6b675091
+	ObjType	0xc83
+	Graphic	0xc83
+	X	144
+	Y	1469
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30604348
+}
+
+Item
+{
+	Serial	0x6b675092
+	ObjType	0xc83
+	Graphic	0xc83
+	X	145
+	Y	1469
+	Z	2
+	CProp	lockeddown i1
+	Movable	0
+	DecayAt	30604353
+}
+
+Item
+{
+	Serial	0x6b646a0c
+	ObjType	0xd38
+	Graphic	0xd38
+	X	143
+	Y	1465
+	Z	2
+	DecayAt	30613774
+}
+
+Item
+{
+	Serial	0x6b11db16
+	ObjType	0xd38
+	Graphic	0xd38
+	X	143
+	Y	1464
+	Z	2
+	DecayAt	30613816
+}
+
+Item
+{
+	Serial	0x6b11db15
+	ObjType	0xd38
+	Graphic	0xd38
+	X	143
+	Y	1463
+	Z	2
+	DecayAt	30613819
+}
+
+Item
+{
+	Serial	0x6b609891
+	ObjType	0xd38
+	Graphic	0xd38
+	X	144
+	Y	1466
+	Z	2
+	DecayAt	30613828
+}
+
+Item
+{
+	Serial	0x6b109d24
+	ObjType	0xd38
+	Graphic	0xd38
+	X	144
+	Y	1465
+	Z	2
+	DecayAt	30613830
+}
+
+Item
+{
+	Serial	0x6b6468f2
+	ObjType	0xd38
+	Graphic	0xd38
+	X	144
+	Y	1464
+	Z	2
+	DecayAt	30613834
+}
+
+Item
+{
+	Serial	0x6b109d22
+	ObjType	0xd38
+	Graphic	0xd38
+	X	144
+	Y	1463
+	Z	2
+	DecayAt	30613836
+}
+
+Item
+{
+	Serial	0x6b646a0f
+	ObjType	0xd38
+	Graphic	0xd38
+	X	145
+	Y	1466
+	Z	2
+	DecayAt	30613841
+}
+
+Item
+{
+	Serial	0x6b60b0b6
+	ObjType	0xd38
+	Graphic	0xd38
+	X	145
+	Y	1465
+	Z	2
+	DecayAt	30613849
+}
+
+Item
+{
+	Serial	0x6b6731e2
+	ObjType	0xd38
+	Graphic	0xd38
+	X	145
+	Y	1464
+	Z	2
+	DecayAt	30614530
+}
+
+Item
+{
+	Serial	0x6b6731e3
+	ObjType	0xd38
+	Graphic	0xd38
+	X	145
+	Y	1463
+	Z	2
+	DecayAt	30614533
+}
+
+Item
+{
+	Serial	0x6b6731e1
+	ObjType	0xd38
+	Graphic	0xd38
+	X	146
+	Y	1466
+	Z	2
+	DecayAt	30614536
+}
+
+Item
+{
+	Serial	0x6b675090
+	ObjType	0xd38
+	Graphic	0xd38
+	X	146
+	Y	1465
+	Z	2
+	DecayAt	30614540
+}
+
+Item
+{
+	Serial	0x6b67508f
+	ObjType	0xd38
+	Graphic	0xd38
+	X	146
+	Y	1464
+	Z	2
+	DecayAt	30614554
+}
+
+Item
+{
+	Serial	0x6b673195
+	ObjType	0xd38
+	Graphic	0xd38
+	X	146
+	Y	1463
+	Z	2
+	DecayAt	30614557
+}
+
+Item
+{
+	Serial	0x6b67155e
+	ObjType	0xd38
+	Graphic	0xd38
+	X	143
+	Y	1462
+	Z	22
+	DecayAt	30614617
+}
+
+Item
+{
+	Serial	0x6b67155f
+	ObjType	0xd38
+	Graphic	0xd38
+	X	144
+	Y	1463
+	Z	22
+	DecayAt	30614634
+}
+
+Item
+{
+	Serial	0x6b675053
+	ObjType	0xd38
+	Graphic	0xd38
+	X	144
+	Y	1462
+	Z	22
+	DecayAt	30614638
+}
+
+Item
+{
+	Serial	0x6b63c6da
+	ObjType	0xd38
+	Graphic	0xd38
+	X	142
+	Y	1466
+	Z	22
+	DecayAt	30796276
+}
+
+Item
+{
+	Serial	0x6b60d302
+	ObjType	0xf90
+	Graphic	0xf90
+	X	143
+	Y	1469
+	Z	22
+	Amount	3637
+	DecayAt	30796574
+}
+
+Item
+{
+	Serial	0x6b671561
+	ObjType	0xd38
+	Graphic	0xd38
+	X	143
+	Y	1464
+	Z	22
+	DecayAt	30796903
+}
+
+Item
+{
+	Serial	0x6b62fbca
+	ObjType	0xd38
+	Graphic	0xd38
+	X	143
+	Y	1465
+	Z	22
+	DecayAt	30796925
+}
+
+Item
+{
+	Serial	0x6b63eb40
+	ObjType	0xd38
+	Graphic	0xd38
+	X	143
+	Y	1466
+	Z	22
+	DecayAt	30796960
+}
+
+Item
+{
+	Serial	0x6b798669
+	ObjType	0xe40
+	Graphic	0xe40
+	X	148
+	Y	1464
+	Z	2
+	CProp	boxserial i1803126378
+	CProp	houseserial i1797317765
+	Movable	0
+	OnUseScript	:housing:securecont
+	DecayAt	30951398
+}
+
+Item
+{
+	Serial	0x6b79866a
+	ObjType	0xe40
+	Graphic	0xe40
+	X	149
+	Y	1464
+	Z	2
+	Container	0x6b798669
+	DecayAt	30951398
+}
+
+Item
+{
+	Serial	0x6b6765dc
+	ObjType	0xb200
+	Graphic	0xf3f
+	Color	0x492
+	X	52
+	Y	123
+	Z	0
+	Amount	153
+	Container	0x6b79866a
+	DecayAt	30605836
+}
+
+Item
+{
+	Serial	0x6b781687
+	ObjType	0x6051
+	Graphic	0xf3f
+	Color	0x494
+	X	83
+	Y	130
+	Z	0
+	Amount	208
+	Container	0x6b79866a
+	DecayAt	30914137
+}
+
+Item
+{
+	Serial	0x6b6765da
+	ObjType	0x1bfb
+	Graphic	0x1bfb
+	X	89
+	Y	127
+	Z	0
+	Amount	261
+	Container	0x6b79866a
+	DecayAt	30605836
+}
+
+Item
+{
+	Name	magic Ringmail Leggings
+	Serial	0x6b77f76e
+	ObjType	0x13f0
+	Graphic	0x13f0
+	X	88
+	Y	131
+	Z	0
+	CProp	DefaultDex i-2
+	CProp	MagicPenalty i6
+	CProp	UnIDedMagicalItem i1
+	CProp	skilladv i26
+	CProp	skilladvamount i2
+	Container	0x6b79866a
+	DecayAt	30911641
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Name	a Leather Skirt
+	Serial	0x6b77f7e3
+	ObjType	0x1c08
+	Graphic	0x1c08
+	X	109
+	Y	144
+	Z	0
+	CProp	DefaultDex i-1
+	CProp	MagicPenalty i2
+	Container	0x6b79866a
+	DecayAt	30911675
+	Quality	1
+	HP	70
+}
+
+Item
+{
+	Serial	0x6b780de3
+	ObjType	0xf8e
+	Graphic	0xf8e
+	X	113
+	Y	124
+	Z	0
+	Amount	15
+	Container	0x6b79866a
+	DecayAt	30913516
+}
+
+Item
+{
+	Serial	0x6b781689
+	ObjType	0x824e
+	Graphic	0x1bfb
+	Color	0x502
+	X	46
+	Y	139
+	Z	0
+	Amount	7
+	Container	0x6b79866a
+	DecayAt	30914137
+}
+
+Item
+{
+	Serial	0x6b6765db
+	ObjType	0xf3f
+	Graphic	0xf3f
+	X	74
+	Y	139
+	Z	0
+	Amount	98
+	Container	0x6b79866a
+	DecayAt	30605836
+}
+
+Item
+{
+	Name	Massive Slime Hunter's Leather Gorget
+	Serial	0x6b41d9a7
+	ObjType	0x13c7
+	Graphic	0x13c7
+	X	104
+	Y	140
+	Z	0
+	CProp	IDed i1
+	CProp	OnHitScript s:combat:raceresistonhit
+	CProp	OnHitscriptNumber i19
+	CProp	ProtectedType sSlime
+	Layer	10
+	Container	0x6b79866a
+	DecayAt	29775197
+	Quality	1
+	HP	92
+	maxhp_mod	30
+}
+
+Item
+{
+	Serial	0x6b78244b
+	ObjType	0x9cd
+	Graphic	0x9cd
+	X	44
+	Y	134
+	Z	0
+	Container	0x6b79866a
+	DecayAt	30915294
+}
+
+Item
+{
+	Serial	0x6b7824ea
+	ObjType	0x9ce
+	Graphic	0x9ce
+	X	67
+	Y	128
+	Z	0
+	Container	0x6b79866a
+	DecayAt	30915336
+}
+
+Item
+{
+	Serial	0x6b62f71f
+	ObjType	0xe21
+	Graphic	0xe21
+	X	111
+	Y	109
+	Z	0
+	Amount	86
+	Container	0x6b79866a
+	DecayAt	30525933
+}
+
+Item
+{
+	Name	a magic Repeating Crossbow
+	Serial	0x6b77ef10
+	ObjType	0x26c3
+	Graphic	0x26c3
+	X	46
+	Y	128
+	Z	0
+	CProp	UnIDedMagicalItem i1
+	CProp	skilladv u
+	CProp	skilladvamount i3
+	Container	0x6b79866a
+	DecayAt	30910961
+	Quality	1
+	HP	75
+	maxhp_mod	30
+}
+
+Item
+{
+	Serial	0x6b676906
+	ObjType	0x824e
+	Graphic	0x1bfb
+	Color	0x502
+	X	67
+	Y	118
+	Z	0
+	Amount	37
+	Container	0x6b79866a
+	DecayAt	30606028
+}
+
+Item
+{
+	Name	Fortified Studded Gloves of Fortification
+	Serial	0x6b41d9aa
+	ObjType	0x13d5
+	Graphic	0x13d5
+	X	88
+	Y	112
+	Z	0
+	CProp	IDed i1
+	CProp	MagicPenalty i1
+	Container	0x6b79866a
+	DecayAt	29775197
+	Quality	1
+	HP	99
+	maxhp_mod	40
+	AR_mod	20
+}
+
+Item
+{
+	Name	Long Pants
+	Serial	0x6b4cbb95
+	ObjType	0x1539
+	Graphic	0x1539
+	Color	0x1
+	X	50
+	Y	115
+	Z	0
+	Layer	4
+	Container	0x6b79866a
+	DecayAt	30254238
+	Quality	1
+	HP	7
+}
+
+Item
+{
+	Name	a Body Sash
+	Serial	0x6b4cbb96
+	ObjType	0x1541
+	Graphic	0x1541
+	Color	0x20
+	X	50
+	Y	105
+	Z	0
+	Layer	17
+	Container	0x6b79866a
+	DecayAt	30254238
+	Quality	1
+	HP	1
+}
+
+Item
+{
+	Name	a Bone Helm
+	Serial	0x6b103ede
+	ObjType	0x1451
+	Graphic	0x1451
+	X	57
+	Y	128
+	Z	0
+	CProp	DefaultDex i-2
+	CProp	MagicPenalty i10
+	Layer	6
+	Container	0x6b79866a
+	DecayAt	28228503
+	Quality	1
+	HP	20
+}
+
+Item
+{
+	Name	Female Studded of Hardening
+	Serial	0x6b3ad8b9
+	ObjType	0x1c02
+	Graphic	0x1c02
+	X	27
+	Y	123
+	Z	0
+	CProp	DefaultDex i-2
+	CProp	IDed i1
+	CProp	MagicPenalty i8
+	Layer	5
+	Container	0x6b79866a
+	DecayAt	29600482
+	Quality	1
+	HP	38
+	AR_mod	15
+}
+
+Item
+{
+	Name	Bone Gloves
+	Serial	0x6b77edfd
+	ObjType	0x1450
+	Graphic	0x1450
+	X	73
+	Y	119
+	Z	0
+	CProp	DefaultDex i-1
+	CProp	MagicPenalty i5
+	Layer	7
+	Container	0x6b79866a
+	DecayAt	30910863
+	Quality	1
+	HP	20
+}
+
+Item
+{
+	Serial	0x6b78120e
+	ObjType	0x7021
+	Graphic	0x1078
+	Color	0x494
+	X	23
+	Y	124
+	Z	0
+	Amount	19
+	Container	0x6b79866a
+	DecayAt	30951434
+}
+
+Item
+{
+	Serial	0x6b7def0e
+	ObjType	0xe41
+	Graphic	0xe41
+	X	149
+	Y	1465
+	Z	2
+	CProp	boxserial i1803415312
+	CProp	houseserial i1797317765
+	Movable	0
+	OnUseScript	:housing:securecont
+	DecayAt	31047445
+}
+
+Item
+{
+	Serial	0x6b7def10
+	ObjType	0xe41
+	Graphic	0xe41
+	X	151
+	Y	1465
+	Z	2
+	Container	0x6b7def0e
+	DecayAt	31047445
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de9ab
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	45
+	Y	58
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047160
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de959
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	43
+	Y	64
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047147
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de950
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	55
+	Y	21
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047146
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de948
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	58
+	Y	70
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047145
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de934
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	45
+	Y	30
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047145
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de932
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	45
+	Y	60
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047144
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de92b
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	46
+	Y	52
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047143
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de923
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	42
+	Y	77
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047142
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de91c
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	40
+	Y	61
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047141
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de916
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	43
+	Y	27
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047141
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de90d
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	40
+	Y	30
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047140
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de90b
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	40
+	Y	68
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047140
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de903
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	40
+	Y	43
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047139
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de8fe
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	26
+	Y	130
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047138
+}
+
+Item
+{
+	Name	a treasure map lvl 2
+	Serial	0x6b7de8bf
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	42
+	Y	138
+	Z	0
+	CProp	chestx i1000
+	CProp	chesty i2000
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i2
+	Container	0x6b7def10
+	DecayAt	31047128
+	xwest	735
+	ynorth	1740
+	xeast	1265
+	ysouth	2260
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de902
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	47
+	Y	140
+	Z	0
+	CProp	chestx i1264
+	CProp	chesty i3010
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047139
+	xwest	999
+	ynorth	2750
+	xeast	1529
+	ysouth	3270
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de915
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	54
+	Y	140
+	Z	0
+	CProp	chestx i1897
+	CProp	chesty i164
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047141
+	xwest	1632
+	ynorth	0
+	xeast	2162
+	ysouth	424
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 2
+	Serial	0x6b7de8ed
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	28
+	Y	130
+	Z	0
+	CProp	chestx i1811
+	CProp	chesty i2555
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i2
+	Container	0x6b7def10
+	DecayAt	31047136
+	xwest	1546
+	ynorth	2295
+	xeast	2076
+	ysouth	2815
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de8f1
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	22
+	Y	137
+	Z	0
+	CProp	chestx i865
+	CProp	chesty i1534
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047137
+	xwest	600
+	ynorth	1274
+	xeast	1130
+	ysouth	1794
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de8f7
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	18
+	Y	134
+	Z	0
+	CProp	chestx i1264
+	CProp	chesty i3010
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047138
+	xwest	999
+	ynorth	2750
+	xeast	1529
+	ysouth	3270
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de8fd
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	18
+	Y	140
+	Z	0
+	CProp	chestx i1897
+	CProp	chesty i164
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047138
+	xwest	1632
+	ynorth	0
+	xeast	2162
+	ysouth	424
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de8c0
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	18
+	Y	144
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047128
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de904
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	18
+	Y	140
+	Z	0
+	CProp	chestx i634
+	CProp	chesty i1737
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047139
+	xwest	369
+	ynorth	1477
+	xeast	899
+	ysouth	1997
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de907
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	23
+	Y	140
+	Z	0
+	CProp	chestx i2156
+	CProp	chesty i960
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047140
+	xwest	1891
+	ynorth	700
+	xeast	2421
+	ysouth	1220
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de90c
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	22
+	Y	140
+	Z	0
+	CProp	chestx i1931
+	CProp	chesty i3119
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047140
+	xwest	1666
+	ynorth	2859
+	xeast	2196
+	ysouth	3379
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de919
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	27
+	Y	140
+	Z	0
+	CProp	chestx i2156
+	CProp	chesty i960
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047141
+	xwest	1891
+	ynorth	700
+	xeast	2421
+	ysouth	1220
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de91b
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	18
+	Y	140
+	Z	0
+	CProp	chestx i634
+	CProp	chesty i1737
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047141
+	xwest	369
+	ynorth	1477
+	xeast	899
+	ysouth	1997
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de92d
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	18
+	Y	140
+	Z	0
+	CProp	chestx i1337
+	CProp	chesty i638
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047144
+	xwest	1072
+	ynorth	378
+	xeast	1602
+	ysouth	898
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de8ff
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	18
+	Y	140
+	Z	0
+	CProp	chestx i1264
+	CProp	chesty i3010
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047138
+	xwest	999
+	ynorth	2750
+	xeast	1529
+	ysouth	3270
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de924
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	18
+	Y	137
+	Z	0
+	CProp	chestx i2160
+	CProp	chesty i3620
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047143
+	xwest	1895
+	ynorth	3360
+	xeast	2425
+	ysouth	3880
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de90a
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	18
+	Y	140
+	Z	0
+	CProp	chestx i634
+	CProp	chesty i1737
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047140
+	xwest	369
+	ynorth	1477
+	xeast	899
+	ysouth	1997
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de91f
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	18
+	Y	140
+	Z	0
+	CProp	chestx i1337
+	CProp	chesty i638
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047142
+	xwest	1072
+	ynorth	378
+	xeast	1602
+	ysouth	898
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de927
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	20
+	Y	140
+	Z	0
+	CProp	chestx i2160
+	CProp	chesty i3620
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047143
+	xwest	1895
+	ynorth	3360
+	xeast	2425
+	ysouth	3880
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de931
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	36
+	Y	140
+	Z	0
+	CProp	chestx i1663
+	CProp	chesty i2039
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047144
+	xwest	1398
+	ynorth	1779
+	xeast	1928
+	ysouth	2299
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de92a
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	23
+	Y	140
+	Z	0
+	CProp	chestx i865
+	CProp	chesty i1534
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047143
+	xwest	600
+	ynorth	1274
+	xeast	1130
+	ysouth	1794
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de922
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	30
+	Y	140
+	Z	0
+	CProp	chestx i574
+	CProp	chesty i784
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047142
+	xwest	309
+	ynorth	524
+	xeast	839
+	ysouth	1044
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de933
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	19
+	Y	140
+	Z	0
+	CProp	chestx i4419
+	CProp	chesty i3528
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047145
+	xwest	4154
+	ynorth	3268
+	xeast	4684
+	ysouth	3788
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de947
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	24
+	Y	136
+	Z	0
+	CProp	chestx i574
+	CProp	chesty i784
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047145
+	xwest	309
+	ynorth	524
+	xeast	839
+	ysouth	1044
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de949
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	33
+	Y	140
+	Z	0
+	CProp	chestx i1663
+	CProp	chesty i2039
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047145
+	xwest	1398
+	ynorth	1779
+	xeast	1928
+	ysouth	2299
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de94f
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	24
+	Y	140
+	Z	0
+	CProp	chestx i1663
+	CProp	chesty i2039
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047146
+	xwest	1398
+	ynorth	1779
+	xeast	1928
+	ysouth	2299
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de954
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	23
+	Y	136
+	Z	0
+	CProp	chestx i1848
+	CProp	chesty i841
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047146
+	xwest	1583
+	ynorth	581
+	xeast	2113
+	ysouth	1101
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de958
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	29
+	Y	137
+	Z	0
+	CProp	chestx i4419
+	CProp	chesty i3528
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047147
+	xwest	4154
+	ynorth	3268
+	xeast	4684
+	ysouth	3788
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de9aa
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	18
+	Y	140
+	Z	0
+	CProp	chestx i1264
+	CProp	chesty i3010
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047160
+	xwest	999
+	ynorth	2750
+	xeast	1529
+	ysouth	3270
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 1
+	Serial	0x6b7de9af
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	39
+	Y	126
+	Z	0
+	CProp	chestx i2160
+	CProp	chesty i3620
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i1
+	Container	0x6b7def10
+	DecayAt	31047160
+	xwest	1895
+	ynorth	3360
+	xeast	2425
+	ysouth	3880
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de905
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	88
+	Y	143
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047139
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de8ee
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	76
+	Y	135
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047136
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de8f8
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	69
+	Y	131
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047138
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de8f2
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	63
+	Y	126
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047137
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de91a
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	65
+	Y	125
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047141
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de92e
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	63
+	Y	124
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047144
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de920
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	67
+	Y	129
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047142
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de94a
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	63
+	Y	125
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047145
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de928
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	60
+	Y	130
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047143
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de925
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	58
+	Y	110
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047143
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de908
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	56
+	Y	137
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047140
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de900
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	54
+	Y	137
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047138
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de955
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	60
+	Y	134
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047146
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7de9b0
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	57
+	Y	126
+	Z	0
+	Container	0x6b7def10
+	DecayAt	31047160
+}
+
+Item
+{
+	Serial	0x6b4a4a92
+	ObjType	0x6007
+	Graphic	0x14ed
+	X	150
+	Y	1463
+	Z	8
+	DecayAt	31048005
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Serial	0x6b301019
+	ObjType	0x6003
+	Graphic	0x14ed
+	X	150
+	Y	1463
+	Z	8
+	DecayAt	31048007
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Serial	0x6b45b0f5
+	ObjType	0x6007
+	Graphic	0x14ed
+	X	150
+	Y	1463
+	Z	8
+	DecayAt	31048011
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Serial	0x6b71ad9f
+	ObjType	0x6006
+	Graphic	0x14ed
+	X	150
+	Y	1463
+	Z	8
+	DecayAt	31048014
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Serial	0x6b45a15a
+	ObjType	0x6006
+	Graphic	0x14ed
+	X	150
+	Y	1463
+	Z	8
+	DecayAt	31048015
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Serial	0x6b4be328
+	ObjType	0x6007
+	Graphic	0x14ed
+	X	150
+	Y	1463
+	Z	8
+	DecayAt	31048018
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Serial	0x6b5091a3
+	ObjType	0x6006
+	Graphic	0x14ed
+	X	150
+	Y	1463
+	Z	8
+	DecayAt	31048020
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Serial	0x6b4c4969
+	ObjType	0x6007
+	Graphic	0x14ed
+	X	150
+	Y	1463
+	Z	8
+	DecayAt	31048022
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Serial	0x6b4c4a45
+	ObjType	0x6006
+	Graphic	0x14ed
+	X	150
+	Y	1464
+	Z	2
+	DecayAt	31048113
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Serial	0x6b24976e
+	ObjType	0xe75
+	Graphic	0xe75
+	X	148
+	Y	1463
+	Z	8
+	DecayAt	31048221
+}
+
+Item
+{
+	Name	a completed regional map
+	Serial	0x6b7dfbfd
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	123
+	Y	105
+	Z	0
+	Container	0x6b24976e
+	DecayAt	31048275
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a treasure map lvl 3
+	Serial	0x6b7df979
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	87
+	Y	98
+	Z	0
+	CProp	chestx i634
+	CProp	chesty i1737
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i3
+	Container	0x6b24976e
+	DecayAt	31048095
+	xwest	369
+	ynorth	1477
+	xeast	899
+	ysouth	1997
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7df9be
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	91
+	Y	112
+	Z	0
+	Container	0x6b24976e
+	DecayAt	31048115
+}
+
+Item
+{
+	Name	a Treasure digging tool
+	Serial	0x6b7df97a
+	ObjType	0x6008
+	Graphic	0xfb7
+	X	100
+	Y	74
+	Z	0
+	Container	0x6b24976e
+	DecayAt	31048095
+}
+
+Item
+{
+	Name	a treasure map lvl 3
+	Serial	0x6b7df9bd
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	135
+	Y	101
+	Z	0
+	CProp	chestx i574
+	CProp	chesty i784
+	CProp	chestz i0
+	CProp	decoder i2357
+	CProp	level i3
+	Container	0x6b24976e
+	DecayAt	31048115
+	xwest	309
+	ynorth	524
+	xeast	839
+	ysouth	1044
+	gumpwidth	200
+	gumpheight	200
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a completed regional map
+	Serial	0x6b7dfca1
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	77
+	Y	100
+	Z	0
+	Container	0x6b24976e
+	DecayAt	31048325
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Name	a completed regional map
+	Serial	0x6b7dfcd0
+	ObjType	0x14eb
+	Graphic	0x14eb
+	X	66
+	Y	110
+	Z	0
+	Container	0x6b24976e
+	DecayAt	31048337
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Serial	0x6b548b1e
+	ObjType	0x6006
+	Graphic	0x14ed
+	X	150
+	Y	1462
+	Z	2
+	DecayAt	31048235
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Serial	0x6b4be5ec
+	ObjType	0x6006
+	Graphic	0x14ed
+	X	150
+	Y	1462
+	Z	2
+	DecayAt	31048242
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Serial	0x6b4b17db
+	ObjType	0x6006
+	Graphic	0x14ed
+	X	150
+	Y	1464
+	Z	2
+	DecayAt	31058438
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidth	0
+	gumpheight	0
+	editable	1
+	NumPins 0
+
+}
+
+Item
+{
+	Serial	0x6b77ef16
+	ObjType	0x6006
+	Graphic	0x14ed
+	X	150
+	Y	1464
+	Z	2
+	DecayAt	31058441
+	xwest	0
+	ynorth	0
+	xeast	0
+	ysouth	0
+	gumpwidt

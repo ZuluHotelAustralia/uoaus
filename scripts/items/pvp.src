@@ -1,0 +1,272 @@
+use os;
+use uo;
+
+include "include/time";
+include "include/constants/propids";
+include "include/yesno";
+
+program pvp (who)
+	var ref;
+	var lkarma;
+	var lfame;
+	Detach();
+	if (who.x > 6139 or who.x < 6090 or who.y < 1216 or who.y > 1265 and who.z == 10)
+		SendSysMessage( who, "Cancelled, you are not in the arena." );
+		return;
+	endif
+	if (GetGlobalProperty("ArenaInUse"))
+		SendSysMessage( who, "Cancelled, the arena is in use" );
+		return;
+	endif
+	SendSysMessage( who, "Select your opponent." );
+
+	var player:=target(who, TGTOPT_NOCHECK_LOS);
+
+	if (player.npctemplate) 
+		SendSysMessage( who, "Cancelled" );
+		return; 
+	endif
+
+	if(!player or  player.dead or player.name == who.name )
+		SendSysmessage( who, "Invalid selection." ); 
+		return;
+ 	endif
+	if (player.x > 6139 or player.x < 6090 or player.y < 1216 or player.y > 1265 and player.z == 10)
+		SendSysMessage( who, "Cancelled, they are not in the arena." );
+		return;
+	endif
+	SendSysmessage( player, who.name + " is challenging you to PvP - accept?" ); 
+	var answer:=YesNo(player,"Accept PvP?");
+
+	if (!answer)
+		SendSysMessage(player,"You have refused the challenge.");
+		SendSysMessage(who,player.name + " has not accepted.");
+		return;
+	endif
+	SendSysMessage(player,"You have accepted the challenge.");
+	SendSysMessage(who,player.name + " has accepted.");
+	if (GetGlobalProperty("ArenaInUse"))
+		SendSysMessage( who, "Cancelled, the arena is in use" );
+		return;
+	endif
+	SetGlobalProperty("ArenaInUse", 1 );
+	MakeFence ();
+	MoveCharacterToLocation( who, 6104, 1258, 0, 0);
+	MoveCharacterToLocation( player, 6127, 1258, 0, 0);
+	lkarma := GetObjProperty(player, "Karma");
+	lfame := GetObjProperty(player, "Fame");
+	SetObjProperty(player, "lkarma", lkarma);
+	SetObjProperty(player, "lfame", lfame);
+	lkarma := GetObjProperty(who, "Karma");
+	lfame := GetObjProperty(who, "Fame");
+	SetObjProperty(who, "lkarma", lkarma);
+	SetObjProperty(who, "lfame", lfame);
+	SetObjProperty(player, "pvping", 1);
+	SetObjProperty(who, "pvping", 1);
+	var IsRef;
+	foreach mobile in ListMobilesNearLocation( who.x, who.y, who.z, 22 )
+		IsRef:= GetObjProperty( mobile, "referee");
+		if (IsRef)
+			ref := mobile;
+		endif
+	endforeach
+	Sleep(10);
+	PrintTextAbove( ref, "Get ready - PvP will start in 10 seconds." );
+	sleep(5);
+	PrintTextAbove( ref, "5 seconds..." );
+	sleep(5);
+	PrintTextAbove( ref, "FIGHT!!!! :)" );
+	DeleteFence(ref);
+	var tme := ReadGameClock() ;
+	var ponline := 0;
+	var wonline := 0;
+	var running := 1;
+	var booted;
+	var toolong := 0;
+	var leftarena ;
+	var pded;
+	var wded;
+	while (running)
+		sleep(1);
+		toolong := toolong + 1;
+		if (toolong > 600 )
+			running := 0;
+		endif
+		if (toolong == 3)
+			ref.hidden := 1;
+		endif
+		pded := GetObjProperty(player, "pvping");
+		wded := GetObjProperty(who, "pvping");
+		if (!pded or !wded)
+			running := 0;
+		endif
+		foreach char in EnumerateOnlineCharacters()
+			if (char == player )
+				ponline := 1;
+			endif
+			if (char == who)
+				wonline := 1;
+			endif
+		endforeach
+		if (!ponline or !wonline)
+			running := 0;
+			if (ponline)
+				booted := who.name;
+			else
+				booted := player.name;
+			endif
+		endif
+		ponline := 0;
+		wonline := 0;
+		if (who.x < 6103 or who.x > 6127 or who.y > 1261 or who.y < 1256 or who.z != 0)
+			leftarena := who.name;
+			running := 0;
+		endif
+		if (player.x < 6103 or player.x > 6127 or player.y > 1261 or player.y < 1256 or player.z != 0)
+			leftarena := player.name;
+			running := 0;
+		endif
+	endwhile	
+	player.frozen := 1;
+	who.frozen := 1;
+	var tmenow := ReadGameClock() ;
+	var length := tmenow - tme;
+	var cont;
+	var serial;	
+	var score ;
+	sleep (2);
+	ref.hidden := 0;
+	if (!pded and !wded)
+		PrintTextAbove( ref, "It was a draw!" );
+		foreach character in EnumerateOnlineCharacters()
+SendSysMessage( character,who.name+" & "+player.name+" both died in the PvP arena, in "+length+" secs." );	
+		endforeach
+	endif
+	if (!pded and wded)
+		PrintTextAbove( ref, who.name + " is the winner!" );
+		score := GetObjProperty (who, "pvpwins") ;
+		if (!score)
+			score := 0;
+		endif
+		score := score + 1;
+		SetObjProperty (who, "pvpwins",score);
+		score := GetObjProperty(player,"pvplosses");
+		if (!score)
+			score := 0;
+		endif
+		score := score + 1;
+		SetObjProperty(player,"pvplosses",score);
+		foreach character in EnumerateOnlineCharacters()
+SendSysMessage( character,who.name+" defeated "+player.name+" in the PvP arena, in "+length+" secs." );	
+		endforeach
+	endif
+	if (!wded and pded)
+		PrintTextAbove( ref, player.name + " is the winner!" );
+		score := GetObjProperty (player, "pvpwins") ;
+		if (!score)
+			score := 0;
+		endif
+		score := score + 1;
+		SetObjProperty (player, "pvpwins",score);
+		score := GetObjProperty(who,"pvplosses");
+		if (!score)
+			score := 0;
+		endif
+		score := score + 1;
+		SetObjProperty(who,"pvplosses",score);
+		foreach character in EnumerateOnlineCharacters()
+SendSysMessage( character,player.name+" defeated "+who.name+" in the PvP arena, in "+length+" secs." );	
+		endforeach
+	endif
+	if (booted)
+		PrintTextAbove( ref, booted + " disconnected. PvP is cancelled." );	
+	endif
+	if (leftarena)
+		PrintTextAbove( ref, leftarena + " has left the arena. PvP is cancelled." );	
+	endif
+	if (toolong > 600)
+		PrintTextAbove( ref, "10 minutes is up. PvP is cancelled." );	
+	endif
+	MakeFence();
+	MoveCharacterToLocation( who, 6104, 1258, 0, 0);
+	MoveCharacterToLocation( player, 6127, 1258, 0, 0);
+	player.frozen := 0;
+	who.frozen := 0;
+	sleep (4);	
+	lkarma := GetObjProperty(player, "lkarma");
+	lfame := GetObjProperty(player, "lfame");
+	SetObjProperty(player, "Karma", lkarma);
+	SetObjProperty(player, "Fame", lfame);
+	lkarma := GetObjProperty(who, "lkarma");
+	lfame := GetObjProperty(who, "lfame");
+	SetObjProperty(who, "Karma", lkarma);
+	SetObjProperty(who, "Fame", lfame);
+	Sleep (3);
+	PrintTextAbove( ref, "Teleporting you out.." );	
+	sleep (5);
+	MoveCharacterToLocation( who, 6136, 1254, 10, 0);
+	MoveCharacterToLocation( player, 6134, 1254, 10, 0);
+	EraseObjProperty( player, "pvping" );
+	EraseObjProperty( who, "pvping" );
+	DeleteFence(ref);
+	EraseGlobalProperty("ArenaInUse");
+	EraseObjProperty( who, "lkarma" );
+	EraseObjProperty( who, "lfame" );
+	EraseObjProperty( player, "lkarma" );
+	EraseObjProperty( player, "lfame" );
+endprogram
+
+function MakeFence ()
+	var fnc;
+	fnc := CreateItemAtLocation(6106,1256, 0, 2081, 1);
+	SetObjProperty( fnc, "pvpfence",1);
+	fnc.color := 1183;
+	fnc := CreateItemAtLocation(6106,1257, 0, 2081, 1);
+	SetObjProperty( fnc, "pvpfence",1);
+	fnc.color := 1183;
+	fnc := CreateItemAtLocation(6106,1258, 0, 2081, 1);
+	SetObjProperty( fnc, "pvpfence",1);
+	fnc.color := 1183;
+	fnc := CreateItemAtLocation(6106,1259, 0, 2081, 1);
+	SetObjProperty( fnc, "pvpfence",1);
+	fnc.color := 1183;
+	fnc := CreateItemAtLocation(6106,1260, 0, 2081, 1);
+	SetObjProperty( fnc, "pvpfence",1);
+	fnc.color := 1183;
+	fnc := CreateItemAtLocation(6106,1261, 0, 2081, 1);
+	SetObjProperty( fnc, "pvpfence",1);
+	fnc.color := 1183;
+	fnc := CreateItemAtLocation(6123,1256, 0, 2081, 1);
+	SetObjProperty( fnc, "pvpfence",1);
+	fnc.color := 1183;
+	fnc := CreateItemAtLocation(6123,1257, 0, 2081, 1);
+	SetObjProperty( fnc, "pvpfence",1);
+	fnc.color := 1183;
+	fnc := CreateItemAtLocation(6123,1258, 0, 2081, 1);
+	SetObjProperty( fnc, "pvpfence",1);
+	fnc.color := 1183;
+	fnc := CreateItemAtLocation(6123,1259, 0, 2081, 1);
+	SetObjProperty( fnc, "pvpfence",1);
+	fnc.color := 1183;
+	fnc := CreateItemAtLocation(6123,1260, 0, 2081, 1);
+	SetObjProperty( fnc, "pvpfence",1);
+	fnc.color := 1183;
+	fnc := CreateItemAtLocation(6123,1261, 0, 2081, 1);
+	SetObjProperty( fnc, "pvpfence",1);
+	fnc.color := 1183;
+
+endfunction
+
+function DeleteFence ( lee )
+	var Near;
+	var ispvpfence;
+	Near := ListItemsNearLocation( lee.x , lee.y , lee.z , 25 );
+	foreach item in Near
+		ispvpfence := GetObjProperty( item, "pvpfence");
+		if (ispvpfence)
+			DestroyItem(item);
+		endif
+	endforeach
+endfunction
+
+		

@@ -1,0 +1,239 @@
+use npc;
+use basic;
+use cfgfile;
+use os;
+use uo;
+
+include "include/dotempmods";
+include "include/attributes";
+include "include/eventid";
+include "include/npcbackpacks";
+include "include/randname";
+include "include/utility";
+include "include/mrcspawn";
+include "include/speech";
+include "include/myutil";
+include "ai/setup/modsetup";
+include "ai/main/sleepmode";
+include "include/random";
+
+const REACT_THRESHOLD := 3;
+const RESPAWN_MINUTES := 30;
+const MAXFRIENDS      := 3;
+const MAX_SKILLS      := 48;
+
+var me := Self();
+var storage, inv_fs, inv_pb, inv_1c;
+
+storage := FindStorageArea( "Merchant Storage" );
+if (!storage)
+	exit;
+endif
+
+inv_fs := find_or_create_item( storage, me.serial + " FS", 0xe7c );
+inv_pb := find_or_create_item( storage, me.serial + " PB", 0xe7c );
+inv_1c := find_or_create_item( storage, me.serial + " 1C", 0xe7c );
+
+if (!inv_fs || !inv_pb || !inv_1c)
+	exit;
+endif
+
+var speech;
+var merchant_type;
+var currentmoney;
+
+EnableEvents( REACT_THRESHOLD );
+
+program merchantai()
+
+	var tmptitle := SplitWords(me.title_suffix);
+	me.title_suffix := " " + tmptitle[1] + " " + tmptitle[2];
+
+	if ( me.graphic == 401 )
+		me.gender := 1;
+	endif
+	me.graphic := 400 + me.gender;
+
+	var next_restock := ReadGameClock() + RESPAWN_MINUTES*60;
+
+	WalkHome();
+
+	EnableMainEvents();
+
+	var ev;
+	var mydestx := 0;
+	var mydesty := 0;
+	var steps   := 0;
+	var wanders := 60;
+	var next_wander := ReadGameClock();
+
+	while (1)
+
+		if (me.hidden)
+			me.hidden := 0;
+		endif
+
+		if (ReadGameClock() > next_wander)
+			if (mydestx != 0)
+				WalkTowardLocation(mydestx, mydesty);
+				if ( (me.x == mydestx && me.y == mydesty) || ( steps > 10 ) )
+					mydestx := 0;
+					SetAnchor( me.x, me.y, 3, 80 );
+				endif
+			else
+				Wander();
+				wanders := wanders + 1;
+			endif
+			next_wander := ReadGameClock() + 2;
+			if (wanders > 60)
+				wanders := 0;
+				WalkHome();
+				ev := sleepmode();
+			endif
+		else
+			ev := os::wait_for_event( 2 );
+		endif
+
+		if (ev)
+			if (ProcessEvent(ev, mydestx, mydesty, steps))
+				next_wander := ReadGameClock() + 30;
+			endif
+		elseif (ReadGameClock() > next_restock)
+			if ( GetObjProperty(me, "restock") )
+				RestockInventory( merchant_type, inv_fs );
+				EraseObjProperty(me, "restock");
+			endif
+			next_restock := ReadGameClock() + RESPAWN_MINUTES*60;
+		endif
+
+	endwhile
+
+endprogram
+
+function WalkHome()
+
+	var myhome := {};
+	if (!GetObjProperty(me, "myhome"))
+		myhome[1] := me.x;
+		myhome[2] := me.y;
+		SetObjProperty(me, "myhome", myhome);
+	else
+		myhome := GetObjProperty(me, "myhome");
+	endif
+
+	if ( me.x == myhome[1] && me.y == myhome[2] )
+		SetAnchor( me.x, me.y, 3, 80 );
+		return;
+	endif
+
+	var i;
+	for (i := 1; i < 11; i := i + 1)
+		WalkTowardLocation(myhome[1], myhome[2]);
+		if (me.x == myhome[1] && me.y == myhome[2] )
+			break;
+		endif
+	endfor
+
+	if (me.x != myhome[1] && me.y != myhome[2] )
+		MoveCharacterToLocation(me, myhome[1], myhome[2],
+			GetMapInfo(myhome[1], myhome[2]).z, MOVECHAR_FORCELOCATION);
+	endif
+
+	SetAnchor( myhome[1], myhome[2], 3, 80 );
+
+endfunction
+
+function ProcessEvent(byref ev, byref mydestx, byref mydesty, byref steps)
+
+	if (ev.source.isA(POLCLASS_NPC))
+		return 0;
+	endif
+
+	case (ev.type)
+
+		SYSEVENT_ENGAGED:
+			say( ev.source.name + ", I'll call a guard, if you don't stop that!");
+			SYSEVENT_DAMAGED:
+			SetHp(me, me.maxhp);
+			if( me.poisoned ) CurePoison( me ); endif
+			// ev.source.hp := 0; hploss removed
+			say("Help guards!!! I'm being attacked!!");
+			SetObjProperty(me, "guardkill", 1);
+			start_script( ":areas:callguards", me );
+			sleep(5);
+			say("You scoundrel!!!");
+
+			foreach chr in EnumerateOnlineCharacters()
+				if (chr.cmdlevel>0)
+					SendSysMessage(chr, CStr(ev.source.name + " is attacking an invul NPC!!!"), 3, 130);
+				endif
+			endforeach
+			me.hidden := 1;
+			sleep(200);
+			me.hidden := 0;
+
+		SYSEVENT_ENTEREDAREA:
+			YellToFriend(ev.source);
+
+		SYSEVENT_SPEECH:
+			TurnToward(ev.source);
+			if (ev.text["cult"])
+   PrintTextAbovePrivate( me, "A Cult? No my child, a *New Beginning*", ev.source );
+   
+			elseif (ev.text["New Beginning"])
+   PrintTextAbovePrivate( me, "You shall become born again under the blessing of the *Unseen One*", ev.source );
+   
+			elseif (ev.text["Unseen One"])
+   PrintTextAbovePrivate( me, "What do thou wish to know about the true lord of these lands, child?", ev.source );
+sleep(2);
+   PrintTextAbovePrivate( me, "*Scripture*", ev.source );
+sleep(2);
+   PrintTextAbovePrivate( me, "*Blessing*", ev.source );
+sleep(2);
+   PrintTextAbovePrivate( me, "*Sacrifice*", ev.source );
+sleep(2);
+   PrintTextAbovePrivate( me, "*The Truth*", ev.source );
+sleep(2);
+   PrintTextAbovePrivate( me, "Or do you wish to *join* us?", ev.source );
+   
+			elseif (ev.text["Scripture"])
+   PrintTextAbovePrivate( me, "Ah yes. Our great tome 'The Reckoning' describes the suppression of the 'Unseen One' by the powers that be. However its text is unreadable to those who are not *blessed*.", ev.source );
+   
+			elseif (ev.text["Blessing"])
+   PrintTextAbovePrivate( me, "Those who accept our Dogma and become one of 'The Watchers' who share a relationship with the 'Unseen One'. Currently we have enough Watchers, but we do need those for *Sacrifice*", ev.source );
+   
+			elseif (ev.text["Sacrifice"])
+   PrintTextAbovePrivate( me, "Sacrifice is the journey of the soul, not of the body. You leave this plane and join the 'Unseen One' where he shall take u into his essence until the time of *The Truth*", ev.source );
+
+			elseif (ev.text["The Truth"])
+   PrintTextAbovePrivate( me, "'The Truth' describes the time when the great 'Unseen One' will return to this plane and reveal his plans to *The Watchers.*", ev.source );
+   
+			elseif (ev.text["The Watchers"])
+   PrintTextAbovePrivate( me, "The guardians of our secrets, our initiates or the blessed. I am a Watcher. Do you wish to *join* us?", ev.source );
+   
+			elseif (ev.text["Join"])
+   PrintTextAbovePrivate( me, "So thou wish to join us? I will need participators in our Ritual for 'Sacrifice'. Come back to me soon my child and all will be revealed!", ev.source );
+
+endif
+	endcase
+
+	return 1;
+
+endfunction
+
+function EnableMainEvents()
+
+	EnableEvents( SYSEVENT_ITEM_GIVEN );
+	EnableEvents( SYSEVENT_ENGAGED);
+	EnableEvents( SYSEVENT_DAMAGED );
+	EnableEvents( SYSEVENT_ENTEREDAREA, 4 );
+	EnableEvents( SYSEVENT_SPEECH, 1 );
+
+endfunction
+
+function DisableMainEvents()
+
+	DisableEvents( SYSEVENT_ITEM_GIVEN );
+	DisableEvents( SYSEVENT_SPEECH );
+
+endfunction

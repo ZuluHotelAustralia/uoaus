@@ -1,0 +1,41 @@
+///////////////////////////////////////////////////////////////////////////
+//  BARDSKILLGATE.SRC - walkonscript for bard skill moongates.
+//
+//  Author: Benngrim 19/12/2005
+//
+////////////////////////////////////////////////////////////////////////////
+use os;
+use uo;
+use basic;
+use util;
+
+include "include/classes";
+
+program bardskillgate( mobile )
+    
+     var level;
+	
+	foreach classe in GetClasseIds()
+		EraseObjProperty( mobile , classe );
+		level := IsFromThatClasse( mobile , GetClasseSkills(classe) );
+		if( level )
+			SetObjProperty( mobile, classe, level );
+			SendSysMessage( mobile, "You're already qualified level " + level + " " + lower(GetClasseName(classe)));
+			return;
+		endif
+	endforeach
+
+    SendSysMessage( mobile, "You have chosen the path of the Bard" );
+        		SetBaseSkillBaseValue( mobile, 6, 750 );
+		SetBaseSkillBaseValue( mobile, 9, 750 );
+		SetBaseSkillBaseValue( mobile, 12, 750 );
+		SetBaseSkillBaseValue( mobile, 15, 750 );
+		SetBaseSkillBaseValue( mobile, 20, 750 );
+		SetBaseSkillBaseValue( mobile, 22, 750 );
+		SetBaseSkillBaseValue( mobile, 29, 750 );
+		SetBaseSkillBaseValue( mobile, 36, 750 );
+		SetBaseStrength(mobile,75);
+		SetBaseIntelligence(mobile,75);
+		SetBaseDexterity(mobile,75);
+
+endprogram

@@ -1,0 +1,53 @@
+use uo;
+
+include "include/yesno";
+
+Program vote_cmd(who, text)
+
+If(Getobjproperty(who, "nextvotecw") >= ReadGameclock())
+sendsysmessage(who, "You must wait some time before being allowed to vote again.");
+sendsysmessage(who, "Canceled.");
+return;
+endif
+
+If(!text)
+   If( YesNo(who,"Do You Want To Play Color Wars?") == 1)
+   sendsysmessage(who, "You Voted Yes.");
+   		foreach character in EnumerateOnlineCharacters()
+			if( character.cmdlevel >= 2 )
+				SendSysMessage( character, Who.name+" would like to play Color Wars", 3, 1176 );
+			endif
+		endforeach
+  else
+   sendsysmessage(who, "You Voted No.");
+      		foreach character in EnumerateOnlineCharacters()
+			if( character.cmdlevel >= 2 )
+				SendSysMessage( character, Who.name+" would'nt like to play Color Wars", 3, 1176 );
+			endif
+		endforeach
+  endif
+elseif( text == "yes" || text == "Yes" )
+   sendsysmessage(who, "You Voted Yes.");
+   		foreach character in EnumerateOnlineCharacters()
+			if( character.cmdlevel >= 2 )
+				SendSysMessage( character, Who.name+" would like to play Color Wars", 3, 1176 );
+			endif
+		endforeach
+elseif( text == "no" || text == "No" )
+   sendsysmessage(who, "You Voted No.");
+
+      		foreach character in EnumerateOnlineCharacters()
+			if( character.cmdlevel >= 2 )
+				SendSysMessage( character, Who.name+" would'nt like to play Color Wars", 3, 1176 );
+			endif
+		endforeach
+else
+   sendsysmessage(who, "Correct use .votecw or .votecw <yes/no>");
+   sendsysmessage(who, "Canceled.");
+   return;
+endif
+
+setobjproperty(who, "nextvotecw", ReadGameClock()+120);
+
+endprogram
+

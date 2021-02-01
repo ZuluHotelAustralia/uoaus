@@ -1,0 +1,2216 @@
+#
+#  MULTIS.TXT: Ship and House data
+#
+#  Deleting this file will not properly wipe houses and ships,
+#  because doors, planks, and tillermen will be left in the world.
+#
+
+MULTI
+{
+	Serial	0x6b20e485
+	ObjType	0x6096
+	Graphic	0x4096
+	X	147
+	Y	1465
+	Z	-2
+	CProp	Co-owner1 i2362
+	CProp	Co-owner2 i132433
+	CProp	builtdeed i1797317764
+	CProp	component1 i1797317769
+	CProp	component3 i1797317770
+	CProp	friend0 i2357
+	CProp	friend1 i5976
+	CProp	numlockdowns i98
+	CProp	numsecure i1
+	CProp	owneracct ssimmoi
+	CProp	ownerserial i82111
+	DecayAt	28901883
+	Component	0x6b20e486
+	Component	0x6b20e487
+	Component	0x6b20e488
+}
+
+MULTI
+{
+	Serial	0x6ba1dd26
+	ObjType	0x6064
+	Graphic	0x4064
+	X	128
+	Y	1477
+	Z	0
+	CProp	builtdeed i1805770021
+	CProp	numlockdowns i25
+	CProp	numsecure i1
+	CProp	owneracct srabss
+	CProp	ownerserial i301746
+	DecayAt	32012244
+	Component	0x6ba1dd27
+	Component	0x6ba1dd28
+}
+
+MULTI
+{
+	Serial	0x6b294cb7
+	ObjType	0x607a
+	Graphic	0x407a
+	X	212
+	Y	1379
+	Z	0
+	CProp	Co-owner1 i118320
+	CProp	Co-owner2 i100745
+	CProp	builtdeed i1797868726
+	CProp	friend9 i2621
+	CProp	numlockdowns i246
+	CProp	numsecure i10
+	CProp	owneracct sdpdp
+	CProp	ownerserial i113385
+	DecayAt	29153406
+	Component	0x6b294cb8
+	Component	0x6b294cb9
+	Component	0x6b294cba
+	Component	0x6b294cbb
+	Component	0x6b294cbc
+	Component	0x6b294cbd
+}
+
+MULTI
+{
+	Serial	0x6ba0adff
+	ObjType	0x6064
+	Graphic	0x4064
+	X	366
+	Y	1464
+	Z	2
+	CProp	builtdeed i1805692414
+	CProp	numlockdowns i25
+	CProp	numsecure i0
+	CProp	owneracct srabcrafter
+	CProp	ownerserial i313177
+	DecayAt	31957836
+	Component	0x6ba0ae00
+	Component	0x6ba0ae01
+}
+
+MULTI
+{
+	Serial	0x6b9cb0ca
+	ObjType	0x6040
+	Graphic	0x4001
+	X	623
+	Y	2281
+	Z	-5
+	Facing	2
+	DecayAt	31848266
+	Traveller	0x6b9cb118
+	Traveller	0x6b9cb123
+	Traveller	0x6b9cb12b
+	Traveller	0x6b9cb132
+	Traveller	0x6b9cb135
+	Traveller	0x6b9cb154
+	Traveller	0x6b9cb191
+	Component	0x6b9cb0cc
+	Component	0x6b9cb0cd
+	Component	0x6b9cb0ce
+}
+
+MULTI
+{
+	Serial	0x6b5449f8
+	ObjType	0x606a
+	Graphic	0x406a
+	X	690
+	Y	639
+	Z	0
+	CProp	Co-owner1 i270123
+	CProp	Co-owner2 i270199
+	CProp	Co-owner3 i313162
+	CProp	Co-owner4 i168862
+	CProp	builtdeed i1800686071
+	CProp	friend0 i168862
+	CProp	friend2 i168862
+	CProp	friend3 i258291
+	CProp	numlockdowns i25
+	CProp	numsecure i0
+	CProp	owneracct scygy
+	CProp	ownerserial i154029
+	DecayAt	30191007
+	Component	0x6b5449f9
+	Component	0x6b5449fa
+}
+
+MULTI
+{
+	Serial	0x6aec7f9f
+	ObjType	0x606e
+	Graphic	0x406e
+	X	680
+	Y	798
+	Z	0
+	CProp	Co-owner1 i4072
+	CProp	Co-owner2 i4271
+	CProp	builtdeed i1793884062
+	CProp	numlockdowns i25
+	CProp	numsecure i1
+	CProp	owneracct swaylander
+	CProp	ownerserial i4068
+	DecayAt	26897457
+	Component	0x6aec7fa0
+	Component	0x6aec7fa1
+}
+
+MULTI
+{
+	Serial	0x6b8cd331
+	ObjType	0x6098
+	Graphic	0x4098
+	X	653
+	Y	790
+	Z	0
+	CProp	Co-owner2 i402536
+	CProp	builtdeed i1804391216
+	CProp	component1 i1804391220
+	CProp	component3 i1804391221
+	CProp	numlockdowns i60
+	CProp	numsecure i0
+	CProp	owneracct sEmiel
+	CProp	ownerserial i394190
+	DecayAt	31415538
+	Component	0x6b8cd332
+	Component	0x6b8cd333
+}
+
+MULTI
+{
+	Serial	0x6b0bb6dc
+	ObjType	0x608d
+	Graphic	0x408d
+	X	667
+	Y	1358
+	Z	0
+	CProp	Co-owner1 i4271
+	CProp	Co-owner2 i4072
+	CProp	Co-owner4 i4084
+	CProp	builtdeed i1795929819
+	CProp	numlockdowns i70
+	CProp	numsecure i0
+	CProp	owneracct swaylander
+	CProp	ownerserial i4068
+	DecayAt	28047427
+	Component	0x6b0bb6dd
+	Component	0x6b0bb6de
+	Component	0x6b0bb6df
+	Component	0x6b0bb6e0
+	Component	0x6b0bb6e1
+	Component	0x6b0bb6e2
+}
+
+MULTI
+{
+	Serial	0x6b881431
+	ObjType	0x6041
+	Graphic	0x4004
+	X	641
+	Y	1741
+	Z	-5
+	DecayAt	31294113
+	Traveller	0x6b881d58
+	Traveller	0x6b881751
+	Component	0x6b881432
+	Component	0x6b881433
+	Component	0x6b881434
+	Component	0x6b881435
+}
+
+MULTI
+{
+	Serial	0x6b3f7437
+	ObjType	0x6096
+	Graphic	0x4096
+	X	721
+	Y	1891
+	Z	0
+	CProp	Co-owner1 i182579
+	CProp	Co-owner2 i178597
+	CProp	Co-owner3 i182569
+	CProp	builtdeed i1799320630
+	CProp	component1 i1799320635
+	CProp	component3 i1799320636
+	CProp	friend0 i206394
+	CProp	numlockdowns i125
+	CProp	numsecure i0
+	CProp	owneracct spcrafter3
+	CProp	ownerserial i182608
+	DecayAt	29707655
+	Component	0x6b3f7438
+	Component	0x6b3f7439
+	Component	0x6b3f743a
+}
+
+MULTI
+{
+	Serial	0x6b42a23f
+	ObjType	0x6098
+	Graphic	0x4098
+	X	718
+	Y	1920
+	Z	0
+	CProp	Co-owner1 i216784
+	CProp	builtdeed i1799529022
+	CProp	component1 i1799529026
+	CProp	component3 i1799529027
+	CProp	numlockdowns i60
+	CProp	numsecure i4
+	CProp	owneracct spmage
+	CProp	ownerserial i182579
+	DecayAt	29789377
+	Component	0x6b42a240
+	Component	0x6b42a241
+}
+
+MULTI
+{
+	Serial	0x6b983172
+	ObjType	0x607a
+	Graphic	0x407a
+	X	816
+	Y	800
+	Z	0
+	CProp	Co-owner1 i393667
+	CProp	builtdeed i1805136241
+	CProp	numlockdowns i250
+	CProp	numsecure i0
+	CProp	owneracct sEmiel
+	CProp	ownerserial i394190
+	DecayAt	31719425
+	Component	0x6b983173
+	Component	0x6b983174
+	Component	0x6b983175
+	Component	0x6b983176
+	Component	0x6b983177
+	Component	0x6b983178
+}
+
+MULTI
+{
+	Serial	0x6af292f5
+	ObjType	0x607a
+	Graphic	0x407a
+	X	801
+	Y	1463
+	Z	0
+	CProp	Co-owner1 i35
+	CProp	builtdeed i1794282228
+	CProp	numlockdowns i249
+	CProp	numsecure i0
+	CProp	owneracct steedo
+	CProp	ownerserial i18
+	DecayAt	27241772
+	Component	0x6af292f6
+	Component	0x6af292f7
+	Component	0x6af292f8
+	Component	0x6af292f9
+	Component	0x6af292fa
+	Component	0x6af292fb
+}
+
+MULTI
+{
+	Serial	0x6b0108f5
+	ObjType	0x606c
+	Graphic	0x406c
+	X	781
+	Y	1466
+	Z	0
+	CProp	builtdeed i1795229940
+	CProp	numlockdowns i23
+	CProp	numsecure i2
+	CProp	owneracct sexar
+	CProp	ownerserial i17394
+	DecayAt	27725672
+	Component	0x6b0108f6
+	Component	0x6b0108f7
+}
+
+MULTI
+{
+	Serial	0x6b983ff6
+	ObjType	0x6098
+	Graphic	0x4098
+	X	822
+	Y	2118
+	Z	0
+	CProp	Co-owner1 i426857
+	CProp	Co-owner2 i429656
+	CProp	Co-owner3 i438012
+	CProp	builtdeed i1805139957
+	CProp	component1 i1805139961
+	CProp	component3 i1805139962
+	CProp	numlockdowns i33
+	CProp	numsecure i0
+	CProp	owneracct spigeoncraft
+	CProp	ownerserial i426908
+	DecayAt	31720883
+	Component	0x6b983ff7
+	Component	0x6b983ff8
+}
+
+MULTI
+{
+	Serial	0x6b9cdcfd
+	ObjType	0x60a0
+	Graphic	0x40a0
+	X	814
+	Y	2144
+	Z	0
+	CProp	builtdeed i1805442300
+	CProp	component1 i1805442304
+	CProp	component3 i1805442305
+	CProp	numlockdowns i40
+	CProp	numsecure i0
+	CProp	owneracct spigeoncraft
+	CProp	ownerserial i426908
+	DecayAt	31851522
+	Component	0x6b9cdcfe
+	Component	0x6b9cdcff
+}
+
+MULTI
+{
+	Serial	0x6ba16f03
+	ObjType	0x60a2
+	Graphic	0x40a2
+	X	804
+	Y	2378
+	Z	0
+	CProp	Co-owner1 i437376
+	CProp	Co-owner2 i437777
+	CProp	Co-owner3 i443697
+	CProp	builtdeed i1805741826
+	CProp	component1 i1805741830
+	CProp	component3 i1805741831
+	CProp	numlockdowns i36
+	CProp	numsecure i0
+	CProp	owneracct syamazaki
+	CProp	ownerserial i437275
+	DecayAt	31982891
+	Component	0x6ba16f04
+	Component	0x6ba16f05
+}
+
+MULTI
+{
+	Serial	0x6b0105e2
+	ObjType	0x607a
+	Graphic	0x407a
+	X	892
+	Y	1865
+	Z	0
+	CProp	Co-owner2 i82493
+	CProp	Co-owner3 i7301
+	CProp	builtdeed i1795229153
+	CProp	numlockdowns i239
+	CProp	numsecure i4
+	CProp	owneracct sexar
+	CProp	ownerserial i17394
+	DecayAt	27725306
+	Component	0x6b0105e3
+	Component	0x6b0105e4
+	Component	0x6b0105e5
+	Component	0x6b0105e6
+	Component	0x6b0105e7
+	Component	0x6b0105e8
+}
+
+MULTI
+{
+	Serial	0x6b9d628f
+	ObjType	0x6098
+	Graphic	0x4098
+	X	838
+	Y	2094
+	Z	0
+	CProp	Co-owner1 i432757
+	CProp	Co-owner2 i449726
+	CProp	Co-owner3 i426847
+	CProp	builtdeed i1805476494
+	CProp	component1 i1805476498
+	CProp	component3 i1805476499
+	CProp	numlockdowns i60
+	CProp	numsecure i4
+	CProp	owneracct s13th
+	CProp	ownerserial i452777
+	DecayAt	31861198
+	Component	0x6b9d6290
+	Component	0x6b9d6291
+}
+
+MULTI
+{
+	Serial	0x6ba0c557
+	ObjType	0x6041
+	Graphic	0x4005
+	X	959
+	Y	1998
+	Z	-5
+	Facing	2
+	DecayAt	31961468
+	Component	0x6ba0c558
+	Component	0x6ba0c559
+	Component	0x6ba0c55a
+	Component	0x6ba0c55b
+}
+
+MULTI
+{
+	Serial	0x6b2d232b
+	ObjType	0x607a
+	Graphic	0x407a
+	X	985
+	Y	1316
+	Z	0
+	CProp	Co-owner1 i87365
+	CProp	builtdeed i1798120234
+	CProp	friend0 i5976
+	CProp	friend1 i5976
+	CProp	numlockdowns i249
+	CProp	numsecure i3
+	CProp	owneracct slaggymage
+	CProp	ownerserial i132433
+	DecayAt	29249881
+	Component	0x6b2d232c
+	Component	0x6b2d232d
+	Component	0x6b2d232e
+	Component	0x6b2d232f
+	Component	0x6b2d2330
+	Component	0x6b2d2331
+}
+
+MULTI
+{
+	Serial	0x6aed9855
+	ObjType	0x6064
+	Graphic	0x4064
+	X	1109
+	Y	500
+	Z	1
+	CProp	Co-owner1 i4048
+	CProp	builtdeed i1793955924
+	CProp	friend0 i4048
+	CProp	friend1 i3233
+	CProp	friend2 i4047
+	CProp	numlockdowns i24
+	CProp	numsecure i0
+	CProp	owneracct sdeathbymike
+	CProp	ownerserial i3295
+	DecayAt	26995892
+	Component	0x6aed9856
+	Component	0x6aed9857
+}
+
+MULTI
+{
+	Serial	0x6aec3359
+	ObjType	0x6098
+	Graphic	0x4098
+	X	1183
+	Y	572
+	Z	1
+	CProp	Co-owner1 i3295
+	CProp	Co-owner2 i3207
+	CProp	builtdeed i1793864536
+	CProp	component1 i1793864540
+	CProp	component3 i1793864541
+	CProp	friend16 i3210
+	CProp	numlockdowns i60
+	CProp	numsecure i1
+	CProp	owneracct sexzn
+	CProp	ownerserial i3192
+	DecayAt	26869762
+	Component	0x6aec335a
+	Component	0x6aec335b
+}
+
+MULTI
+{
+	Serial	0x6b48d1a3
+	ObjType	0x607a
+	Graphic	0x407a
+	X	1317
+	Y	1076
+	Z	0
+	CProp	Co-owner1 i241933
+	CProp	Co-owner2 i241950
+	CProp	Co-owner3 i241962
+	CProp	Co-owner4 i148097
+	CProp	Co-owner5 i155042
+	CProp	builtdeed i1799934370
+	CProp	numlockdowns i191
+	CProp	numsecure i2
+	CProp	owneracct snekrydis
+	CProp	ownerserial i175067
+	DecayAt	29930429
+	Component	0x6b48d1a4
+	Component	0x6b48d1a5
+	Component	0x6b48d1a6
+	Component	0x6b48d1a7
+	Component	0x6b48d1a8
+	Component	0x6b48d1a9
+}
+
+MULTI
+{
+	Serial	0x6b7da1a6
+	ObjType	0x606a
+	Graphic	0x406a
+	X	1335
+	Y	1077
+	Z	0
+	CProp	builtdeed i1803395493
+	CProp	numlockdowns i25
+	CProp	numsecure i0
+	CProp	owneracct spandora2
+	CProp	ownerserial i2621
+	DecayAt	31042636
+	Component	0x6b7da1a7
+	Component	0x6b7da1a8
+}
+
+MULTI
+{
+	Serial	0x6b8f9bbe
+	ObjType	0x609e
+	Graphic	0x409e
+	X	1336
+	Y	1897
+	Z	0
+	CProp	Co-owner1 i382886
+	CProp	builtdeed i1804573629
+	CProp	component1 i1804573636
+	CProp	numlockdowns i81
+	CProp	numsecure i0
+	CProp	owneracct sansuz
+	CProp	ownerserial i297067
+	DecayAt	31487488
+	Component	0x6b8f9bbf
+	Component	0x6b8f9bc0
+	Component	0x6b8f9bc1
+	Component	0x6b8f9bc2
+	Component	0x6b8f9bc3
+}
+
+MULTI
+{
+	Serial	0x6ae9ec52
+	ObjType	0x60a0
+	Graphic	0x40a0
+	X	1311
+	Y	1967
+	Z	0
+	CProp	Co-owner1 i3763
+	CProp	Co-owner2 i4405
+	CProp	Co-owner4 i3496
+	CProp	Co-owner5 i3496
+	CProp	builtdeed i1793715281
+	CProp	component1 i1793715285
+	CProp	component3 i1793715286
+	CProp	numlockdowns i40
+	CProp	numsecure i0
+	CProp	owneracct sbenngrim
+	CProp	ownerserial i3454
+	DecayAt	26685761
+	Component	0x6ae9ec53
+	Component	0x6ae9ec54
+}
+
+MULTI
+{
+	Serial	0x6b37d62d
+	ObjType	0x6064
+	Graphic	0x4064
+	X	1348
+	Y	1798
+	Z	0
+	CProp	Co-owner1 i193728
+	CProp	Co-owner2 i185975
+	CProp	builtdeed i1798821420
+	CProp	numlockdowns i25
+	CProp	numsecure i2
+	CProp	owneracct sspoots
+	CProp	ownerserial i185821
+	DecayAt	29529351
+	Component	0x6b37d62e
+	Component	0x6b37d62f
+}
+
+MULTI
+{
+	Serial	0x6b3c4f48
+	ObjType	0x607a
+	Graphic	0x407a
+	X	1470
+	Y	1893
+	Z	0
+	CProp	Co-owner1 i125393
+	CProp	Co-owner2 i206396
+	CProp	Co-owner5 i345364
+	CProp	builtdeed i1799114567
+	CProp	friend0 i125393
+	CProp	friend1 i206396
+	CProp	friend4 i345364
+	CProp	numlockdowns i500
+	CProp	numsecure i242
+	CProp	owneracct ssigma
+	CProp	ownerserial i72103
+	DecayAt	29626985
+	Component	0x6b3c4f49
+	Component	0x6b3c4f4a
+	Component	0x6b3c4f4b
+	Component	0x6b3c4f4c
+	Component	0x6b3c4f4d
+	Component	0x6b3c4f4e
+}
+
+MULTI
+{
+	Serial	0x6ae09280
+	ObjType	0x6070
+	Graphic	0x4070
+	X	1494
+	Y	1891
+	Z	0
+	CProp	builtdeed i1793102463
+	CProp	component1 i1793102466
+	CProp	numlockdowns i12
+	CProp	numsecure i1
+	CProp	owneracct sivan
+	CProp	ownerserial i4
+	Movable	0
+	DecayAt	25248461
+}
+
+MULTI
+{
+	Serial	0x6b4ff2c3
+	ObjType	0x6078
+	Graphic	0x4078
+	X	1512
+	Y	1883
+	Z	0
+	CProp	Co-owner1 i137319
+	CProp	Co-owner2 i174011
+	CProp	Co-owner3 i169342
+	CProp	Co-owner4 i243821
+	CProp	Co-owner5 i243821
+	CProp	builtdeed i1800401602
+	CProp	numlockdowns i109
+	CProp	numsecure i1
+	CProp	owneracct sother
+	CProp	ownerserial i176975
+	DecayAt	30125431
+	Component	0x6b4ff2c4
+	Component	0x6b4ff2c5
+	Component	0x6b4ff2c6
+	Component	0x6b4ff2c7
+	Component	0x6b4ff2c8
+}
+
+MULTI
+{
+	Serial	0x6b62c579
+	ObjType	0x606a
+	Graphic	0x406a
+	X	1535
+	Y	1936
+	Z	0
+	CProp	builtdeed i1801635192
+	CProp	numlockdowns i9
+	CProp	numsecure i2
+	CProp	owneracct sother3
+	CProp	ownerserial i185174
+	DecayAt	30518041
+	Component	0x6b62c57a
+	Component	0x6b62c57b
+}
+
+MULTI
+{
+	Serial	0x6b62de9f
+	ObjType	0x6064
+	Graphic	0x4064
+	X	1533
+	Y	2002
+	Z	0
+	CProp	builtdeed i1801641630
+	CProp	numlockdowns i25
+	CProp	numsecure i2
+	CProp	owneracct sSunken
+	CProp	ownerserial i296670
+	DecayAt	30522561
+	Component	0x6b62dea0
+	Component	0x6b62dea1
+}
+
+MULTI
+{
+	Serial	0x6b8f73de
+	ObjType	0x6096
+	Graphic	0x4096
+	X	1529
+	Y	1986
+	Z	0
+	CProp	Co-owner1 i297752
+	CProp	Co-owner2 i297807
+	CProp	Co-owner3 i296172
+	CProp	builtdeed i1804563421
+	CProp	component1 i1804563426
+	CProp	component3 i1804563427
+	CProp	numlockdowns i130
+	CProp	numsecure i6
+	CProp	owneracct sthrone
+	CProp	ownerserial i316693
+	DecayAt	31483738
+	Component	0x6b8f73df
+	Component	0x6b8f73e0
+	Component	0x6b8f73e1
+}
+
+MULTI
+{
+	Serial	0x6ae4a5db
+	ObjType	0x6040
+	Graphic	0x4002
+	X	1545
+	Y	1373
+	Z	-5
+	Facing	4
+	DecayAt	25754983
+	Component	0x6ae4a5dc
+	Component	0x6ae4a5de
+	Component	0x6ae4a5df
+}
+
+MULTI
+{
+	Serial	0x6b2d971e
+	ObjType	0x6098
+	Graphic	0x4098
+	X	1616
+	Y	2072
+	Z	0
+	CProp	builtdeed i1798149917
+	CProp	component1 i1798149921
+	CProp	component3 i1798149922
+	CProp	numlockdowns i57
+	CProp	numsecure i2
+	CProp	owneracct sphwoar
+	CProp	ownerserial i7301
+	DecayAt	29261507
+	Component	0x6b2d971f
+	Component	0x6b2d9720
+}
+
+MULTI
+{
+	Serial	0x6b9249ad
+	ObjType	0x6098
+	Graphic	0x4098
+	X	1724
+	Y	2204
+	Z	0
+	CProp	builtdeed i1804749228
+	CProp	component1 i1804749232
+	CProp	component3 i1804749233
+	CProp	numlockdowns i60
+	CProp	numsecure i4
+	CProp	owneracct sansuz
+	CProp	ownerserial i297067
+	DecayAt	31553650
+	Component	0x6b9249ae
+	Component	0x6b9249af
+}
+
+MULTI
+{
+	Serial	0x6b4658d1
+	ObjType	0x606a
+	Graphic	0x406a
+	X	1747
+	Y	1517
+	Z	0
+	CProp	Co-owner1 i230589
+	CProp	Co-owner2 i311630
+	CProp	builtdeed i1799772368
+	CProp	friend2 i390188
+	CProp	friend3 i390157
+	CProp	numlockdowns i25
+	CProp	numsecure i0
+	CProp	owneracct szamtro
+	CProp	ownerserial i76496
+	DecayAt	29873005
+	Component	0x6b4658d2
+	Component	0x6b4658d3
+}
+
+MULTI
+{
+	Serial	0x6b6da1b4
+	ObjType	0x6064
+	Graphic	0x4064
+	X	1823
+	Y	839
+	Z	-1
+	CProp	builtdeed i1802346931
+	CProp	numlockdowns i25
+	CProp	numsecure i2
+	CProp	owneracct sDoogs
+	CProp	ownerserial i143510
+	DecayAt	30729517
+	Component	0x6b6da1b5
+	Component	0x6b6da1b6
+}
+
+MULTI
+{
+	Serial	0x6b868493
+	ObjType	0x606a
+	Graphic	0x406a
+	X	1802
+	Y	1554
+	Z	0
+	CProp	builtdeed i1803977874
+	CProp	numlockdowns i20
+	CProp	numsecure i2
+	CProp	owneracct sexide2
+	CProp	ownerserial i392747
+	DecayAt	31246441
+	Component	0x6b868494
+	Component	0x6b868495
+}
+
+MULTI
+{
+	Serial	0x6b70cfd5
+	ObjType	0x6078
+	Graphic	0x4078
+	X	1846
+	Y	2078
+	Z	0
+	CProp	Co-owner1 i313162
+	CProp	Co-owner2 i270199
+	CProp	Co-owner3 i270123
+	CProp	Co-owner4 i350134
+	CProp	builtdeed i1802555348
+	CProp	numlockdowns i110
+	CProp	numsecure i0
+	CProp	owneracct scygy
+	CProp	ownerserial i154029
+	DecayAt	30799847
+	Component	0x6b70cfd6
+	Component	0x6b70cfd7
+	Component	0x6b70cfd8
+	Component	0x6b70cfd9
+	Component	0x6b70cfda
+}
+
+MULTI
+{
+	Serial	0x6b6165e6
+	ObjType	0x6078
+	Graphic	0x4078
+	X	1838
+	Y	2231
+	Z	0
+	CProp	Co-owner1 i2621
+	CProp	Co-owner2 i90034
+	CProp	Co-owner3 i135131
+	CProp	Co-owner4 i76496
+	CProp	Co-owner5 i311630
+	CProp	builtdeed i1801545189
+	CProp	friend1 i311630
+	CProp	numlockdowns i63
+	CProp	numsecure i0
+	CProp	owneracct sppchar
+	CProp	ownerserial i313948
+	DecayAt	30474083
+	Component	0x6b6165e7
+	Component	0x6b6165e8
+	Component	0x6b6165e9
+	Component	0x6b6165ea
+	Component	0x6b6165eb
+}
+
+MULTI
+{
+	Serial	0x6b234edc
+	ObjType	0x607e
+	Graphic	0x407e
+	X	1831
+	Y	2493
+	Z	0
+	CProp	Co-owner1 i187063
+	CProp	Co-owner2 i3496
+	CProp	Co-owner3 i4405
+	CProp	Co-owner5 i81714
+	CProp	builtdeed i1797476059
+	CProp	friend1 i144305
+	CProp	friend17 i132141
+	CProp	friend18 i3497
+	CProp	friend4 i132141
+	CProp	numlockdowns i435
+	CProp	numsecure i4
+	CProp	owneracct sbenngrim4
+	CProp	ownerserial i3763
+	DecayAt	28987116
+	Component	0x6b234edd
+	Component	0x6b234ede
+	Component	0x6b234edf
+	Component	0x6b234ee0
+	Component	0x6b234ee1
+	Component	0x6b234ee2
+	Component	0x6b234ee3
+	Component	0x6b234ee4
+	Component	0x6b234ee5
+}
+
+MULTI
+{
+	Serial	0x6ba008f3
+	ObjType	0x6041
+	Graphic	0x4005
+	X	1901
+	Y	154
+	Z	-5
+	Facing	2
+	DecayAt	31938153
+	Component	0x6ba008f4
+	Component	0x6ba008f5
+	Component	0x6ba008f6
+	Component	0x6ba008f7
+}
+
+MULTI
+{
+	Serial	0x6b9ded95
+	ObjType	0x609e
+	Graphic	0x409e
+	X	1897
+	Y	1542
+	Z	0
+	CProp	builtdeed i1805512084
+	CProp	component1 i1805512091
+	CProp	numlockdowns i109
+	CProp	numsecure i0
+	CProp	owneracct sniko
+	CProp	ownerserial i342044
+	DecayAt	31876527
+	Component	0x6b9ded96
+	Component	0x6b9ded97
+	Component	0x6b9ded98
+	Component	0x6b9ded99
+	Component	0x6b9ded9a
+}
+
+MULTI
+{
+	Serial	0x6b754928
+	ObjType	0x6074
+	Graphic	0x4074
+	X	1880
+	Y	2092
+	Z	0
+	CProp	Co-owner1 i312729
+	CProp	Co-owner2 i400115
+	CProp	builtdeed i1802848551
+	CProp	numlockdowns i90
+	CProp	numsecure i0
+	CProp	owneracct sBigwoodsy
+	CProp	ownerserial i258291
+	DecayAt	30889432
+	Component	0x6b754929
+	Component	0x6b75492a
+	Component	0x6b75492b
+	Component	0x6b75492c
+	Component	0x6b75492d
+}
+
+MULTI
+{
+	Serial	0x6b968eaa
+	ObjType	0x6098
+	Graphic	0x4098
+	X	1877
+	Y	2061
+	Z	0
+	CProp	builtdeed i1805029033
+	CProp	component1 i1805029037
+	CProp	component3 i1805029038
+	CProp	numlockdowns i55
+	CProp	numsecure i0
+	CProp	owneracct sjayleen
+	CProp	ownerserial i297590
+	DecayAt	31635854
+	Component	0x6b968eab
+	Component	0x6b968eac
+}
+
+MULTI
+{
+	Serial	0x6b97d127
+	ObjType	0x60a2
+	Graphic	0x40a2
+	X	1900
+	Y	2084
+	Z	28
+	CProp	builtdeed i1805111590
+	CProp	component1 i1805111594
+	CProp	component3 i1805111595
+	CProp	friend0 i258291
+	CProp	friend1 i132832
+	CProp	friend2 i168862
+	CProp	friend4 i297590
+	CProp	numlockdowns i38
+	CProp	numsecure i0
+	CProp	owneracct smauve
+	CProp	ownerserial i112097
+	DecayAt	31705675
+	Component	0x6b97d128
+	Component	0x6b97d129
+}
+
+MULTI
+{
+	Serial	0x6b94b1da
+	ObjType	0x607c
+	Graphic	0x407c
+	X	1909
+	Y	2113
+	Z	0
+	CProp	Co-owner1 i297590
+	CProp	Co-owner2 i112097
+	CProp	Co-owner3 i407460
+	CProp	Co-owner4 i258291
+	CProp	Co-owner5 i132832
+	CProp	builtdeed i1804906969
+	CProp	numlockdowns i273
+	CProp	numsecure i5
+	CProp	owneracct smazar
+	CProp	ownerserial i168862
+	DecayAt	31603756
+	Component	0x6b94b1db
+	Component	0x6b94b1dc
+	Component	0x6b94b1dd
+}
+
+MULTI
+{
+	Serial	0x6b3c7313
+	ObjType	0x6096
+	Graphic	0x4096
+	X	1887
+	Y	2486
+	Z	0
+	CProp	Co-owner1 i3763
+	CProp	builtdeed i1799123730
+	CProp	component1 i1799123735
+	CProp	component3 i1799123736
+	CProp	numlockdowns i130
+	CProp	numsecure i5
+	CProp	owneracct spaprika
+	CProp	ownerserial i144305
+	DecayAt	29630150
+	Component	0x6b3c7314
+	Component	0x6b3c7315
+	Component	0x6b3c7316
+}
+
+MULTI
+{
+	Serial	0x6b9f7a0d
+	ObjType	0x608d
+	Graphic	0x408d
+	X	1888
+	Y	3109
+	Z	0
+	CProp	Co-owner1 i437376
+	CProp	Co-owner2 i437275
+	CProp	builtdeed i1805613580
+	CProp	numlockdowns i61
+	CProp	numsecure i2
+	CProp	owneracct skof
+	CProp	ownerserial i437777
+	DecayAt	31908023
+	Component	0x6b9f7a0e
+	Component	0x6b9f7a0f
+	Component	0x6b9f7a10
+	Component	0x6b9f7a11
+	Component	0x6b9f7a12
+	Component	0x6b9f7a13
+}
+
+MULTI
+{
+	Serial	0x6b105b4f
+	ObjType	0x607a
+	Graphic	0x407a
+	X	1955
+	Y	162
+	Z	0
+	CProp	Co-owner1 i5976
+	CProp	Co-owner2 i82111
+	CProp	Co-owner3 i87365
+	CProp	Co-owner4 i2398
+	CProp	Co-owner5 i2398
+	CProp	builtdeed i1796234062
+	CProp	friend0 i100563
+	CProp	friend14 i132433
+	CProp	friend3 i134173
+	CProp	friend4 i6329
+	CProp	friend6 i2357
+	CProp	friend9 i131681
+	CProp	numlockdowns i250
+	CProp	numsecure i4
+	CProp	owneracct snawj
+	CProp	ownerserial i6961
+	DecayAt	28234858
+	Component	0x6b105b50
+	Component	0x6b105b51
+	Component	0x6b105b52
+	Component	0x6b105b53
+	Component	0x6b105b54
+	Component	0x6b105b55
+}
+
+MULTI
+{
+	Serial	0x6b1deec0
+	ObjType	0x609a
+	Graphic	0x409a
+	X	1976
+	Y	152
+	Z	0
+	CProp	builtdeed i1797123775
+	CProp	component1 i1797123780
+	CProp	component3 i1797123781
+	CProp	numlockdowns i110
+	CProp	numsecure i4
+	CProp	owneracct slaggyhick
+	CProp	ownerserial i87365
+	DecayAt	28755341
+	Component	0x6b1deec1
+	Component	0x6b1deec2
+	Component	0x6b1deec3
+}
+
+MULTI
+{
+	Serial	0x6b94b249
+	ObjType	0x607a
+	Graphic	0x407a
+	X	1934
+	Y	2092
+	Z	0
+	CProp	Co-owner1 i313693
+	CProp	Co-owner2 i168862
+	CProp	builtdeed i1804907080
+	CProp	numlockdowns i204
+	CProp	numsecure i6
+	CProp	owneracct sjayleen
+	CProp	ownerserial i297590
+	DecayAt	31603934
+	Component	0x6b94b24a
+	Component	0x6b94b24b
+	Component	0x6b94b24c
+	Component	0x6b94b24d
+	Component	0x6b94b24e
+	Component	0x6b94b24f
+}
+
+MULTI
+{
+	Serial	0x6b54916f
+	ObjType	0x6074
+	Graphic	0x4074
+	X	2006
+	Y	815
+	Z	0
+	CProp	Co-owner1 i163866
+	CProp	Co-owner2 i125390
+	CProp	Co-owner5 i163866
+	CProp	builtdeed i1800704366
+	CProp	friend0 i163866
+	CProp	friend1 i271879
+	CProp	friend2 i253065
+	CProp	numlockdowns i90
+	CProp	numsecure i2
+	CProp	owneracct smimix
+	CProp	ownerserial i135364
+	DecayAt	30196808
+	Component	0x6b549170
+	Component	0x6b549171
+	Component	0x6b549172
+	Component	0x6b549173
+	Component	0x6b549174
+}
+
+MULTI
+{
+	Serial	0x6ae6a2b6
+	ObjType	0x6096
+	Graphic	0x4096
+	X	2008
+	Y	1149
+	Z	0
+	CProp	Co-owner1 i2473
+	CProp	Co-owner2 i2475
+	CProp	Co-owner3 i2037
+	CProp	builtdeed i1793499829
+	CProp	component1 i1793499834
+	CProp	component3 i1793499835
+	CProp	numlockdowns i113
+	CProp	numsecure i2
+	CProp	owneracct sivan4
+	CProp	ownerserial i2513
+	DecayAt	26419999
+	Component	0x6ae6a2b7
+	Component	0x6ae6a2b8
+	Component	0x6ae6a2b9
+}
+
+MULTI
+{
+	Serial	0x6b895fdb
+	ObjType	0x609c
+	Graphic	0x409c
+	X	2026
+	Y	1215
+	Z	0
+	CProp	Co-owner1 i2358
+	CProp	builtdeed i1804165082
+	CProp	component1 i1804165086
+	CProp	component3 i1804165087
+	CProp	numlockdowns i77
+	CProp	numsecure i2
+	CProp	owneracct stimespawn
+	CProp	ownerserial i3495
+	DecayAt	31326589
+	Component	0x6b895fdc
+	Component	0x6b895fdd
+}
+
+MULTI
+{
+	Serial	0x6b81b708
+	ObjType	0x609e
+	Graphic	0x409e
+	X	2041
+	Y	2018
+	Z	0
+	CProp	Co-owner1 i298404
+	CProp	Co-owner2 i329332
+	CProp	Co-owner3 i341388
+	CProp	builtdeed i1803663111
+	CProp	component1 i1803663118
+	CProp	friend1 i298404
+	CProp	friend2 i290145
+	CProp	friend3 i381854
+	CProp	friend4 i399256
+	CProp	friend5 i406921
+	CProp	numlockdowns i75
+	CProp	numsecure i0
+	CProp	owneracct sanathis
+	CProp	ownerserial i296046
+	DecayAt	31139898
+	Component	0x6b81b709
+	Component	0x6b81b70a
+	Component	0x6b81b70b
+	Component	0x6b81b70c
+	Component	0x6b81b70d
+}
+
+MULTI
+{
+	Serial	0x6b070c77
+	ObjType	0x6074
+	Graphic	0x4074
+	X	2038
+	Y	2153
+	Z	0
+	CProp	Co-owner2 i2610
+	CProp	Co-owner3 i3042
+	CProp	Co-owner4 i3006
+	CProp	builtdeed i1795624054
+	CProp	numlockdowns i68
+	CProp	numsecure i0
+	CProp	owneracct spandora2
+	CProp	ownerserial i2621
+	DecayAt	27931967
+	Component	0x6b070c78
+	Component	0x6b070c79
+	Component	0x6b070c7a
+	Component	0x6b070c7b
+	Component	0x6b070c7c
+}
+
+MULTI
+{
+	Serial	0x6b243d39
+	ObjType	0x607e
+	Graphic	0x407e
+	X	1984
+	Y	2254
+	Z	0
+	CProp	Co-owner1 i1976
+	CProp	Co-owner2 i132832
+	CProp	Co-owner3 i3080
+	CProp	Co-owner4 i3079
+	CProp	Co-owner5 i3078
+	CProp	builtdeed i1797537080
+	CProp	friend17 i154029
+	CProp	friend18 i168862
+	CProp	friend19 i112097
+	CProp	friend6 i5666
+	CProp	numlockdowns i443
+	CProp	numsecure i0
+	CProp	owneracct sproof
+	CProp	ownerserial i3077
+	DecayAt	29013917
+	Component	0x6b243d3a
+	Component	0x6b243d3b
+	Component	0x6b243d3c
+	Component	0x6b243d3d
+	Component	0x6b243d3e
+	Component	0x6b243d3f
+	Component	0x6b243d40
+	Component	0x6b243d41
+	Component	0x6b243d42
+}
+
+MULTI
+{
+	Serial	0x6b429ae2
+	ObjType	0x607a
+	Graphic	0x407a
+	X	2097
+	Y	892
+	Z	0
+	CProp	Co-owner1 i115008
+	CProp	Co-owner2 i85661
+	CProp	Co-owner3 i92822
+	CProp	Co-owner4 i115089
+	CProp	builtdeed i1799527137
+	CProp	numlockdowns i228
+	CProp	numsecure i10
+	CProp	owneracct sfishguy
+	CProp	ownerserial i85712
+	DecayAt	29788809
+	Component	0x6b429ae3
+	Component	0x6b429ae4
+	Component	0x6b429ae5
+	Component	0x6b429ae6
+	Component	0x6b429ae7
+	Component	0x6b429ae8
+}
+
+MULTI
+{
+	Serial	0x6afb48dc
+	ObjType	0x6041
+	Graphic	0x4004
+	X	2103
+	Y	969
+	Z	-5
+	DecayAt	27514225
+	Component	0x6afb48dd
+	Component	0x6afb48de
+	Component	0x6afb48df
+	Component	0x6afb48e0
+}
+
+MULTI
+{
+	Serial	0x6b0129b4
+	ObjType	0x607a
+	Graphic	0x407a
+	X	2048
+	Y	1185
+	Z	0
+	CProp	Co-owner1 i2358
+	CProp	Co-owner3 i2037
+	CProp	builtdeed i1795238323
+	CProp	friend0 i2358
+	CProp	friend1 i3495
+	CProp	friend2 i10
+	CProp	friend3 i2473
+	CProp	friend4 i2475
+	CProp	numlockdowns i190
+	CProp	numsecure i0
+	CProp	owneracct sivan4
+	CProp	ownerserial i2513
+	DecayAt	27729670
+	Component	0x6b0129b5
+	Component	0x6b0129b6
+	Component	0x6b0129b7
+	Component	0x6b0129b8
+	Component	0x6b0129b9
+	Component	0x6b0129ba
+}
+
+MULTI
+{
+	Serial	0x6b1772a8
+	ObjType	0x6074
+	Graphic	0x4074
+	X	2077
+	Y	1156
+	Z	0
+	CProp	Co-owner1 i2358
+	CProp	Co-owner2 i3495
+	CProp	Co-owner3 i2513
+	CProp	builtdeed i1796698791
+	CProp	friend0 i2358
+	CProp	friend1 i3495
+	CProp	friend2 i2513
+	CProp	numlockdowns i68
+	CProp	numsecure i0
+	CProp	owneracct soidsman
+	CProp	ownerserial i10
+	DecayAt	28497682
+	Component	0x6b1772a9
+	Component	0x6b1772aa
+	Component	0x6b1772ab
+	Component	0x6b1772ac
+	Component	0x6b1772ad
+}
+
+MULTI
+{
+	Serial	0x6b99c73e
+	ObjType	0x6098
+	Graphic	0x4098
+	X	2060
+	Y	1163
+	Z	0
+	CProp	Co-owner1 i2358
+	CProp	builtdeed i1805240125
+	CProp	component1 i1805240129
+	CProp	component3 i1805240130
+	CProp	numlockdowns i60
+	CProp	numsecure i2
+	CProp	owneracct seowyn
+	CProp	ownerserial i154611
+	DecayAt	31776946
+	Component	0x6b99c73f
+	Component	0x6b99c740
+}
+
+MULTI
+{
+	Serial	0x6af349a0
+	ObjType	0x607a
+	Graphic	0x407a
+	X	2050
+	Y	2182
+	Z	0
+	CProp	Co-owner1 i3006
+	CProp	builtdeed i1794328991
+	CProp	friend0 i403
+	CProp	friend1 i2619
+	CProp	friend2 i3001
+	CProp	friend3 i2632
+	CProp	friend4 i2984
+	CProp	friend5 i403
+	CProp	friend8 i76496
+	CProp	numlockdowns i250
+	CProp	numsecure i2
+	CProp	owneracct spandora2
+	CProp	ownerserial i2621
+	DecayAt	27267534
+	Component	0x6af349a1
+	Component	0x6af349a2
+	Component	0x6af349a3
+	Component	0x6af349a4
+	Component	0x6af349a5
+	Component	0x6af349a6
+}
+
+MULTI
+{
+	Serial	0x6b7df472
+	ObjType	0x607a
+	Graphic	0x407a
+	X	2115
+	Y	766
+	Z	0
+	CProp	Co-owner3 i135374
+	CProp	Co-owner4 i125390
+	CProp	Co-owner5 i163866
+	CProp	builtdeed i1803416689
+	CProp	friend4 i163866
+	CProp	numlockdowns i250
+	CProp	numsecure i1
+	CProp	owneracct smimix
+	CProp	ownerserial i135364
+	DecayAt	31047734
+	Component	0x6b7df473
+	Component	0x6b7df474
+	Component	0x6b7df475
+	Component	0x6b7df476
+	Component	0x6b7df477
+	Component	0x6b7df478
+}
+
+MULTI
+{
+	Serial	0x6b7214c2
+	ObjType	0x607a
+	Graphic	0x407a
+	X	2114
+	Y	848
+	Z	0
+	CProp	Co-owner1 i206394
+	CProp	Co-owner2 i215543
+	CProp	Co-owner3 i216784
+	CProp	builtdeed i1802638529
+	CProp	friend0 i313177
+	CProp	friend1 i414442
+	CProp	friend2 i422632
+	CProp	numlockdowns i235
+	CProp	numsecure i4
+	CProp	owneracct srabssss
+	CProp	ownerserial i225022
+	DecayAt	30820584
+	Component	0x6b7214c3
+	Component	0x6b7214c4
+	Component	0x6b7214c5
+	Component	0x6b7214c6
+	Component	0x6b7214c7
+	Component	0x6b7214c8
+}
+
+MULTI
+{
+	Serial	0x6b1f1521
+	ObjType	0x609e
+	Graphic	0x409e
+	X	2137
+	Y	2081
+	Z	0
+	CProp	Co-owner3 i290764
+	CProp	Co-owner4 i89981
+	CProp	Co-owner5 i2621
+	CProp	builtdeed i1797199136
+	CProp	component1 i1797199143
+	CProp	friend1 i135131
+	CProp	friend18 i99643
+	CProp	friend19 i2621
+	CProp	friend4 i187220
+	CProp	numlockdowns i110
+	CProp	numsecure i0
+	CProp	owneracct sXenon1
+	CProp	ownerserial i90034
+	DecayAt	28816249
+	Component	0x6b1f1522
+	Component	0x6b1f1523
+	Component	0x6b1f1524
+	Component	0x6b1f1525
+	Component	0x6b1f1526
+}
+
+MULTI
+{
+	Serial	0x6b948962
+	ObjType	0x607a
+	Graphic	0x407a
+	X	2184
+	Y	752
+	Z	0
+	CProp	Co-owner1 i341825
+	CProp	Co-owner2 i339512
+	CProp	Co-owner3 i365393
+	CProp	Co-owner4 i365048
+	CProp	builtdeed i1804896609
+	CProp	numlockdowns i202
+	CProp	numsecure i3
+	CProp	owneracct sskysky
+	CProp	ownerserial i340572
+	DecayAt	31593378
+	Component	0x6b948963
+	Component	0x6b948964
+	Component	0x6b948965
+	Component	0x6b948966
+	Component	0x6b948967
+	Component	0x6b948968
+}
+
+MULTI
+{
+	Serial	0x6b84f8ff
+	ObjType	0x607c
+	Graphic	0x407c
+	X	2249
+	Y	585
+	Z	0
+	CProp	Co-owner3 i99643
+	CProp	builtdeed i1803876606
+	CProp	friend2 i135131
+	CProp	friend3 i90034
+	CProp	friend7 i290764
+	CProp	numlockdowns i239
+	CProp	numsecure i0
+	CProp	owneracct sxenon
+	CProp	ownerserial i89981
+	DecayAt	31207556
+	Component	0x6b84f900
+	Component	0x6b84f901
+	Component	0x6b84f902
+}
+
+MULTI
+{
+	Serial	0x6b346e02
+	ObjType	0x6098
+	Graphic	0x4098
+	X	2245
+	Y	934
+	Z	0
+	CProp	Co-owner1 i148097
+	CProp	Co-owner2 i340572
+	CProp	Co-owner3 i374305
+	CProp	builtdeed i1798598145
+	CProp	component1 i1798598149
+	CProp	component3 i1798598150
+	CProp	friend0 i340572
+	CProp	friend1 i341825
+	CProp	numlockdowns i57
+	CProp	numsecure i1
+	CProp	owneracct snekrydis
+	CProp	ownerserial i175067
+	DecayAt	29445056
+	Component	0x6b346e03
+	Component	0x6b346e04
+}
+
+MULTI
+{
+	Serial	0x6ae58da7
+	ObjType	0x609a
+	Graphic	0x409a
+	X	2261
+	Y	1055
+	Z	0
+	CProp	Co-owner1 i2632
+	CProp	Co-owner2 i2621
+	CProp	builtdeed i1793428902
+	CProp	component1 i1793428907
+	CProp	component3 i1793428908
+	CProp	numlockdowns i80
+	CProp	numsecure i2
+	CProp	owneracct spandora4
+	CProp	ownerserial i2610
+	DecayAt	26274729
+	Component	0x6ae58da8
+	Component	0x6ae58da9
+	Component	0x6ae58daa
+}
+
+MULTI
+{
+	Serial	0x6b005e83
+	ObjType	0x6098
+	Graphic	0x4098
+	X	2267
+	Y	1112
+	Z	0
+	CProp	builtdeed i1795186306
+	CProp	component1 i1795186310
+	CProp	component3 i1795186311
+	CProp	numlockdowns i60
+	CProp	numsecure i4
+	CProp	owneracct sacraftera
+	CProp	ownerserial i501
+	DecayAt	27704476
+	Component	0x6b005e84
+	Component	0x6b005e85
+}
+
+MULTI
+{
+	Serial	0x6ae604b5
+	ObjType	0x6074
+	Graphic	0x4074
+	X	2300
+	Y	1198
+	Z	0
+	CProp	Co-owner1 i1973
+	CProp	Co-owner2 i1976
+	CProp	Co-owner3 i501
+	CProp	builtdeed i1793459380
+	CProp	friend0 i3077
+	CProp	numlockdowns i88
+	CProp	numsecure i1
+	CProp	owneracct sawarriora
+	CProp	ownerserial i1973
+	DecayAt	26369262
+	Component	0x6ae604b6
+	Component	0x6ae604b7
+	Component	0x6ae604b8
+	Component	0x6ae604b9
+	Component	0x6ae604ba
+}
+
+MULTI
+{
+	Serial	0x6b1779ea
+	ObjType	0x6098
+	Graphic	0x4098
+	X	2298
+	Y	1163
+	Z	0
+	CProp	builtdeed i1796700649
+	CProp	component1 i1796700653
+	CProp	component3 i1796700654
+	CProp	numlockdowns i60
+	CProp	numsecure i4
+	CProp	owneracct smooby
+	CProp	ownerserial i3251
+	DecayAt	28498777
+	Component	0x6b1779eb
+	Component	0x6b1779ec
+}
+
+MULTI
+{
+	Serial	0x6b2d045f
+	ObjType	0x6098
+	Graphic	0x4098
+	X	2394
+	Y	3390
+	Z	0
+	CProp	builtdeed i1798112350
+	CProp	component1 i1798112354
+	CProp	component3 i1798112355
+	CProp	friend0 i103522
+	CProp	friend1 i103483
+	CProp	numlockdowns i60
+	CProp	numsecure i0
+	CProp	owneracct slaggymage
+	CProp	ownerserial i132433
+	DecayAt	29246321
+	Component	0x6b2d0460
+	Component	0x6b2d0461
+}
+
+MULTI
+{
+	Serial	0x6b74f96a
+	ObjType	0x6068
+	Graphic	0x4068
+	X	2381
+	Y	3378
+	Z	0
+	CProp	builtdeed i1802828137
+	CProp	numlockdowns i25
+	CProp	numsecure i2
+	CProp	owneracct slaggymage
+	CProp	ownerserial i132433
+	DecayAt	30883149
+	Component	0x6b74f96b
+	Component	0x6b74f96c
+}
+
+MULTI
+{
+	Serial	0x6b74f998
+	ObjType	0x6066
+	Graphic	0x4066
+	X	2370
+	Y	3385
+	Z	0
+	CProp	builtdeed i1802828183
+	CProp	numlockdowns i25
+	CProp	numsecure i2
+	CProp	owneracct slaggymage
+	CProp	ownerserial i132433
+	DecayAt	30883160
+	Component	0x6b74f999
+	Component	0x6b74f99a
+}
+
+MULTI
+{
+	Serial	0x6b6110b8
+	ObjType	0x607a
+	Graphic	0x407a
+	X	2447
+	Y	176
+	Z	0
+	CProp	Co-owner1 i143510
+	CProp	Co-owner2 i155040
+	CProp	Co-owner4 i208154
+	CProp	builtdeed i1801523383
+	CProp	numlockdowns i250
+	CProp	numsecure i4
+	CProp	owneracct sMonty
+	CProp	ownerserial i272432
+	DecayAt	30466754
+	Component	0x6b6110b9
+	Component	0x6b6110ba
+	Component	0x6b6110bb
+	Component	0x6b6110bc
+	Component	0x6b6110bd
+	Component	0x6b6110be
+}
+
+MULTI
+{
+	Serial	0x6b0379bd
+	ObjType	0x6040
+	Graphic	0x4000
+	X	2496
+	Y	2453
+	Z	-5
+	DecayAt	27813900
+	Traveller	0x6ba07964
+	Component	0x6b0379be
+	Component	0x6b0379bf
+	Component	0x6b0379c0
+	Component	0x6b0379c1
+}
+
+MULTI
+{
+	Serial	0x6b46d30c
+	ObjType	0x606a
+	Graphic	0x406a
+	X	2635
+	Y	50
+	Z	38
+	CProp	builtdeed i1799803659
+	CProp	numlockdowns i25
+	CProp	numsecure i2
+	CProp	owneracct smule
+	CProp	ownerserial i37427
+	DecayAt	29882865
+	Component	0x6b46d30d
+	Component	0x6b46d30e
+}
+
+MULTI
+{
+	Serial	0x6afe90bd
+	ObjType	0x607a
+	Graphic	0x407a
+	X	2683
+	Y	137
+	Z	0
+	CProp	Co-owner1 i37427
+	CProp	Co-owner2 i12049
+	CProp	Co-owner3 i14517
+	CProp	Co-owner4 i11699
+	CProp	builtdeed i1795068092
+	CProp	friend0 i37427
+	CProp	friend1 i42148
+	CProp	numlockdowns i203
+	CProp	numsecure i1
+	CProp	owneracct sanixia
+	CProp	ownerserial i6153
+	DecayAt	27630775
+	Component	0x6afe90be
+	Component	0x6afe90bf
+	Component	0x6afe90c0
+	Component	0x6afe90c1
+	Component	0x6afe90c2
+	Component	0x6afe90c3
+}
+
+MULTI
+{
+	Serial	0x6b17a580
+	ObjType	0x6098
+	Graphic	0x4098
+	X	2647
+	Y	174
+	Z	0
+	CProp	Co-owner1 i6153
+	CProp	builtdeed i1796711807
+	CProp	component1 i1796711811
+	CProp	component3 i1796711812
+	CProp	numlockdowns i60
+	CProp	numsecure i2
+	CProp	owneracct sanixia1
+	CProp	ownerserial i14517
+	DecayAt	28504652
+	Component	0x6b17a581
+	Component	0x6b17a582
+}
+
+MULTI
+{
+	Serial	0x6b0c12c0
+	ObjType	0x609e
+	Graphic	0x409e
+	X	2650
+	Y	553
+	Z	0
+	CProp	Co-owner1 i3252
+	CProp	Co-owner2 i3645
+	CProp	Co-owner3 i316034
+	CProp	builtdeed i1795953343
+	CProp	component1 i1795953350
+	CProp	numlockdowns i110
+	CProp	numsecure i0
+	CProp	owneracct sdcrafter
+	CProp	ownerserial i3254
+	DecayAt	28068486
+	Component	0x6b0c12c1
+	Component	0x6b0c12c2
+	Component	0x6b0c12c3
+	Component	0x6b0c12c4
+	Component	0x6b0c12c5
+}
+
+MULTI
+{
+	Serial	0x6b7e5367
+	ObjType	0x609a
+	Graphic	0x409a
+	X	2651
+	Y	533
+	Z	0
+	CProp	builtdeed i1803440998
+	CProp	component1 i1803441003
+	CProp	component3 i1803441004
+	CProp	numlockdowns i110
+	CProp	numsecure i0
+	CProp	owneracct sdmage
+	CProp	ownerserial i3252
+	DecayAt	31054596
+	Component	0x6b7e5368
+	Component	0x6b7e5369
+	Component	0x6b7e536a
+}
+
+MULTI
+{
+	Serial	0x6b19815c
+	ObjType	0x6064
+	Graphic	0x4064
+	X	2643
+	Y	629
+	Z	0
+	CProp	Co-owner1 i127139
+	CProp	builtdeed i1796833627
+	CProp	numlockdowns i25
+	CProp	numsecure i1
+	CProp	owneracct sasas
+	CProp	ownerserial i126163
+	DecayAt	28585648
+	Component	0x6b19815d
+	Component	0x6b19815e
+}
+
+MULTI
+{
+	Serial	0x6b888414
+	ObjType	0x606e
+	Graphic	0x406e
+	X	2691
+	Y	579
+	Z	0
+	CProp	builtdeed i1804108819
+	CProp	numlockdowns i25
+	CProp	numsecure i0
+	CProp	owneracct smimix4
+	CProp	ownerserial i163866
+	DecayAt	31303451
+	Component	0x6b888415
+	Component	0x6b888416
+}
+
+MULTI
+{
+	Serial	0x6b824fd9
+	ObjType	0x607a
+	Graphic	0x407a
+	X	2819
+	Y	415
+	Z	15
+	CProp	Co-owner1 i2395
+	CProp	Co-owner2 i168862
+	CProp	builtdeed i1803702232
+	CProp	friend0 i168862
+	CProp	numlockdowns i246
+	CProp	numsecure i0
+	CProp	owneracct samagea
+	CProp	ownerserial i1976
+	DecayAt	31150890
+	Component	0x6b824fda
+	Component	0x6b824fdb
+	Component	0x6b824fdc
+	Component	0x6b824fdd
+	Component	0x6b824fde
+	Component	0x6b824fdf
+}
+
+MULTI
+{
+	Serial	0x6b45b83c
+	ObjType	0x6074
+	Graphic	0x4074
+	X	3052
+	Y	667
+	Z	0
+	CProp	Co-owner1 i133424
+	CProp	Co-owner3 i375290
+	CProp	Co-owner4 i380747
+	CProp	builtdeed i1799731259
+	CProp	friend0 i133424
+	CProp	numlockdowns i90
+	CProp	numsecure i0
+	CProp	owneracct sMemphis
+	CProp	ownerserial i133890
+	DecayAt	29858755
+	Component	0x6b45b83d
+	Component	0x6b45b83e
+	Component	0x6b45b83f
+	Component	0x6b45b840
+	Component	0x6b45b841
+}
+
+MULTI
+{
+	Serial	0x6aec1156
+	ObjType	0x6041
+	Graphic	0x4007
+	X	3649
+	Y	1054
+	Z	-5
+	Facing	6
+	DecayAt	26858623
+	Component	0x6aec1157
+	Component	0x6aec1158
+	Component	0x6aec1159
+	Component	0x6aec115a
+}
+
+MULTI
+{
+	Serial	0x6b8c39d4
+	ObjType	0x607e
+	Graphic	0x407e
+	X	3936
+	Y	381
+	Z	0
+	CProp	Co-owner2 i2632
+	CProp	Co-owner3 i3006
+	CProp	Co-owner4 i403
+	CProp	builtdeed i1804351955
+	CProp	friend4 i3001
+	CProp	numlockdowns i500
+	CProp	numsecure i8
+	CProp	owneracct spandora2
+	CProp	ownerserial i2621
+	DecayAt	31401931
+	Component	0x6b8c39d5
+	Component	0x6b8c39d6
+	Component	0x6b8c39d7
+	Component	0x6b8c39d8
+	Component	0x6b8c39d9
+	Component	0x6b8c39da
+	Component	0x6b8c39db
+	Component	0x6b8c39dc
+	Component	0x6b8c39dd
+}
+
+MULTI
+{
+	Serial	0x6b1a71c5
+	ObjType	0x6041
+	Graphic	0x4006
+	X	3982
+	Y	593
+	Z	-5
+	Facing	4
+	DecayAt	28637425
+	Component	0x6b1a71c6
+	Component	0x6b1a71c7
+	Component	0x6b1a71c8
+	Component	0x6b1a71c9
+}
+
+MULTI
+{
+	Serial	0x6aed22e7
+	ObjType	0x607a
+	Graphic	0x407a
+	X	4072
+	Y	308
+	Z	0
+	CProp	Co-owner1 i3295
+	CProp	Co-owner2 i3233
+	CProp	builtdeed i1793925862
+	CProp	friend0 i3295
+	CProp	friend1 i3233
+	CProp	friend2 i4048
+	CProp	friend3 i6182
+	CProp	numlockdowns i212
+	CProp	numsecure i0
+	CProp	owneracct sexzn
+	CProp	ownerserial i3192
+	DecayAt	26942189
+	Component	0x6aed22e8
+	Component	0x6aed22e9
+	Component	0x6aed22ea
+	Component	0x6aed22eb
+	Component	0x6aed22ec
+	Component	0x6aed22ed
+}
+
+MULTI
+{
+	Serial	0x6b2cfdbf
+	ObjType	0x6045
+	Graphic	0x4015
+	X	4054
+	Y	650
+	Z	-5
+	Facing	2
+	DecayAt	29245540
+	Component	0x6b2cfdc0
+	Component	0x6b2cfdc1
+	Component	0x6b2cfdc2
+	Component	0x6b2cfdc3
+}
+
+MULTI
+{
+	Serial	0x6b636bfd
+	ObjType	0x6074
+	Graphic	0x4074
+	X	4283
+	Y	1050
+	Z	0
+	CProp	Co-owner1 i3748
+	CProp	Co-owner2 i3822
+	CProp	builtdeed i1801677820
+	CProp	friend3 i86180
+	CProp	friend4 i82163
+	CProp	numlockdowns i65
+	CProp	numsecure i0
+	CProp	owneracct smooby2
+	CProp	ownerserial i5666
+	DecayAt	30539935
+	Component	0x6b636bfe
+	Component	0x6b636bff
+	Component	0x6b636c00
+	Component	0x6b636c01
+	Component	0x6b636c02
+}
+
+MULTI
+{
+	Serial	0x6b11f5a6
+	ObjType	0x6041
+	Graphic	0x4007
+	X	4407
+	Y	1

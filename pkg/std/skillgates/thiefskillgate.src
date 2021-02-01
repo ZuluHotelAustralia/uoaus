@@ -1,0 +1,41 @@
+///////////////////////////////////////////////////////////////////////////
+//  THIEFSKILLGATE.SRC - walkonscript for assassin skill moongates.
+//
+//  Author: Benngrim 19/12/2005
+//
+////////////////////////////////////////////////////////////////////////////
+use os;
+use uo;
+use basic;
+use util;
+
+include "include/classes";
+
+program rangerskillgate( mobile )
+    
+     var level;
+	
+	foreach classe in GetClasseIds()
+		EraseObjProperty( mobile , classe );
+		level := IsFromThatClasse( mobile , GetClasseSkills(classe) );
+		if( level )
+			SetObjProperty( mobile, classe, level );
+			SendSysMessage( mobile, "You're already qualified level " + level + " " + lower(GetClasseName(classe)));
+			return;
+		endif
+	endforeach
+
+    SendSysMessage( mobile, "You have chosen the path of the Assassin" );
+        		SetBaseSkillBaseValue( mobile, 14, 750 );
+		SetBaseSkillBaseValue( mobile, 21, 750 );
+		SetBaseSkillBaseValue( mobile, 24, 750 );
+		SetBaseSkillBaseValue( mobile, 27, 750 );
+		SetBaseSkillBaseValue( mobile, 30, 750 );
+		SetBaseSkillBaseValue( mobile, 42, 750 );
+		SetBaseSkillBaseValue( mobile, 47, 750 );
+		SetBaseSkillBaseValue( mobile, 48, 750 );
+		SetBaseStrength(mobile,75);
+		SetBaseIntelligence(mobile,75);
+		SetBaseDexterity(mobile,75);
+
+endprogram

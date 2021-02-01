@@ -1,0 +1,12 @@
+>>>>>>>>AOS Animals And Weaps<<<<<<<<<<<<<
+
+playermanager --> /scripts/
+npcdesc --> /config/
+itemdesc --> /pkg/std/combat/
+blacksmithy --> /pkg/std/blacksmithy/
+nlootgroup --> /config/
+enchantableitems --> /pkg/std/combat/
+packets --> /scripts/include/
+
+>>>>>>>>Potion Kegs<<<<<<<<<<<<<
+potionkeg --> /pkg/opt/alchemyplus/

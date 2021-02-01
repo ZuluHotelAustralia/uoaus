@@ -1,0 +1,164 @@
+use uo;
+
+include "include/objtype";
+
+program get(who, text)
+
+var type;
+var getstr := "";
+if(!text)
+  type := getobjproperty(who, "GetType");
+  getstr := "setget types";
+else
+   var types := SplitWords( text );
+   var props := {0,0,0,0,0};
+   foreach type in types
+      case(type)
+         "ammo": props[3] := 1; getstr := getstr+type+" ";
+         "gems": props[5] := 1; getstr := getstr+type+" ";
+         "gold": props[4] := 1; getstr := getstr+type+" ";
+         "pagans": props[2] := 1; getstr := getstr+type+" ";
+         "reags": props[1] := 1; getstr := getstr+type+" ";
+      endcase
+   endforeach
+   type := props;
+endif
+
+if(!type)
+  sendsysmessage(who, "Correct usage is: .get <type>, or use .setget for perminant type.", 3, 38);
+  sendsysmessage(who, "The types are: ammo, gems, gold, pagans, reags", 3, 54);
+  return;
+endif
+
+sendsysmessage(who, "Select a container to get from.");
+var cont1 := target(who, TGTOPT_CHECK_LOS);
+if(!cont1)
+   sendsysmessage(who, "No get container selected.", 3, 38);
+   sendsysmessage(who, "Canceled.");
+   return;
+elseif( cont1.serial == who.backpack.serial )
+   sendsysmessage(who, "You can't get stuff from your backpack.", 3, 38);
+   sendsysmessage(who, "Canceled.");
+   return;
+endif
+
+
+sendsysmessage(who, "Select a container to put them in.");
+
+var cont2 := target(who);
+if(!cont2)
+   sendsysmessage(who, "No deposit container selected, using backpack.", 3, 54);
+   cont2 := who.backpack;
+elseif(cont2.objtype == 0x0EFA || cont2.objtype == 0x6100)
+   sendsysmessage(who, "You cant select runebooks for storage.", 3, 38);
+   sendsysmessage(who, "Canceled.");
+   return;
+endif
+
+if( cont1.serial == cont2.serial)
+   sendsysmessage(who, "Don't be silly, they are the same container", 3, 38);
+   sendsysmessage(who, "Canceled.");
+   return;
+endif
+
+sendsysmessage(who, "Get type: "+getstr+".", 3, 64);
+
+foreach item in EnumerateItemsInContainer( cont1 )
+  if(item.movable == 1)
+       if( isreag(item) == 1 && type[1] == 1)
+       CreateItemInContainer( cont2, item.objtype, item.amount);
+       destroyitem(item);
+       endif
+       if( ispagan(item) == 1 && type[2] == 1)
+       CreateItemInContainer( cont2, item.objtype, item.amount);
+       destroyitem(item);
+       endif
+       if( isammo(item) == 1 && type[3] == 1)
+       CreateItemInContainer( cont2, item.objtype, item.amount);
+       destroyitem(item);
+       endif
+       if( item.objtype == 0x0EED && type[4] == 1)
+       CreateItemInContainer( cont2, item.objtype, item.amount);
+       destroyitem(item);
+       endif
+       if( isgem(item) == 1 && type[5] == 1)
+       CreateItemInContainer( cont2, item.objtype, item.amount);
+       destroyitem(item);
+       endif
+  endif
+endforeach
+
+endprogram
+
+function isreag(item)
+
+var obj := item.objtype;
+
+case(obj)
+  UOBJ_BLACK_PEARL: return 1;
+  UOBJ_BLOOD_MOSS: return 1;
+  UOBJ_GARLIC: return 1;
+  UOBJ_GINSENG: return 1;
+  UOBJ_MANDRAKE_ROOT: return 1;
+  UOBJ_NIGHTSHADE: return 1;
+  UOBJ_SULPHUROUS_ASH: return 1;
+  UOBJ_SPIDER_SILK: return 1;
+  default: return 0;
+endcase
+
+endfunction
+
+function ispagan(item)
+
+var obj := item.objtype;
+
+case(obj)
+  UOBJ_BATWING: return 1;
+  UOBJ_BLACKMOOR: return 1;
+  UOBJ_BLOODSPAWN: return 1;
+  UOBJ_VIAL_OF_BLOOD: return 1;
+  UOBJ_BONE: return 1;
+  UOBJ_BRIMSTONE: return 1;
+  UOBJ_DAEMON_BONE: return 1;
+  UOBJ_FERTILE_DIRT: return 1;
+  UOBJ_DRAGONS_BLOOD: return 1;
+  UOBJ_EXECUTIONERS_CAP: return 1;
+  UOBJ_EYE_OF_NEWT: return 1;
+  UOBJ_OBSIDIAN: return 1;
+  UOBJ_PIG_IRON: return 1;
+  UOBJ_PUMICE: return 1;
+  UOBJ_SERPENTS_SCALES: return 1;
+  UOBJ_VOLCANIC_ASH: return 1;
+  UOBJ_DEAD_WOOD: return 1;
+  UOBJ_WORMS_HEART: return 1;
+  default: return 0;
+endcase
+
+endfunction
+
+function isammo(item)
+
+var obj := item.objtype;
+
+case(obj)
+  0x0f3f: return 1;
+  0xb200: return 1;
+  0x6051: return 1;
+  0x824e: return 1;
+  0x1bfb: return 1;
+  default: return 0;
+endcase
+
+endfunction
+
+function isgem(item)
+
+var obj := item.objtype;
+
+if(obj >= UOBJ_GEM_START && obj <= UOBJ_GEM_END )
+   return 1;
+else
+   return 0;
+endif
+
+endfunction

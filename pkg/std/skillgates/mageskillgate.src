@@ -1,0 +1,40 @@
+///////////////////////////////////////////////////////////////////////////
+//  MAGESKILLGATE.SRC - walkonscript for mage skill moongates.
+//
+//  Author: Benngrim 19/12/2005
+//
+////////////////////////////////////////////////////////////////////////////
+use os;
+use uo;
+use basic;
+use util;
+
+include "include/classes";
+
+program mageskillgate( mobile )
+    
+     var level;
+	
+	foreach classe in GetClasseIds()
+		EraseObjProperty( mobile , classe );
+		level := IsFromThatClasse( mobile , GetClasseSkills(classe) );
+		if( level )
+			SetObjProperty( mobile, classe, level );
+			SendSysMessage( mobile, "You're already qualified level " + level + " " + lower(GetClasseName(classe)));
+			return;
+		endif
+	endforeach
+
+    SendSysMessage( mobile, "You have chosen the path of the Mage" );
+        		SetBaseSkillBaseValue( mobile, 0, 750 );
+		SetBaseSkillBaseValue( mobile, 3, 750 );
+		SetBaseSkillBaseValue( mobile, 16, 750 );
+		SetBaseSkillBaseValue( mobile, 23, 750 );
+		SetBaseSkillBaseValue( mobile, 25, 750 );
+		SetBaseSkillBaseValue( mobile, 26, 750 );
+		SetBaseSkillBaseValue( mobile, 32, 750 );
+		SetBaseSkillBaseValue( mobile, 46, 750 );
+		SetBaseStrength(mobile,75);
+		SetBaseIntelligence(mobile,75);
+		SetBaseDexterity(mobile,75);
+endprogram
